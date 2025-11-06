@@ -13,9 +13,4 @@ public class BigDecimalFormatter {
          return new BigDecimal(value).setScale(4, RoundingMode.HALF_EVEN);
      }
 
-     public static String getBigDecimalAsString() {
-
-         return "";
-     }
-
 }

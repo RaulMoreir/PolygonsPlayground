@@ -1,7 +1,6 @@
 package testee;
 
 import main.shapes2d.Square;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SquareTests extends AbstractPolygonTest {
