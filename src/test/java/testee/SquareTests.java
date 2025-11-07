@@ -1,60 +1,38 @@
 package testee;
 
+import dataproviders.SquareDataProvider;
+import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Square;
 import org.testng.annotations.Test;
 
 public class SquareTests extends AbstractPolygonTest {
 
-
-    @Test
-    public void quadradoTestValorPositivoPequeno(){
-        int value = 3;
-        double expectedValue = 9d;
-        validatePolygonArea(new Square(value), expectedValue);
-
-    }
-    @Test(expectedExceptions = RuntimeException.class, expectedExceptionsMessageRegExp = "insert a valid number")
-    public void quadradoTestValorNegativoPequeno(){
-        int valor = -3;
-        double expectedValue = 9d;
-        validatePolygonArea(new Square(valor), expectedValue);
-
-    }
-    @Test
-    public void quadradoTestValorMaxInt(){
-        double valor = Integer.MAX_VALUE;
-        double expectedValue = 4611686014132420608.0000;
-        validatePolygonArea(new Square(valor), expectedValue);
+    @Test(dataProviderClass = SquareDataProvider.class,
+            dataProvider = "validCalculationSquareData")
+    public void testParametrizedValidSquareArea(double squareSideLength, double expectedArea) throws InvalidShapeFormatException {
+        validatePolygonArea(new Square(squareSideLength), expectedArea);
     }
 
-    @Test
-    public void quadradoTestValorZero(){
-        int valor = 0;
-        double expectedValue = 0d;
-        validatePolygonArea(new Square(valor), expectedValue);
+    @Test(expectedExceptions = InvalidShapeFormatException.class,
+            expectedExceptionsMessageRegExp = "Please input valid values to the Square sides",
+            dataProviderClass = SquareDataProvider.class,
+            dataProvider = "invalidCalculationSquareData")
+    public void testParametrizedInvalidSquareArea(double squareSideLength) throws InvalidShapeFormatException {
+        new Square(squareSideLength);
     }
 
-    @Test
-    public void testFloatArea(){
-        double valor = 6.5;
-        double expectedValue = 42.2500d;
-        validatePolygonArea(new Square(valor), expectedValue);
+    @Test(dataProviderClass = SquareDataProvider.class,
+            dataProvider = "ValidPerimeterSquare")
+    public void testParametrizedValidSquarePerimeter(double squareSideLength, double expectedPerimeter) throws InvalidShapeFormatException{
+        validatePolygonPerimeter(new Square(squareSideLength),expectedPerimeter);
     }
-    @Test
-    public void testFloatPerimeter(){
-        double valor = 6.5;
-        double expectedValue = 26.0000;
-        validatePolygonPerimeter(new Square(valor), expectedValue);
-    }
-    @Test(expectedExceptions = RuntimeException.class, expectedExceptionsMessageRegExp = "insert a valid number")
-    public void testNegativeFloatPerimeter(){
-        double valor = -6.5;
-        double expectedValue = -26.0000;
-        validatePolygonPerimeter(new Square(valor), expectedValue);
+
+    @Test(expectedExceptions = InvalidShapeFormatException.class,
+            expectedExceptionsMessageRegExp = "Please input valid values to the Square sides",
+            dataProviderClass = SquareDataProvider.class,
+            dataProvider = "InvalidPerimeterSquare")
+    public void testParametrizedInvalidSquarePerimeter(double squareSideLength) throws InvalidShapeFormatException{
+        new Square(squareSideLength);
     }
 
 }
-
-
-
-

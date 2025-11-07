@@ -5,7 +5,7 @@ import main.shapes2d.*;
 
 public class MainPlayground {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidShapeFormatException {
 
         AreaShape squareLado3 = new Square(3);
         AreaShape squareLado1 = new Square(1);
