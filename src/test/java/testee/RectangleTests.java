@@ -2,40 +2,36 @@ package testee;
 
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Rectangle;
+import dataproviders.RectangleDataProvider;
 import org.testng.annotations.Test;
 
 public class RectangleTests extends AbstractPolygonTest {
 
-    @Test
-    public void testPositiveSides() throws InvalidShapeFormatException {
-        validatePolygonArea(new Rectangle(120, 90), 10800);
+    @Test(dataProviderClass = RectangleDataProvider.class,
+            dataProvider = "validRectangleAreaSides")
+    public void testParametrizedValidRectangleAreaSides(double rectangleSideLengthA,double rectangleSideLengthB, double expectedArea)throws InvalidShapeFormatException{
+        validatePolygonArea(new Rectangle( rectangleSideLengthA, rectangleSideLengthB), expectedArea);
     }
 
-    @Test
-    public void testPositiveSidesInverse() throws InvalidShapeFormatException {
-        validatePolygonArea(new Rectangle(90, 120), 10800d);
+    @Test(expectedExceptions = InvalidShapeFormatException.class,
+            expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides",
+            dataProviderClass = RectangleDataProvider.class,
+            dataProvider = "invalidRectangleAreaSides")
+    public void testParametrizedInvalidRectangleAreaSides(double rectangleSideLengthA,double rectangleSideLengthB)throws InvalidShapeFormatException{
+        new Rectangle( rectangleSideLengthA, rectangleSideLengthB);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides")
-    public void testNegativeEqualSides() throws InvalidShapeFormatException {
-        validatePolygonArea(new Rectangle(-90, -90), 8100d);
+    @Test(dataProviderClass = RectangleDataProvider.class,
+            dataProvider = "validRectanglePerimeterSide")
+    public void testParametrizedValidRectanglePerimeterSides(double rectangleSideLengthA,double rectangleSideLengthB, double expectedPerimeter)throws InvalidShapeFormatException{
+        validatePolygonPerimeter(new Rectangle( rectangleSideLengthA, rectangleSideLengthB), expectedPerimeter);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides")
-    public void testNegativeOposSides() throws InvalidShapeFormatException {
-        validatePolygonArea(new Rectangle(-90, 90), -8100d);
-    }
-    @Test
-    public void testPerimeter() throws InvalidShapeFormatException {
-        validatePolygonPerimeter(new Rectangle(90, 90), 360);
-    }
-    @Test
-    public void testFloatPerimeter() throws InvalidShapeFormatException {
-        validatePolygonPerimeter(new Rectangle(90.3d, 90.5d), 361.6d);
-    }
-
-    @Test(expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides")
-    public void testNegativeFloatPerimeter() throws InvalidShapeFormatException {
-        validatePolygonPerimeter(new Rectangle(-90.3d, 90.5d), 0.4d);
+    @Test(expectedExceptions = InvalidShapeFormatException.class,
+            expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides",
+            dataProviderClass = RectangleDataProvider.class,
+            dataProvider = "invalidRectanglePerimeterSide")
+    public void testParametrizedInvalidRectanglePerimeterSides(double rectangleSideLengthA,double rectangleSideLengthB)throws InvalidShapeFormatException{
+        new Rectangle(rectangleSideLengthA, rectangleSideLengthB);
     }
 }
