@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 import static main.util.BigDecimalFormatter.getBigDecimal;
 
-public class Triangle implements AreaShape, PerimeterShape {
+public class Triangle implements AreaShape, PerimeterShape, PolygonType {
 
     double base;
     double height;
@@ -64,4 +64,19 @@ public class Triangle implements AreaShape, PerimeterShape {
         return ( base <= 0 || height <= 0 );
     }
 
+    @Override
+    public String determineType() {
+        if ( (sideA == sideB && sideB != sideC ) ||
+                (sideB == sideC && sideC != sideA) ||
+                (sideC == sideA && sideA != sideB) ) {
+            return "the triangle is iscosceles";
+        }
+        if ( sideA == sideB && sideB == sideC) {
+            return "the Triangle is equal sides";
+        }
+        if (height == sideA || height == sideB || height == sideC) {
+            return "the Triangle is a rectangle";
+        }
+        return "the Triangle is a scalene";
+    }
 }

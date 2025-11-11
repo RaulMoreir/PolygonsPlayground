@@ -1,11 +1,12 @@
-package testee;
+package test2dShapes;
 
-import dataproviders.TriangleDataProvider;
+import dataproviders2dShapes.TriangleDataProvider;
 import main.exceptions.InvalidShapeFormatException;
+import main.shapes2d.Trapezoid;
 import main.shapes2d.Triangle;
 import org.testng.annotations.Test;
 
-public class TriangleTests extends AbstractPolygonTest {
+public class TriangleTests extends AbstractPolygonTypeTest {
 
     @Test(dataProviderClass = TriangleDataProvider.class,
             dataProvider = "validTriangleArea")
@@ -36,4 +37,20 @@ public class TriangleTests extends AbstractPolygonTest {
     public void invalidTrianglePerimeter (double base, double height, double sideA, double sideB, double sideC) throws InvalidShapeFormatException{
         new Triangle(base, height, sideA, sideB, sideC);
     }
+
+    @Test
+    public void testEqualSidesTriangle() throws InvalidShapeFormatException {
+        validatePolygonType(new Triangle(15,10,15,15,15), "the Triangle is equal sides");
+    }
+
+    @Test
+    public void testScaleneTriangle() throws InvalidShapeFormatException {
+        validatePolygonType(new Triangle(20,10,16,15,17), "the Triangle is a scalene");
+    }
+
+    @Test
+    public void testRectangleTriangle() throws InvalidShapeFormatException {
+        validatePolygonType(new Triangle(20,20,16,20,17), "the Triangle is a rectangle");
+    }
+
 }

@@ -1,8 +1,8 @@
-package testee;
+package test2dShapes;
 
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Rectangle;
-import dataproviders.RectangleDataProvider;
+import dataproviders2dShapes.RectangleDataProvider;
 import org.testng.annotations.Test;
 
 public class RectangleTests extends AbstractPolygonTest {

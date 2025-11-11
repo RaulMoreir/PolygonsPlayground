@@ -1,4 +1,4 @@
-package testee;
+package test2dShapes;
 
 import main.shapes2d.AreaShape;
 import main.shapes2d.PerimeterShape;
@@ -9,12 +9,12 @@ import java.math.BigDecimal;
 
 public abstract class AbstractPolygonTest {
 
-    public void validatePolygonArea(AreaShape areaShape, double expectedArea) {
+    protected void validatePolygonArea(AreaShape areaShape, double expectedArea) {
         BigDecimal expectedBig = BigDecimalFormatter.getBigDecimal(expectedArea);
         Assert.assertEquals(areaShape.getArea(), expectedBig);
     }
 
-    public void validatePolygonPerimeter(PerimeterShape perimeterShape, double expectedPerimeter) {
+    protected void validatePolygonPerimeter(PerimeterShape perimeterShape, double expectedPerimeter) {
         BigDecimal expectedBig = BigDecimalFormatter.getBigDecimal(expectedPerimeter);
         Assert.assertEquals(perimeterShape.getPerimeter(), expectedBig);
     }

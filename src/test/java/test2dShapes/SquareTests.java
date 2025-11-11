@@ -1,6 +1,6 @@
-package testee;
+package test2dShapes;
 
-import dataproviders.SquareDataProvider;
+import dataproviders2dShapes.SquareDataProvider;
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Square;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package dataproviders;
+package dataproviders2dShapes;
 
 import org.testng.annotations.DataProvider;
 

@@ -1,6 +1,6 @@
-package testee;
+package test2dShapes;
 
-import dataproviders.CircleDataProvider;
+import dataproviders2dShapes.CircleDataProvider;
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Circle;
 import org.testng.annotations.Test;

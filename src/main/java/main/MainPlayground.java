@@ -11,24 +11,18 @@ public class MainPlayground {
         AreaShape squareLado1 = new Square(1);
         AreaShape squareLado6 = new Square(6);
         AreaShape squareLado33 = new Square(33);
-        AreaShape footBallGround = null;
-        try {
-            footBallGround = new Rectangle(120, 90);
-        } catch (InvalidShapeFormatException e) {
-            throw new RuntimeException(e);
-        }
-        AreaShape pizzaSlice = null;
-        try {
-            pizzaSlice = new Triangle(120, 90, 120, 90, 45);
-        } catch (InvalidShapeFormatException e) {
-            throw new RuntimeException(e);
-        }
-        AreaShape fullPizza = null;
-        try {
-            fullPizza = new Circle(30);
-        } catch (InvalidShapeFormatException e) {
-            throw new RuntimeException(e);
-        }
+
+        AreaShape footBallGround = new Rectangle(120, 90);
+
+        AreaShape pizzaSlice = new Triangle(120, 90, 120, 90, 45);
+
+        AreaShape fullPizza = new Circle(30);
+        AreaShape strangeRectangle = new Trapezoid(9,10,10,15,10);
+
+        Trapezoid trapezio = new Trapezoid(10, 20, 10, 15, 15);
+
+        System.out.println(trapezio.getPerimeter());
+        System.out.println(trapezio.getArea());
 
 
         System.out.println(squareLado1.getArea());
@@ -38,6 +32,7 @@ public class MainPlayground {
         System.out.println(footBallGround.getArea());
         System.out.println(pizzaSlice.getArea());
         System.out.println(fullPizza.getArea());
+        System.out.println(trapezio.determineType());
 
     }
 }
