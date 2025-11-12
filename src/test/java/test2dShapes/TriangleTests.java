@@ -45,7 +45,7 @@ public class TriangleTests extends AbstractPolygonTypeTest {
 
     @Test
     public void testScaleneTriangle() throws InvalidShapeFormatException {
-        validatePolygonType(new Triangle(20,10,15,15,17), "the Triangle is a scalene");
+        validatePolygonType(new Triangle(20,10,16,15,17), "the Triangle is a scalene");
     }
 
     @Test
