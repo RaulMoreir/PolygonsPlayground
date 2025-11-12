@@ -40,17 +40,21 @@ public class TriangleTests extends AbstractPolygonTypeTest {
 
     @Test
     public void testEqualSidesTriangle() throws InvalidShapeFormatException {
-        validatePolygonType(new Triangle(15,10,15,15,15), "the Triangle is equal sides");
+        validatePolygonType(new Triangle(15,10,15,15,15), "the Triangle is equilateral");
     }
 
     @Test
     public void testScaleneTriangle() throws InvalidShapeFormatException {
-        validatePolygonType(new Triangle(20,10,16,15,17), "the Triangle is a scalene");
+        validatePolygonType(new Triangle(20,10,15,15,17), "the Triangle is a scalene");
     }
 
     @Test
     public void testRectangleTriangle() throws InvalidShapeFormatException {
         validatePolygonType(new Triangle(20,20,16,20,17), "the Triangle is a rectangle");
+    }
+    @Test
+    public void testIsoscelesTriangle() throws InvalidShapeFormatException {
+        validatePolygonType(new Triangle(20,10,15,15,17), "the Triangle is isosceles");
     }
 
 }

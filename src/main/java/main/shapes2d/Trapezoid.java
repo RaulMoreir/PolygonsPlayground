@@ -18,6 +18,9 @@ public class Trapezoid implements AreaShape, PerimeterShape, PolygonType {
     }
     private void validateTrapezoid() throws InvalidShapeFormatException {
         String validationMessage = "";
+        if (minorBase <= 0 || majorBase <= 0 || height <= 0 || sideA <= 0 || sideB <= 0){
+            validationMessage += "input values should be grater than zero. ";
+        }
         if (minorBase >= majorBase) {
             validationMessage += "Minor base should be smaller than major base. ";
         }

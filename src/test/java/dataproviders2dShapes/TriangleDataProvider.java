@@ -13,7 +13,7 @@ public class TriangleDataProvider {
     }
     @DataProvider (name = "validTrianglePerimeter")
     public static Object[][] validTrianglePerimeter(){
-        return new Object[][] {{1,1,15,20,10,45},{1,1,10,10,10,30},{1,1,40,20,30,90}};
+        return new Object[][] {{1,1,15,20,10,45},{1,1,10,10,10,30},{1,1,40.5,20,30,90.5}};
     }
     @DataProvider (name = "invalidTrianglePerimeter")
     public static Object[][] invalidTrianglePerimeter(){

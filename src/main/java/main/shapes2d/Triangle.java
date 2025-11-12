@@ -69,10 +69,10 @@ public class Triangle implements AreaShape, PerimeterShape, PolygonType {
         if ( (sideA == sideB && sideB != sideC ) ||
                 (sideB == sideC && sideC != sideA) ||
                 (sideC == sideA && sideA != sideB) ) {
-            return "the triangle is iscosceles";
+            return "the Triangle is isosceles";
         }
         if ( sideA == sideB && sideB == sideC) {
-            return "the Triangle is equal sides";
+            return "the Triangle is equilateral";
         }
         if (height == sideA || height == sideB || height == sideC) {
             return "the Triangle is a rectangle";

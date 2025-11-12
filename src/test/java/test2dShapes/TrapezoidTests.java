@@ -12,8 +12,32 @@ public class TrapezoidTests extends AbstractPolygonTypeTest {
     }
 
     @Test
+    public void testAreaFloatValue()throws InvalidShapeFormatException{
+        validatePolygonArea(new Trapezoid(10.5,20.5,10,10,15),155);
+    }
+
+    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. ")
+    public void testAreaValueZero()throws InvalidShapeFormatException{
+        new Trapezoid(0,20.5,10,10,15);
+    }
+
+    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. ")
+    public void testAreaValueNegative()throws InvalidShapeFormatException{
+        new Trapezoid(-2.5,20.5,10,10,15);
+    }
+
+    @Test
     public void testPerimeterPositiveValues() throws InvalidShapeFormatException {
         validatePolygonPerimeter(new Trapezoid(10, 20, 10, 10, 15), 55);
+    }
+    @Test
+    public void testPerimeterFloatValues() throws InvalidShapeFormatException {
+        validatePolygonPerimeter(new Trapezoid(10.5, 20, 10, 10.5, 15), 56);
+    }
+
+    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. Minor base should be smaller than major base. ")
+    public void testPerimeterValueNegative()throws InvalidShapeFormatException{
+        new Trapezoid(-2.5,-20.5,-10,-10,0);
     }
 
     @Test (expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Minor base should be smaller than major base. ")
