@@ -19,4 +19,13 @@ public class TriangleDataProvider {
     public static Object[][] invalidTrianglePerimeter(){
         return new Object[][] {{1,1,10,10,-10},{1,1,10,10,-2.5},{1,1,0,10,10}};
     }
+    @DataProvider (name = "validTriangleType")
+    public static Object[][] validTriangleType(){
+        return new Object[][] {
+                {20,10,16,15,17, "the Triangle is a scalene"},
+                {15,10,15,15,15, "the Triangle is equilateral"},
+                {20,20,16,20,17, "the Triangle is a rectangle"},
+                {20,10,15,15,17, "the Triangle is isosceles"}};
+    }
+
 }

@@ -1,83 +1,82 @@
 package test2dShapes;
 
+import dataproviders2dShapes.TrapezoidDataProvider;
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Trapezoid;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TrapezoidTests extends AbstractPolygonTypeTest {
 
-    @Test
-    public void testAreaPositiveValues() throws InvalidShapeFormatException {
-        validatePolygonArea(new Trapezoid(10, 20, 10, 10, 15), 150);
+    @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "validTrapezoidArea")
+    public void validTrapezoidArea(double minorBase, double majorBase,
+                                   double height, double sideA,
+                                   double sideB, double expectedArea)
+            throws InvalidShapeFormatException{
+        validatePolygonArea(new Trapezoid(minorBase,majorBase,height,sideA,sideB),expectedArea);
     }
 
-    @Test
-    public void testAreaFloatValue()throws InvalidShapeFormatException{
-        validatePolygonArea(new Trapezoid(10.5,20.5,10,10,15),155);
+    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. ",
+            dataProviderClass = TrapezoidDataProvider.class, dataProvider = "invalidTrapezoidArea")
+    public void invalidTrapezoidArea(double minorBase, double majorBase,
+                                     double height, double sideA,
+                                     double sideB) throws InvalidShapeFormatException{
+        new Trapezoid(minorBase,majorBase,height,sideA,sideB);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. ")
-    public void testAreaValueZero()throws InvalidShapeFormatException{
-        new Trapezoid(0,20.5,10,10,15);
+    @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "validTrapezoidPerimeter")
+    public void validTrapezoidPerimeter(double minorBase, double majorBase,
+                                   double height, double sideA,
+                                   double sideB, double expectedPerimeter)
+            throws InvalidShapeFormatException{
+        validatePolygonPerimeter(new Trapezoid(minorBase,majorBase,height,sideA,sideB),expectedPerimeter);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. ")
-    public void testAreaValueNegative()throws InvalidShapeFormatException{
-        new Trapezoid(-2.5,20.5,10,10,15);
+    @Test(dataProviderClass = TrapezoidDataProvider.class,
+            dataProvider = "invalidTrapezoidPerimeter")
+    public void invalidTrapezoidPerimeter(double minorBase, double majorBase,
+                                          double height, double sideA,
+                                          double sideB, String expectedMessage){
+        String actualMessage = "";
+        try {
+            new Trapezoid(minorBase,majorBase,height,sideA,sideB);
+        } catch (InvalidShapeFormatException exceptionThrown) {
+            actualMessage = exceptionThrown.getMessage();
+        }
+        Assert.assertEquals(actualMessage, expectedMessage);
     }
 
-    @Test
-    public void testPerimeterPositiveValues() throws InvalidShapeFormatException {
-        validatePolygonPerimeter(new Trapezoid(10, 20, 10, 10, 15), 55);
-    }
-    @Test
-    public void testPerimeterFloatValues() throws InvalidShapeFormatException {
-        validatePolygonPerimeter(new Trapezoid(10.5, 20, 10, 10.5, 15), 56);
-    }
-
-    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. Minor base should be smaller than major base. ")
-    public void testPerimeterValueNegative()throws InvalidShapeFormatException{
-        new Trapezoid(-2.5,-20.5,-10,-10,0);
-    }
-
-    @Test (expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Minor base should be smaller than major base. ")
-    public void testInvalidBaseValues() throws InvalidShapeFormatException {
-        new Trapezoid(10, 10, 10, 10, 12);
+    @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "invalidTrapezoidBaseInput")
+    public void invalidTrapezoidBaseInput(double minorBase, double majorBase,
+                               double height, double sideA,
+                               double sideB, String expectedMessage) {
+        String actualMessage = "";
+        try {
+            new Trapezoid(minorBase,majorBase,height,sideA,sideB);
+        } catch (InvalidShapeFormatException exceptionThrown) {
+            actualMessage = exceptionThrown.getMessage();
+        }
+        Assert.assertEquals(actualMessage, expectedMessage);
     }
 
-    @Test (expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Side A should be greater or equals to the height. ")
-    public void testSideASmallerThanHeight() throws InvalidShapeFormatException {
-        new Trapezoid(10, 20, 10, 9, 12);
+    @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "trapezoidValidation")
+    public void trapezoidValidation(double minorBase, double majorBase,
+                               double height, double sideA,
+                               double sideB, String expectedMessage) {
+        String actualMessage = "";
+        try {
+            new Trapezoid(minorBase,majorBase,height,sideA,sideB);
+        } catch (InvalidShapeFormatException exceptionThrown) {
+            actualMessage = exceptionThrown.getMessage();
+        }
+        Assert.assertEquals(actualMessage, expectedMessage);
     }
 
-    @Test (expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Side B should be greater or equals to the height. ")
-    public void testSideBSmallerThanHeight() throws InvalidShapeFormatException {
-        new Trapezoid(10, 20, 10, 12, 9);
+    @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "validateTrapezoidVariety" )
+    public void validateTrapezoidVariety(double minorBase, double majorBase,
+                                         double height, double sideA,
+                                         double sideB, String expectedType) throws InvalidShapeFormatException {
+        validatePolygonType(new Trapezoid(minorBase,majorBase,height,sideA,sideB),expectedType);
     }
-
-    @Test (expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Don't you want a square or a rectangle instead. ")
-    public void testInvalidSquareOrRectangleValues() throws InvalidShapeFormatException {
-        new Trapezoid(10, 20, 10, 10, 10);
-    }
-
-    @Test (expectedExceptions = InvalidShapeFormatException.class, expectedExceptionsMessageRegExp = "Minor base should be smaller than major base. Don't you want a square or a rectangle instead. ")
-    public void testAllEqualValues() throws InvalidShapeFormatException {
-        new Trapezoid(10, 10, 10, 10, 10);
-    }
-
-    @Test
-    public void testIsoscelesTrapezoid() throws InvalidShapeFormatException {
-        validatePolygonType(new Trapezoid(9,10,15,20,20), "the Trapezoid is an isosceles");
-    }
-
-    @Test
-    public void testRightTrapezoid() throws InvalidShapeFormatException {
-        validatePolygonType(new Trapezoid(9,10,15,15,20), "the Trapezoid is a right");
-    }
-    @Test
-    public void testScaleneTrapezoid() throws InvalidShapeFormatException {
-        validatePolygonType(new Trapezoid(9,10,15,21,20), "the Trapezoid is a scalene");
-    }
-
 
 }
