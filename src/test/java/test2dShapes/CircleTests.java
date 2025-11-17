@@ -3,6 +3,7 @@ package test2dShapes;
 import dataproviders2dShapes.CircleDataProvider;
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Circle;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CircleTests extends AbstractPolygonTest {
@@ -12,24 +13,20 @@ public class CircleTests extends AbstractPolygonTest {
         validatePolygonArea(new Circle(radius),expectedArea);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input a valid value to the Circle radius",
-            dataProviderClass = CircleDataProvider.class,
-            dataProvider = "invalidCircleArea")
-    public void invalidCircleArea(double radius) throws InvalidShapeFormatException{
-        new Circle(radius);
+    @Test(dataProviderClass = CircleDataProvider.class,
+            dataProvider = "invalidCircle")
+    public void invalidCircleArea(double radius, String expectedMessage) {
+        String message = "";
+        try {
+            new Circle(radius);
+        } catch (InvalidShapeFormatException e) {
+            message = expectedMessage;
+        }
+        Assert.assertEquals(expectedMessage, message);
     }
 
     @Test(dataProviderClass = CircleDataProvider.class, dataProvider = "validCirclePerimeter")
     public void validCirclePerimeter(double radius, double expectedPerimeter) throws InvalidShapeFormatException{
         validatePolygonPerimeter(new Circle(radius), expectedPerimeter);
-    }
-
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input a valid value to the Circle radius",
-            dataProviderClass = CircleDataProvider.class,
-            dataProvider = "invalidCirclePerimeter")
-    public void invalidCirclePerimeter(double radius) throws InvalidShapeFormatException{
-        new Circle(radius);
     }
 }

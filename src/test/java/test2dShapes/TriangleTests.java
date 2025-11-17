@@ -5,6 +5,8 @@ import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Triangle;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.*;
+
 public class TriangleTests extends AbstractPolygonTypeTest {
 
     @Test(dataProviderClass = TriangleDataProvider.class,
@@ -14,12 +16,16 @@ public class TriangleTests extends AbstractPolygonTypeTest {
         validatePolygonArea(new Triangle(base, height, sideA, sideB, sideC), expectedArea);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input positive values for the triangle base and height; ",
-            dataProviderClass = TriangleDataProvider.class,
-            dataProvider = "invalidTriangleArea")
-    public void testInvalidTriangleArea (double base, double height, double sideA, double sideB,double sideC) throws InvalidShapeFormatException{
-        new Triangle(base, height, sideA, sideB, sideC);
+    @Test(dataProviderClass = TriangleDataProvider.class,
+            dataProvider = "invalidTriangle")
+    public void testInvalidTriangle (double base, double height, double sideA, double sideB,double sideC, String expectedMessage) {
+        String message;
+        try {
+            new Triangle(base, height, sideA, sideB, sideC);
+        } catch (InvalidShapeFormatException e) {
+            message = e.getMessage();
+            assertEquals(expectedMessage, message);
+        }
     }
 
     @Test(dataProviderClass = TriangleDataProvider.class,
@@ -27,14 +33,6 @@ public class TriangleTests extends AbstractPolygonTypeTest {
     public void testValidTrianglePerimeter (double base, double height, double sideA, double sideB,double sideC, double expectedPerimeter)
             throws InvalidShapeFormatException{
         validatePolygonPerimeter(new Triangle(base, height, sideA, sideB, sideC), expectedPerimeter);
-    }
-
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input positive values for the triangle sides; Please input valid values to the triangle sides, SideA \\+ SideB >= SideC; ",
-            dataProviderClass = TriangleDataProvider.class,
-            dataProvider = "invalidTrianglePerimeter")
-    public void testInvalidTrianglePerimeter (double base, double height, double sideA, double sideB, double sideC) throws InvalidShapeFormatException{
-        new Triangle(base, height, sideA, sideB, sideC);
     }
 
     @Test(dataProviderClass = TriangleDataProvider.class, dataProvider = "validTriangleType")

@@ -3,6 +3,7 @@ package test2dShapes;
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Rectangle;
 import dataproviders2dShapes.RectangleDataProvider;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RectangleTests extends AbstractPolygonTest {
@@ -13,12 +14,16 @@ public class RectangleTests extends AbstractPolygonTest {
         validatePolygonArea(new Rectangle( rectangleSideLengthA, rectangleSideLengthB), expectedArea);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides",
-            dataProviderClass = RectangleDataProvider.class,
-            dataProvider = "invalidRectangleAreaSides")
-    public void testParametrizedInvalidRectangleAreaSides(double rectangleSideLengthA,double rectangleSideLengthB)throws InvalidShapeFormatException{
-        new Rectangle( rectangleSideLengthA, rectangleSideLengthB);
+    @Test(dataProviderClass = RectangleDataProvider.class, dataProvider = "invalidRectangle")
+    public void testParametrizedInvalidRectangle(
+            double rectangleSideLengthA, double rectangleSideLengthB, String expectedMessage){
+        String message = "";
+        try {
+            new Rectangle( rectangleSideLengthA, rectangleSideLengthB);
+        } catch (InvalidShapeFormatException e) {
+            message = e.getMessage();
+        }
+        Assert.assertEquals(expectedMessage, message );
     }
 
     @Test(dataProviderClass = RectangleDataProvider.class,
@@ -27,11 +32,4 @@ public class RectangleTests extends AbstractPolygonTest {
         validatePolygonPerimeter(new Rectangle( rectangleSideLengthA, rectangleSideLengthB), expectedPerimeter);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input valid values to the Rectangle sides",
-            dataProviderClass = RectangleDataProvider.class,
-            dataProvider = "invalidRectanglePerimeterSide")
-    public void testParametrizedInvalidRectanglePerimeterSides(double rectangleSideLengthA,double rectangleSideLengthB)throws InvalidShapeFormatException{
-        new Rectangle(rectangleSideLengthA, rectangleSideLengthB);
-    }
 }

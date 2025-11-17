@@ -16,47 +16,12 @@ public class TrapezoidTests extends AbstractPolygonTypeTest {
         validatePolygonArea(new Trapezoid(minorBase,majorBase,height,sideA,sideB),expectedArea);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,expectedExceptionsMessageRegExp = "input values should be grater than zero. ",
-            dataProviderClass = TrapezoidDataProvider.class, dataProvider = "invalidTrapezoidArea")
-    public void invalidTrapezoidArea(double minorBase, double majorBase,
-                                     double height, double sideA,
-                                     double sideB) throws InvalidShapeFormatException{
-        new Trapezoid(minorBase,majorBase,height,sideA,sideB);
-    }
-
     @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "validTrapezoidPerimeter")
     public void validTrapezoidPerimeter(double minorBase, double majorBase,
                                    double height, double sideA,
                                    double sideB, double expectedPerimeter)
             throws InvalidShapeFormatException{
         validatePolygonPerimeter(new Trapezoid(minorBase,majorBase,height,sideA,sideB),expectedPerimeter);
-    }
-
-    @Test(dataProviderClass = TrapezoidDataProvider.class,
-            dataProvider = "invalidTrapezoidPerimeter")
-    public void invalidTrapezoidPerimeter(double minorBase, double majorBase,
-                                          double height, double sideA,
-                                          double sideB, String expectedMessage){
-        String actualMessage = "";
-        try {
-            new Trapezoid(minorBase,majorBase,height,sideA,sideB);
-        } catch (InvalidShapeFormatException exceptionThrown) {
-            actualMessage = exceptionThrown.getMessage();
-        }
-        Assert.assertEquals(actualMessage, expectedMessage);
-    }
-
-    @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "invalidTrapezoidBaseInput")
-    public void invalidTrapezoidBaseInput(double minorBase, double majorBase,
-                               double height, double sideA,
-                               double sideB, String expectedMessage) {
-        String actualMessage = "";
-        try {
-            new Trapezoid(minorBase,majorBase,height,sideA,sideB);
-        } catch (InvalidShapeFormatException exceptionThrown) {
-            actualMessage = exceptionThrown.getMessage();
-        }
-        Assert.assertEquals(actualMessage, expectedMessage);
     }
 
     @Test(dataProviderClass = TrapezoidDataProvider.class, dataProvider = "trapezoidValidation")

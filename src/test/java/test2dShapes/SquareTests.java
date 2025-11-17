@@ -3,6 +3,7 @@ package test2dShapes;
 import dataproviders2dShapes.SquareDataProvider;
 import main.exceptions.InvalidShapeFormatException;
 import main.shapes2d.Square;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SquareTests extends AbstractPolygonTest {
@@ -13,26 +14,22 @@ public class SquareTests extends AbstractPolygonTest {
         validatePolygonArea(new Square(squareSideLength), expectedArea);
     }
 
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input valid values to the Square sides",
-            dataProviderClass = SquareDataProvider.class,
+    @Test(dataProviderClass = SquareDataProvider.class,
             dataProvider = "invalidCalculationSquareData")
-    public void testParametrizedInvalidSquareArea(double squareSideLength) throws InvalidShapeFormatException {
-        new Square(squareSideLength);
+    public void testParametrizedInvalidSquareArea(double squareSideLength, String expectedMessage) {
+        String message = "";
+        try {
+            new Square(squareSideLength);
+        } catch (InvalidShapeFormatException e) {
+            message = e.getMessage();
+        }
+        Assert.assertEquals(expectedMessage, message);
     }
 
     @Test(dataProviderClass = SquareDataProvider.class,
             dataProvider = "ValidPerimeterSquare")
     public void testParametrizedValidSquarePerimeter(double squareSideLength, double expectedPerimeter) throws InvalidShapeFormatException{
         validatePolygonPerimeter(new Square(squareSideLength),expectedPerimeter);
-    }
-
-    @Test(expectedExceptions = InvalidShapeFormatException.class,
-            expectedExceptionsMessageRegExp = "Please input valid values to the Square sides",
-            dataProviderClass = SquareDataProvider.class,
-            dataProvider = "InvalidPerimeterSquare")
-    public void testParametrizedInvalidSquarePerimeter(double squareSideLength) throws InvalidShapeFormatException{
-        new Square(squareSideLength);
     }
 
 }
