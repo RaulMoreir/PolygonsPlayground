@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="polygonSuiteTest">
+    <test name="polygonTests">
+        <classes>
+            <class name="test2dShapes.SquareTests"/>
+            <class name="test2dShapes.RectangleTests"/>
+            <class name="test2dShapes.CircleTests"/>
+            <class name="test2dShapes.TriangleTests"/>
+            <class name="test2dShapes.TrapezoidTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SquareSuite">
+    <test name="SquareTest">
+        <classes>
+            <class name="test2dShapes.SquareTests"/>
+        </classes>
+    </test>
+</suite>
