@@ -1,0 +1,781 @@
+{
+  "fipeModelCode" : 43,
+  "models": [
+    {
+      "code": "1781",
+      "name": "350Z 3.5 V6 280cv/ 312cv 2p"
+    },
+    {
+      "code": "1782",
+      "name": "Altima GXE 2.4 16V"
+    },
+    {
+      "code": "1783",
+      "name": "Altima SE 2.4 16V"
+    },
+    {
+      "code": "6644",
+      "name": "ALTIMA SL 2.5 16V 4p Aut."
+    },
+    {
+      "code": "1784",
+      "name": "AX 6.5D Turbo Diesel"
+    },
+    {
+      "code": "1785",
+      "name": "D-21 Pick-Up CD 4x2/4x4 2.7 Diesel"
+    },
+    {
+      "code": "1786",
+      "name": "D-21 Pick-Up CS 4x2/4x4 2.7 Diesel"
+    },
+    {
+      "code": "8551",
+      "name": "Frontier ATTAC.CD 4x4 2.3 Bi-TB Die. Aut"
+    },
+    {
+      "code": "1787",
+      "name": "Frontier AX 3.2 CD Diesel"
+    },
+    {
+      "code": "1788",
+      "name": "Frontier AX CD 4x4 2.5 TB Interc. Diesel"
+    },
+    {
+      "code": "1789",
+      "name": "Frontier DX 3.2 CD Diesel"
+    },
+    {
+      "code": "5626",
+      "name": "Frontier LE ATTACK CD 4x4 2.5 TB Die.Aut"
+    },
+    {
+      "code": "7887",
+      "name": "Frontier LE CD 4x4 2.3 Bi-TB Diesel Aut."
+    },
+    {
+      "code": "4262",
+      "name": "Frontier LE CD 4x4 2.5 TB dies.(Import.)"
+    },
+    {
+      "code": "4775",
+      "name": "Frontier LE CD 4x4 2.5 TB Diesel Aut."
+    },
+    {
+      "code": "4776",
+      "name": "Frontier LE CD 4x4 2.5 TB Diesel Mec."
+    },
+    {
+      "code": "9832",
+      "name": "Frontier PLATI. CD  2.3 Bi-TB Dies.Aut."
+    },
+    {
+      "code": "6756",
+      "name": "Frontier PLATINUM CD 4x4 2.5 TB Diesel"
+    },
+    {
+      "code": "9792",
+      "name": "Frontier PRO4X CD 4x4 2.3 Bi-TB Die. Aut"
+    },
+    {
+      "code": "6394",
+      "name": "Frontier S CD 4x2 2.5 TB Diesel"
+    },
+    {
+      "code": "8636",
+      "name": "Frontier S CD 4x4 2.3 TB Diesel Mec."
+    },
+    {
+      "code": "6395",
+      "name": "Frontier S CD 4x4 2.5 TB Diesel"
+    },
+    {
+      "code": "5627",
+      "name": "Frontier SE ATTACK CD 4x2 2.5 TB Diesel"
+    },
+    {
+      "code": "5628",
+      "name": "Frontier SE ATTACK CD 4x4 2.5 TB Diesel"
+    },
+    {
+      "code": "8132",
+      "name": "Frontier SE CD 4x4 2.3 Bi-TB Diesel Aut."
+    },
+    {
+      "code": "1790",
+      "name": "Frontier SE Serrana CD 4x4 2.8 TB Dies"
+    },
+    {
+      "code": "4408",
+      "name": "Frontier SE Vibe CD 2.8 TDI Dies."
+    },
+    {
+      "code": "1792",
+      "name": "Frontier SE/ SE ONE CD 4x2 2.8 TDI Dies"
+    },
+    {
+      "code": "4777",
+      "name": "Frontier SE/SE Strik CD 4x2 2.5 TB Dies."
+    },
+    {
+      "code": "4778",
+      "name": "Frontier SE/SE Strik CD 4x4 2.5 TB Dies."
+    },
+    {
+      "code": "1791",
+      "name": "Frontier SE/SE Strik/ONE CD 4x4 2.8 Dies"
+    },
+    {
+      "code": "4519",
+      "name": "Frontier SEL CD 4x4 2.5 TB Diesel"
+    },
+    {
+      "code": "4520",
+      "name": "Frontier SEL CD 4x4 2.5 TB Diesel Aut."
+    },
+    {
+      "code": "6241",
+      "name": "Frontier SL CD 4x4 2.5TB Diesel Aut"
+    },
+    {
+      "code": "6967",
+      "name": "Frontier SV AT. CD 4x4 2.5 TB Dies. Aut."
+    },
+    {
+      "code": "6243",
+      "name": "Frontier SV AT.CD 4x4 2.5 TB Diesel Mec."
+    },
+    {
+      "code": "6242",
+      "name": "Frontier SV ATTACK CD 4x2 2.5 TB Diesel"
+    },
+    {
+      "code": "5135",
+      "name": "Frontier XE  CD 4x4 2.5 TB Diesel"
+    },
+    {
+      "code": "1793",
+      "name": "Frontier XE ATTACK CD 2.8 TDI Diesel"
+    },
+    {
+      "code": "4779",
+      "name": "Frontier XE CD 4x2 2.5 TB Diesel"
+    },
+    {
+      "code": "8552",
+      "name": "Frontier XE CD 4x4 2.3 Bi-TB Diesel Aut."
+    },
+    {
+      "code": "1794",
+      "name": "Frontier XE CS 4x2 2.8 TB Interc. Dies."
+    },
+    {
+      "code": "1795",
+      "name": "Frontier XE/ XE TIT. CD 4x2 2.8 TDI Dies"
+    },
+    {
+      "code": "1796",
+      "name": "Frontier XE/ XE TIT. CD 4x4 2.8 TDI Dies"
+    },
+    {
+      "code": "9632",
+      "name": "Frontier X-GEAR CD 4x4 2.3 Bi-TB Die.Aut"
+    },
+    {
+      "code": "7805",
+      "name": "GT-R 3.8 V6 BiTurbo Aut."
+    },
+    {
+      "code": "1797",
+      "name": "Infinit 3.0"
+    },
+    {
+      "code": "10139",
+      "name": "KICKS Active 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9334",
+      "name": "KICKS Active S 1.6 16V Flex Aut."
+    },
+    {
+      "code": "11499",
+      "name": "KICKS Advance 1.0 Turbo Flex Aut."
+    },
+    {
+      "code": "9335",
+      "name": "KICKS Advance 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9336",
+      "name": "KICKS Exclusive 1.6 16V Flex Aut."
+    },
+    {
+      "code": "11500",
+      "name": "KICKS Exclusive1.0 Turbo Flex Aut."
+    },
+    {
+      "code": "11501",
+      "name": "KICKS Platinum 1.0 Turbo Flex Aut."
+    },
+    {
+      "code": "11343",
+      "name": "KICKS Play Active Plus 1.6 16V Flex Aut."
+    },
+    {
+      "code": "11344",
+      "name": "KICKS Play Advance Plus 1.6 16V Flex Aut"
+    },
+    {
+      "code": "11345",
+      "name": "KICKS Play Sense 1.6 16V Flex Aut."
+    },
+    {
+      "code": "7669",
+      "name": "KICKS Rio 2016 1.6 16V FlexStar 5p Aut."
+    },
+    {
+      "code": "8020",
+      "name": "KICKS S 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "7982",
+      "name": "KICKS S 1.6 16V FlexStar 5p Mec."
+    },
+    {
+      "code": "9594",
+      "name": "KICKS S Direct 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "11502",
+      "name": "KICKS Sense 1.0 Turbo Flex Aut."
+    },
+    {
+      "code": "9337",
+      "name": "KICKS Sense 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9338",
+      "name": "KICKS Sense 1.6 16V Flex Mec."
+    },
+    {
+      "code": "7670",
+      "name": "KICKS SL 1.6 16V FlexStar 5p Aut."
+    },
+    {
+      "code": "8867",
+      "name": "KICKS Special Ed. 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "8927",
+      "name": "KICKS Special Ed.1.6 16V Flex 5p Mec."
+    },
+    {
+      "code": "7983",
+      "name": "KICKS SV 1.6 16V FlexStar 5p Aut."
+    },
+    {
+      "code": "7839",
+      "name": "KICKS SV Limited 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "8637",
+      "name": "KICKS UCL 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "9633",
+      "name": "KICKS XPlay 1.6 16V Flex Aut."
+    },
+    {
+      "code": "1798",
+      "name": "King-Cab SE 4x4 3.0 V6"
+    },
+    {
+      "code": "8754",
+      "name": "LEAF Aut. (Elétrico)"
+    },
+    {
+      "code": "4864",
+      "name": "LIVINA 1.6 16V Flex Fuel 5p"
+    },
+    {
+      "code": "4866",
+      "name": "LIVINA 1.8 16V Flex Fuel Aut."
+    },
+    {
+      "code": "4982",
+      "name": "LIVINA GRAND 1.8 16V Flex Fuel Aut."
+    },
+    {
+      "code": "4983",
+      "name": "LIVINA GRAND 1.8 16V Flex Fuel Mec."
+    },
+    {
+      "code": "5253",
+      "name": "LIVINA GRAND S 1.8 16V Flex Fuel Aut."
+    },
+    {
+      "code": "5254",
+      "name": "LIVINA GRAND S 1.8 16V Flex Fuel Mec."
+    },
+    {
+      "code": "4984",
+      "name": "LIVINA GRAND SL 1.8 16V Flex Fuel Aut."
+    },
+    {
+      "code": "4985",
+      "name": "LIVINA GRAND SL 1.8 16V Flex Fuel Mec"
+    },
+    {
+      "code": "5474",
+      "name": "LIVINA NIGHT&DAY 1.6 16V Flex Fuel Mec."
+    },
+    {
+      "code": "5255",
+      "name": "LIVINA S 1.6 16V Flex Fuel Mec."
+    },
+    {
+      "code": "5256",
+      "name": "LIVINA S 1.8 16V Flex Fuel Aut."
+    },
+    {
+      "code": "4865",
+      "name": "LIVINA SL 1.6 16V Flex Fuel 5p"
+    },
+    {
+      "code": "4867",
+      "name": "LIVINA SL 1.8 16V Flex Fuel Aut."
+    },
+    {
+      "code": "5036",
+      "name": "LIVINA X-GEAR 1.6 16V Flex Fuel Mec."
+    },
+    {
+      "code": "5257",
+      "name": "LIVINA X-GEAR S 1.6 16V Flex Fuel"
+    },
+    {
+      "code": "5037",
+      "name": "LIVINA X-GEAR SL 1.6 16V Flex Fuel Mec."
+    },
+    {
+      "code": "5038",
+      "name": "LIVINA X-GEAR SL/X-GEAR 1.8 Flex F. Aut."
+    },
+    {
+      "code": "7266",
+      "name": "MARCH 1.0 12V Flex 5p"
+    },
+    {
+      "code": "7622",
+      "name": "MARCH 1.0 12V FlexStart 5p"
+    },
+    {
+      "code": "5643",
+      "name": "MARCH 1.0 16V Flex Fuel 5p"
+    },
+    {
+      "code": "6302",
+      "name": "MARCH Rio2016 1.0 Flex Fuel 5p"
+    },
+    {
+      "code": "6303",
+      "name": "MARCH Rio2016 1.6 Flex Fuel 5p"
+    },
+    {
+      "code": "7164",
+      "name": "MARCH S 1.0 12V Flex 5p"
+    },
+    {
+      "code": "5644",
+      "name": "MARCH S 1.0 16V Flex Fuel 5p"
+    },
+    {
+      "code": "5691",
+      "name": "MARCH S 1.6 16V Flex Fuel 5p"
+    },
+    {
+      "code": "7709",
+      "name": "MARCH S 1.6 16V FlexStart 5p"
+    },
+    {
+      "code": "6841",
+      "name": "MARCH SL 1.6 16V Flex Fuel 5p"
+    },
+    {
+      "code": "7623",
+      "name": "MARCH SL 1.6 16V FlexStart 5p Aut."
+    },
+    {
+      "code": "7624",
+      "name": "MARCH SL 1.6 16V FlexStart 5p Mec."
+    },
+    {
+      "code": "5693",
+      "name": "MARCH SR 1.6 16V Flex Fuel 5p"
+    },
+    {
+      "code": "7165",
+      "name": "MARCH SV 1.0 12V Flex 5p"
+    },
+    {
+      "code": "6842",
+      "name": "MARCH SV 1.0 16V Flex Fuel 5p"
+    },
+    {
+      "code": "5692",
+      "name": "MARCH SV 1.6 16V Flex Fuel"
+    },
+    {
+      "code": "7625",
+      "name": "MARCH SV 1.6 16V FlexStart 5p Aut."
+    },
+    {
+      "code": "7626",
+      "name": "MARCH SV 1.6 16V FlexStart 5p Mec."
+    },
+    {
+      "code": "1799",
+      "name": "Maxima 30G/ GLE 3.0 V6 24V"
+    },
+    {
+      "code": "1800",
+      "name": "Maxima 30GV  Limited 3.0 V6 24V"
+    },
+    {
+      "code": "1801",
+      "name": "Maxima 30GV/30GV Aero/ GV 3.0 V6 24V"
+    },
+    {
+      "code": "1802",
+      "name": "Maxima 30J"
+    },
+    {
+      "code": "1803",
+      "name": "Maxima GXE 3.0"
+    },
+    {
+      "code": "1804",
+      "name": "Maxima SE 3.0 V6"
+    },
+    {
+      "code": "1805",
+      "name": "Micra 1.0"
+    },
+    {
+      "code": "4193",
+      "name": "MURANO SE 3.5 V6 24V 231cv Aut"
+    },
+    {
+      "code": "1806",
+      "name": "NX 2000"
+    },
+    {
+      "code": "1807",
+      "name": "NX 2000 Targa 2.0"
+    },
+    {
+      "code": "1808",
+      "name": "Pathfinder LE 2.5 16V TDI Diesel Aut"
+    },
+    {
+      "code": "1809",
+      "name": "Pathfinder LE 4.0 V6 24V 266cv Aut"
+    },
+    {
+      "code": "4577",
+      "name": "Pathfinder SE 2.5 16V TDI Diesel Aut."
+    },
+    {
+      "code": "1810",
+      "name": "Pathfinder SE 3.3 V6 12V"
+    },
+    {
+      "code": "4578",
+      "name": "Pathfinder SE 4.0 V6 24V 266cv Aut."
+    },
+    {
+      "code": "1811",
+      "name": "Pathfinder SE 4x4 3.0 12V Aut./Mec."
+    },
+    {
+      "code": "1812",
+      "name": "Pathfinder SE Luxo 3.3 V6 12V"
+    },
+    {
+      "code": "1813",
+      "name": "Pathfinder SE Luxo 3.5 V6 24V 243cv"
+    },
+    {
+      "code": "1814",
+      "name": "Pathfinder SE Titanium 3.3 V6 12V"
+    },
+    {
+      "code": "1815",
+      "name": "Pathfinder XE 2.7 TB Diesel"
+    },
+    {
+      "code": "1816",
+      "name": "Pathfinder XE 4x4"
+    },
+    {
+      "code": "1817",
+      "name": "Pick-Up CD AX/ DX 4x4 Diesel"
+    },
+    {
+      "code": "1818",
+      "name": "Pick-Up CS DX 4x4 Diesel"
+    },
+    {
+      "code": "1819",
+      "name": "Pick-Up King Cab DX 2.7 4x2 Diesel"
+    },
+    {
+      "code": "1820",
+      "name": "Primera GXE 2.0 16V"
+    },
+    {
+      "code": "1821",
+      "name": "Quest GXE/ GLE/ SER"
+    },
+    {
+      "code": "1822",
+      "name": "Quest XE 3.0 V6"
+    },
+    {
+      "code": "4294",
+      "name": "Sentra 2.0/ 2.0 Flex Fuel 16V Aut."
+    },
+    {
+      "code": "4295",
+      "name": "Sentra 2.0/ 2.0 Flex Fuel 16V Mec."
+    },
+    {
+      "code": "10570",
+      "name": "Sentra Advance 2.0 16V Aut."
+    },
+    {
+      "code": "10571",
+      "name": "Sentra Exclu. Int. Premium 2.0 16V Aut."
+    },
+    {
+      "code": "10572",
+      "name": "Sentra Exclusive 2.0 16V Aut."
+    },
+    {
+      "code": "1823",
+      "name": "Sentra GLE"
+    },
+    {
+      "code": "1824",
+      "name": "Sentra GSX/ EX"
+    },
+    {
+      "code": "1825",
+      "name": "Sentra GXE/ SER"
+    },
+    {
+      "code": "7595",
+      "name": "Sentra S 2.0 FlexStart 16V Aut."
+    },
+    {
+      "code": "4296",
+      "name": "Sentra S 2.0/ 2.0 Flex Fuel 16V Aut."
+    },
+    {
+      "code": "4297",
+      "name": "Sentra S 2.0/ 2.0 Flex Fuel 16V Mec."
+    },
+    {
+      "code": "6212",
+      "name": "Sentra SE 2.0 Flex 16V Aut."
+    },
+    {
+      "code": "7596",
+      "name": "Sentra SL 2.0 FlexStart 16V Aut."
+    },
+    {
+      "code": "4298",
+      "name": "Sentra SL 2.0/ 2.0 Flex Fuel 16V Aut."
+    },
+    {
+      "code": "5645",
+      "name": "Sentra SR 2.0 Flex Fuel 16V Aut."
+    },
+    {
+      "code": "5646",
+      "name": "Sentra SR 2.0 Flex Fuel 16V Mec."
+    },
+    {
+      "code": "6616",
+      "name": "Sentra SV 2.0 FlexStart 16V Aut."
+    },
+    {
+      "code": "5647",
+      "name": "Sentra UNIQUE 2.0 Flex Fuel 16V Aut."
+    },
+    {
+      "code": "1826",
+      "name": "Stanza XE 2.4 12V"
+    },
+    {
+      "code": "1827",
+      "name": "SX 240 2.4"
+    },
+    {
+      "code": "1828",
+      "name": "Terrano II SE 2.7 Diesel"
+    },
+    {
+      "code": "1829",
+      "name": "Terrano II SLX 2.7 Diesel"
+    },
+    {
+      "code": "4404",
+      "name": "TIIDA S 1.8/1.8 Flex 16V  Mec."
+    },
+    {
+      "code": "4405",
+      "name": "TIIDA S 1.8/1.8 Flex 16V Aut."
+    },
+    {
+      "code": "5311",
+      "name": "TIIDA Sedan 1.8 16V Flex Fuel 4p"
+    },
+    {
+      "code": "6188",
+      "name": "TIIDA Sedan 1.8 16V Flex Fuel 4p Aut."
+    },
+    {
+      "code": "4406",
+      "name": "TIIDA SL 1.8/1.8 Flex 16V  Mec."
+    },
+    {
+      "code": "4407",
+      "name": "TIIDA SL 1.8/1.8 Flex 16V Aut."
+    },
+    {
+      "code": "7166",
+      "name": "VERSA 1.0 12V FlexStart 4p Mec."
+    },
+    {
+      "code": "9231",
+      "name": "VERSA Advance 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9232",
+      "name": "VERSA Exclusive 1.6 16V Flex Aut."
+    },
+    {
+      "code": "7167",
+      "name": "VERSA S 1.0 12V FlexStart 4p Mec."
+    },
+    {
+      "code": "5708",
+      "name": "VERSA S 1.6 16V Flex Fuel 4p Mec."
+    },
+    {
+      "code": "7627",
+      "name": "VERSA S 1.6 16V FlexStart 4p Mec."
+    },
+    {
+      "code": "9233",
+      "name": "VERSA Sense 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9234",
+      "name": "VERSA Sense 1.6 16V Flex Mec."
+    },
+    {
+      "code": "5709",
+      "name": "VERSA SL 1.6 16V Flex Fuel 4p Mec."
+    },
+    {
+      "code": "7628",
+      "name": "VERSA SL 1.6 16V FlexStart 4p Aut."
+    },
+    {
+      "code": "7629",
+      "name": "VERSA SL 1.6 16V FlexStart 4p Mec."
+    },
+    {
+      "code": "9598",
+      "name": "VERSA SL Direct 1.6 16V Flex  Aut. "
+    },
+    {
+      "code": "9060",
+      "name": "VERSA Special Ed. 1.6 16V FlexStart Aut."
+    },
+    {
+      "code": "11086",
+      "name": "VERSA SR 1.6 16V Flex Aut."
+    },
+    {
+      "code": "5710",
+      "name": "VERSA SV 1.6 16V Flex Fuel 4p Mec."
+    },
+    {
+      "code": "7630",
+      "name": "VERSA SV 1.6 16V FlexStart 4p Aut."
+    },
+    {
+      "code": "7631",
+      "name": "VERSA SV 1.6 16V FlexStart 4p Mec."
+    },
+    {
+      "code": "7168",
+      "name": "VERSA UNIQUE 1.6 16V Flex 4p Mec."
+    },
+    {
+      "code": "7632",
+      "name": "VERSA UNIQUE 1.6 16V FlexStart 4p Aut."
+    },
+    {
+      "code": "9168",
+      "name": "VERSA V-DRIVE 1.0  12V Flex Mec."
+    },
+    {
+      "code": "9169",
+      "name": "VERSA V-DRIVE 1.6 16V Flex Mec."
+    },
+    {
+      "code": "9170",
+      "name": "VERSA V-DRIVE Esp.Ed. 1.6 16v Flex Aut."
+    },
+    {
+      "code": "9171",
+      "name": "VERSA V-DRIVE PLUS 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9172",
+      "name": "VERSA V-DRIVE Premium 1.6 16v Flex Aut."
+    },
+    {
+      "code": "4120",
+      "name": "XTerra ECOTRIP 4x4 140cv 2.8 TB Int.Dies"
+    },
+    {
+      "code": "1830",
+      "name": "XTerra SE 4x4 2.8 132/140cv TB Int.Dies."
+    },
+    {
+      "code": "1831",
+      "name": "XTerra XE 4x4 2.8 132cv TB Int. Diesel"
+    },
+    {
+      "code": "1832",
+      "name": "X-TRAIL GX 2.5 16V 180cv 5p"
+    },
+    {
+      "code": "4736",
+      "name": "X-TRAIL LE 2.0 16V 138cv Aut."
+    },
+    {
+      "code": "4737",
+      "name": "X-TRAIL SE 2.0 16V 138cv Aut."
+    },
+    {
+      "code": "1833",
+      "name": "ZX 300 3.0 BI-Turbo"
+    }
+  ]
+}

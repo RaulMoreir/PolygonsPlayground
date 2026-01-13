@@ -1,0 +1,421 @@
+{
+  "fipeModelCode" : 29,
+  "models": [
+    {
+      "code": "1371",
+      "name": "Cherokee Country 4.0 V6 4x4"
+    },
+    {
+      "code": "6961",
+      "name": "Cherokee Limited 3.2 4x4 V6 Aut."
+    },
+    {
+      "code": "5248",
+      "name": "Cherokee Limited 3.7 4x4 V6 12V Aut."
+    },
+    {
+      "code": "7137",
+      "name": "Cherokee Longitude 3.2 4x4 V6 Aut."
+    },
+    {
+      "code": "1372",
+      "name": "Cherokee Rubicon 4.0 V6 4x4"
+    },
+    {
+      "code": "1373",
+      "name": "Cherokee Sport  4.0 Mec./Aut."
+    },
+    {
+      "code": "1374",
+      "name": "Cherokee Sport 2.5 4x4 Diesel"
+    },
+    {
+      "code": "1375",
+      "name": "Cherokee Sport 3.7 4x4 V6 12V Aut."
+    },
+    {
+      "code": "7185",
+      "name": "Cherokee Trailhawk 3.2 4x4 V6 Aut."
+    },
+    {
+      "code": "11012",
+      "name": "Commander Black Hurricane 2.0 4x4 TB Aut"
+    },
+    {
+      "code": "4139",
+      "name": "Commander Limited 5.7 326cv 5p"
+    },
+    {
+      "code": "9611",
+      "name": "Commander Limited T270 1.3 TB Flex Aut."
+    },
+    {
+      "code": "9612",
+      "name": "Commander Limited TD380 2.0 4x4 Die.Aut."
+    },
+    {
+      "code": "10749",
+      "name": "Commander Longitude T270 1.3 TB Flex Aut"
+    },
+    {
+      "code": "11368",
+      "name": "Commander Overl. 2.2 TD 4x4 Diesel Aut."
+    },
+    {
+      "code": "9613",
+      "name": "Commander Overl. TD380 2.0 4x4 Die. Aut."
+    },
+    {
+      "code": "11013",
+      "name": "Commander Overland Hurric 2.0 4x4 TB Aut"
+    },
+    {
+      "code": "9614",
+      "name": "Commander Overland T270 1.3 TB Flex Aut."
+    },
+    {
+      "code": "11014",
+      "name": "COMPASS Black Hurricane 2.0 4x4 TB Aut."
+    },
+    {
+      "code": "7758",
+      "name": "COMPASS LIMITED 2.0 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "8039",
+      "name": "COMPASS LIMITED 2.0 4x4 Diesel 16V Aut."
+    },
+    {
+      "code": "9455",
+      "name": "COMPASS LIMITED T270 1.3 TB 4x2 Flex Aut"
+    },
+    {
+      "code": "9456",
+      "name": "COMPASS LIMITED TD 350 2.0 4x4 Die. Aut."
+    },
+    {
+      "code": "11043",
+      "name": "COMPASS Lon Nig. Eagle 1.3 4x2 Flex Aut."
+    },
+    {
+      "code": "9457",
+      "name": "COMPASS LONG. T270 1.3 TB 4x2 Flex Aut."
+    },
+    {
+      "code": "9458",
+      "name": "COMPASS LONG. TD 350 2.0 4x4 Diesel Aut."
+    },
+    {
+      "code": "7759",
+      "name": "COMPASS LONGITUDE 2.0 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "7760",
+      "name": "COMPASS LONGITUDE 2.0 4x4 Dies. 16V Aut."
+    },
+    {
+      "code": "8128",
+      "name": "COMPASS Night Eagle 2.0 4x2 Flex 16V Aut"
+    },
+    {
+      "code": "8129",
+      "name": "COMPASS Night Eagle 2.0 4x4 TB Dies. Aut"
+    },
+    {
+      "code": "11016",
+      "name": "COMPASS Over. Hurric 2.0 4x4 TB 16V Aut."
+    },
+    {
+      "code": "9980",
+      "name": "COMPASS S 1.3 TB 4XE Aut. (Híbrido)"
+    },
+    {
+      "code": "8663",
+      "name": "COMPASS S 2.0 4x4 TB 16V Diesel Aut."
+    },
+    {
+      "code": "9459",
+      "name": "COMPASS S T270 1.3 TB 4x2 Flex Aut."
+    },
+    {
+      "code": "5743",
+      "name": "COMPASS SPORT 2.0 16V 156cv 5p"
+    },
+    {
+      "code": "7761",
+      "name": "COMPASS SPORT 2.0 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "8053",
+      "name": "COMPASS SPORT 2.0 4x4 flex 16V Aut."
+    },
+    {
+      "code": "9460",
+      "name": "COMPASS SPORT T270 1.3 TB 4x2 Flex Aut."
+    },
+    {
+      "code": "9461",
+      "name": "COMPASS T270 80 Anos 1.3 TB 4x2 Flex Aut"
+    },
+    {
+      "code": "9462",
+      "name": "COMPASS TD 350 80 Anos 2.0 4x4 Die. Aut."
+    },
+    {
+      "code": "7762",
+      "name": "COMPASS TRAILHAWK 2.0 4x4 Dies. 16V Aut."
+    },
+    {
+      "code": "9463",
+      "name": "COMPASS TRAILHAWK TD350 2.0 4x4 Die. Aut"
+    },
+    {
+      "code": "10008",
+      "name": "Gladiator Rubicon 3.6 V6 284 cv"
+    },
+    {
+      "code": "10925",
+      "name": "Grand Cherokee 4XE 2.0 T. Aut. (Híbrido)"
+    },
+    {
+      "code": "9661",
+      "name": "Grand Cherokee 80 Anos 3.0 TB Dies.Aut. "
+    },
+    {
+      "code": "1376",
+      "name": "Grand Cherokee Laredo 2.7 I-5 TB Dies."
+    },
+    {
+      "code": "1377",
+      "name": "Grand Cherokee Laredo 3.1 TB Diesel Aut"
+    },
+    {
+      "code": "5454",
+      "name": "Grand Cherokee Laredo 3.6 4x4 V6 Aut."
+    },
+    {
+      "code": "1378",
+      "name": "Grand Cherokee Laredo 4.0 Aut."
+    },
+    {
+      "code": "7883",
+      "name": "Grand Cherokee Lim. 75 anos 3.6 4x4 Aut."
+    },
+    {
+      "code": "1379",
+      "name": "Grand Cherokee Limit.4.7 Quad.Drive Aut."
+    },
+    {
+      "code": "4830",
+      "name": "Grand Cherokee Limited 3.0 TB Dies. Aut"
+    },
+    {
+      "code": "5455",
+      "name": "Grand Cherokee Limited 3.6 4x4 V6 Aut."
+    },
+    {
+      "code": "9303",
+      "name": "Grand Cherokee Limited 4.7 Aut."
+    },
+    {
+      "code": "1381",
+      "name": "Grand Cherokee Limited 5.2 Aut."
+    },
+    {
+      "code": "3891",
+      "name": "Grand Cherokee Limited 5.7 326cv"
+    },
+    {
+      "code": "1382",
+      "name": "Grand Cherokee Limited LX 5.9"
+    },
+    {
+      "code": "1383",
+      "name": "Grand Cherokee Nova Limited 4.7"
+    },
+    {
+      "code": "4200",
+      "name": "Grand Cherokee Overland 5.7 326cv"
+    },
+    {
+      "code": "4190",
+      "name": "Grand Cherokee SRT8 6.1 V8 16V 432cv Aut"
+    },
+    {
+      "code": "11732",
+      "name": "Renegade 1.8 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "7306",
+      "name": "Renegade 1.8 4x2 Flex 16V Mec."
+    },
+    {
+      "code": "7702",
+      "name": "Renegade 75 Anos 1.8 4X2 Flex 16V Aut."
+    },
+    {
+      "code": "7703",
+      "name": "Renegade 75 Anos 2.0 4X4 TB Diesel Aut."
+    },
+    {
+      "code": "11510",
+      "name": "Renegade Altitude T270 1.3 TB Flex Aut."
+    },
+    {
+      "code": "8054",
+      "name": "Renegade Custom 1.8 4x2 Flex 16V Mec."
+    },
+    {
+      "code": "8055",
+      "name": "Renegade Custom 2.0 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "7507",
+      "name": "Renegade Lim. Edit. 1.8 4x2 Flex 16V Aut"
+    },
+    {
+      "code": "8056",
+      "name": "Renegade Limited 1.8 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "8057",
+      "name": "Renegade Limited 2.0 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11137",
+      "name": "Renegade Lo. Night Eagle 1.3 TB Flex Aut"
+    },
+    {
+      "code": "9745",
+      "name": "Renegade Long. T270 1.3 TB 4x2 Flex Aut."
+    },
+    {
+      "code": "7186",
+      "name": "Renegade Longitude 1.8 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "7187",
+      "name": "Renegade Longitude 2.0 4x4 TB Diesel Aut"
+    },
+    {
+      "code": "9165",
+      "name": "Renegade Moab 2.0 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "8058",
+      "name": "Renegade Night Eagle 1.8 4x2  Flex Aut."
+    },
+    {
+      "code": "8059",
+      "name": "Renegade Night Eagle 2.0 4x4 TB Die. Aut"
+    },
+    {
+      "code": "9746",
+      "name": "Renegade S T270 1.3 TB 4x4 Flex Aut."
+    },
+    {
+      "code": "11138",
+      "name": "Renegade SAHARA T270 1.3 TB 4x2 Flex Aut"
+    },
+    {
+      "code": "7188",
+      "name": "Renegade Sport 1.8 4x2 Flex 16V Aut."
+    },
+    {
+      "code": "7189",
+      "name": "Renegade Sport 1.8 4x2 Flex 16V Mec."
+    },
+    {
+      "code": "7190",
+      "name": "Renegade Sport 2.0 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11139",
+      "name": "Renegade Sport Altitude 1.3 TB Flex Aut."
+    },
+    {
+      "code": "9747",
+      "name": "Renegade Sport T270 1.3 TB 4x2 Flex Aut."
+    },
+    {
+      "code": "8903",
+      "name": "Renegade STD 1.8 4x2 Flex 16v Aut."
+    },
+    {
+      "code": "10680",
+      "name": "Renegade T270 1.3 TB 4x2 Flex Aut."
+    },
+    {
+      "code": "7191",
+      "name": "Renegade Trailhawk 2.0 4x4 TB Diesel Aut"
+    },
+    {
+      "code": "9748",
+      "name": "Renegade Trailhawk T270 1.3 TB Flex Aut."
+    },
+    {
+      "code": "8664",
+      "name": "Renegade Willys 2.0 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11195",
+      "name": "Renegade Willys T270 1.3 TB 4x4 Flex Aut"
+    },
+    {
+      "code": "1384",
+      "name": "Wrangler 4.0/Sport 4.0"
+    },
+    {
+      "code": "9095",
+      "name": "Wrangler RUBICON 2.0 Turbo 4x4 4p Aut."
+    },
+    {
+      "code": "8665",
+      "name": "Wrangler SAHARA 2.0 4x4 271cv 2p Aut."
+    },
+    {
+      "code": "5728",
+      "name": "Wrangler SAHARA 3.8 V6 199cv 2p"
+    },
+    {
+      "code": "8666",
+      "name": "Wrangler SAHARA Overland 2.0 4x4 4p Aut."
+    },
+    {
+      "code": "5897",
+      "name": "Wrangler Sport 3.6 V6 284cv 2p"
+    },
+    {
+      "code": "4439",
+      "name": "Wrangler Sport 3.8 V6 199cv"
+    },
+    {
+      "code": "7763",
+      "name": "Wrangler Unlimited 75 Anos 3.6 V6 284cv"
+    },
+    {
+      "code": "9534",
+      "name": "Wrangler Unlimited 80 Anos 2.0 TB 4p "
+    },
+    {
+      "code": "9926",
+      "name": "Wrangler Unlimited SAHARA 2.0 TB 4p Aut"
+    },
+    {
+      "code": "8319",
+      "name": "Wrangler Unlimited SAHARA 3.6 V6 4p"
+    },
+    {
+      "code": "5729",
+      "name": "Wrangler Unlimited SAHARA 3.8 V6  4p"
+    },
+    {
+      "code": "5898",
+      "name": "Wrangler Unlimited Sport 3.6 V6 284cv 4p"
+    },
+    {
+      "code": "5306",
+      "name": "Wrangler Unlimited Sport 3.8 V6 199cv"
+    }
+  ]
+}

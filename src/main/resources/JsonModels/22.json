@@ -1,0 +1,1973 @@
+{
+  "fipeModelCode" : 22,
+  "models":[
+    {
+      "code": "655",
+      "name": "Aerostar Mini-Van 3.8"
+    },
+    {
+      "code": "656",
+      "name": "Aspire 1.3"
+    },
+    {
+      "code": "657",
+      "name": "Belina GL 1.8 / 1.6"
+    },
+    {
+      "code": "658",
+      "name": "Belina L 1.8/ 1.6"
+    },
+    {
+      "code": "11489",
+      "name": "Bronco Sport Badlands 2.0L TB 4WD Aut."
+    },
+    {
+      "code": "9452",
+      "name": "Bronco Sport Wildtrak 2.0 Tb 16V AWD Aut"
+    },
+    {
+      "code": "659",
+      "name": "Club Wagon V8"
+    },
+    {
+      "code": "660",
+      "name": "Club Wagon XLT 4.9 V6"
+    },
+    {
+      "code": "661",
+      "name": "Contour SE/ GL/ LX  2.0 16V"
+    },
+    {
+      "code": "662",
+      "name": "Contour SE/GL/ LX 2.5 24V"
+    },
+    {
+      "code": "663",
+      "name": "Corcel II GL/GT"
+    },
+    {
+      "code": "664",
+      "name": "Corcel II L"
+    },
+    {
+      "code": "665",
+      "name": "Courier 1.3i/Furgão"
+    },
+    {
+      "code": "666",
+      "name": "Courier 1.6 L/ 1.6 Flex"
+    },
+    {
+      "code": "667",
+      "name": "Courier CLX 1.4i 16V"
+    },
+    {
+      "code": "668",
+      "name": "Courier Si 1.4i 16V"
+    },
+    {
+      "code": "669",
+      "name": "Courier Sport 1.6 8v"
+    },
+    {
+      "code": "4134",
+      "name": "Courier Van 1.6/ 1.6 Flex 8V (Carga)"
+    },
+    {
+      "code": "670",
+      "name": "Courier XL/XL-RS 1.6/ XL 1.6 Flex"
+    },
+    {
+      "code": "671",
+      "name": "Crown Victoria LX 4.6"
+    },
+    {
+      "code": "672",
+      "name": "Del Rey Belina Ghia"
+    },
+    {
+      "code": "673",
+      "name": "Del Rey Belina GL"
+    },
+    {
+      "code": "674",
+      "name": "Del Rey Belina GLX"
+    },
+    {
+      "code": "675",
+      "name": "Del Rey Belina L"
+    },
+    {
+      "code": "676",
+      "name": "Del Rey Ghia 1.8 / 1.6 2p e 4p"
+    },
+    {
+      "code": "677",
+      "name": "Del Rey GLX 1.6/1.8 / GL 1.6/1.8 2p e 4p"
+    },
+    {
+      "code": "678",
+      "name": "Del Rey L 1.8 / 1.6 2p e 4p"
+    },
+    {
+      "code": "8743",
+      "name": "EcoSport  100 Anos 1.5 Flex 5p Aut."
+    },
+    {
+      "code": "679",
+      "name": "EcoSport 4WD 2.0/ 2.0 Flex 16V 5p"
+    },
+    {
+      "code": "8004",
+      "name": "EcoSport FREESTYLE 1.5 12V Flex 5p Aut."
+    },
+    {
+      "code": "8005",
+      "name": "EcoSport FREESTYLE 1.5 12V Flex 5p Mec."
+    },
+    {
+      "code": "6157",
+      "name": "EcoSport FREESTYLE 1.6 16V Flex 5p"
+    },
+    {
+      "code": "7371",
+      "name": "EcoSport FREESTYLE 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "6464",
+      "name": "EcoSport FREESTYLE 2.0 16V 4WD Flex 5p"
+    },
+    {
+      "code": "6158",
+      "name": "EcoSport FREESTYLE 2.0 16V Flex 5p"
+    },
+    {
+      "code": "6913",
+      "name": "EcoSport FREESTYLE 2.0 16V Flex 5p Aut."
+    },
+    {
+      "code": "8210",
+      "name": "EcoSport FREESTYLE PLUS 1.5 Flex 5p Aut."
+    },
+    {
+      "code": "6159",
+      "name": "EcoSport S 1.6 16V Flex 5p"
+    },
+    {
+      "code": "8006",
+      "name": "EcoSport SE 1.5 12V Flex 5p Aut."
+    },
+    {
+      "code": "8007",
+      "name": "EcoSport SE 1.5 12V Flex 5p Mec."
+    },
+    {
+      "code": "7372",
+      "name": "EcoSport SE 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "6160",
+      "name": "EcoSport SE 1.6 16V Flex 5p Mec."
+    },
+    {
+      "code": "6263",
+      "name": "EcoSport SE 2.0 16V Flex 5p Aut."
+    },
+    {
+      "code": "9593",
+      "name": "EcoSport SE Direct 1.5 Flex 5p Aut."
+    },
+    {
+      "code": "7686",
+      "name": "EcoSport SE Direct 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "8211",
+      "name": "EcoSport STORM 2.0 4WD 16V Flex 5p Aut."
+    },
+    {
+      "code": "8588",
+      "name": "EcoSport TITANIUM 1.5 12V Flex 5p Aut."
+    },
+    {
+      "code": "6161",
+      "name": "EcoSport TITANIUM 1.6 16V Flex 5p"
+    },
+    {
+      "code": "6162",
+      "name": "EcoSport TITANIUM 2.0 16V Flex 5p"
+    },
+    {
+      "code": "6264",
+      "name": "EcoSport TITANIUM 2.0 16V Flex 5p Aut."
+    },
+    {
+      "code": "680",
+      "name": "EcoSport XL 1.6/ 1.6 Flex 8V 5p"
+    },
+    {
+      "code": "681",
+      "name": "EcoSport XL Supercharger 1.0 8V 95cv 5p"
+    },
+    {
+      "code": "682",
+      "name": "EcoSport XLS 1.6/ 1.6 Flex 8V 5p"
+    },
+    {
+      "code": "4256",
+      "name": "EcoSport XLS 2.0/2.0 Flex 16V 5p Aut."
+    },
+    {
+      "code": "3886",
+      "name": "EcoSport XLS FREESTYLE 1.6 Flex 8V 5p"
+    },
+    {
+      "code": "683",
+      "name": "EcoSport XLT 1.6/ 1.6 Flex 8V 5p"
+    },
+    {
+      "code": "4257",
+      "name": "EcoSport XLT 2.0/ 2.0 Flex 16V 5p Aut."
+    },
+    {
+      "code": "684",
+      "name": "EcoSport XLT 2.0/ 2.0 Flex 16V 5p Mec."
+    },
+    {
+      "code": "4258",
+      "name": "EcoSport XLT FREESTYLE 1.6 Flex 8V 5p"
+    },
+    {
+      "code": "4829",
+      "name": "EcoSport XLT FREESTYLE 2.0 Flex 16V 5p"
+    },
+    {
+      "code": "5413",
+      "name": "EDGE LIMITED 3.5 V6 24V AWD Aut."
+    },
+    {
+      "code": "5741",
+      "name": "EDGE LIMITED 3.5 V6 24V FWD Aut."
+    },
+    {
+      "code": "5742",
+      "name": "EDGE SEL 3.5 V6  24V FWD Aut."
+    },
+    {
+      "code": "4810",
+      "name": "EDGE SEL 3.5 V6 24V AWD Aut."
+    },
+    {
+      "code": "8589",
+      "name": "EDGE ST 2.7 V6 24V AWD Aut."
+    },
+    {
+      "code": "7718",
+      "name": "EDGE TITANIUM 3.5 V6 24V AWD Aut."
+    },
+    {
+      "code": "685",
+      "name": "Escort  Racer 2.0i"
+    },
+    {
+      "code": "686",
+      "name": "Escort Ghia 1.8i / 1.8 / 1.6"
+    },
+    {
+      "code": "687",
+      "name": "Escort Ghia 2.0i / 2.0"
+    },
+    {
+      "code": "688",
+      "name": "Escort GL 1.6 MPI"
+    },
+    {
+      "code": "689",
+      "name": "Escort GL 1.6i / 1.6"
+    },
+    {
+      "code": "690",
+      "name": "Escort GL 1.8i / 1.8"
+    },
+    {
+      "code": "691",
+      "name": "Escort GL 1.8i 16V 3p"
+    },
+    {
+      "code": "692",
+      "name": "Escort GL 1.8i 16V 4p"
+    },
+    {
+      "code": "693",
+      "name": "Escort GLX 1.6i"
+    },
+    {
+      "code": "694",
+      "name": "Escort GLX 1.8i 16V 4p"
+    },
+    {
+      "code": "695",
+      "name": "Escort GLX 1.8i 8v"
+    },
+    {
+      "code": "696",
+      "name": "Escort Guarujá 1.8 4p"
+    },
+    {
+      "code": "697",
+      "name": "Escort Hobby 1.0"
+    },
+    {
+      "code": "698",
+      "name": "Escort Hobby 1.6"
+    },
+    {
+      "code": "699",
+      "name": "Escort L 1.8i / 1.8"
+    },
+    {
+      "code": "700",
+      "name": "Escort L/LX 1.6"
+    },
+    {
+      "code": "701",
+      "name": "Escort RS 1.8i 16V"
+    },
+    {
+      "code": "702",
+      "name": "Escort S.W GL 1.8i 16V"
+    },
+    {
+      "code": "703",
+      "name": "Escort S.W. GLX 1.8i 16V"
+    },
+    {
+      "code": "704",
+      "name": "Escort SW 1.9 16v"
+    },
+    {
+      "code": "705",
+      "name": "Escort SW GL 1.6 MPI"
+    },
+    {
+      "code": "706",
+      "name": "Escort XR3 1.8 / 1.6 Beneton/Form./Laser"
+    },
+    {
+      "code": "707",
+      "name": "Escort XR3 1.8 / 1.6 Conversível"
+    },
+    {
+      "code": "708",
+      "name": "Escort XR3 2.0i"
+    },
+    {
+      "code": "709",
+      "name": "Escort XR3 2.0i Conversível"
+    },
+    {
+      "code": "11611",
+      "name": "E-TRANSIT Furgão Longo Teto Alto (Elétrico)"
+    },
+    {
+      "code": "710",
+      "name": "Expedition 5.4 V8"
+    },
+    {
+      "code": "711",
+      "name": "Explorer Limited 4.0 4x4 V6 213cv"
+    },
+    {
+      "code": "712",
+      "name": "Explorer Limited 5.0 4x4 V8"
+    },
+    {
+      "code": "713",
+      "name": "Explorer Sport 4.0 V6"
+    },
+    {
+      "code": "714",
+      "name": "Explorer XL 4x2 4.0 V6"
+    },
+    {
+      "code": "715",
+      "name": "Explorer XL 4x4 4.0 V6"
+    },
+    {
+      "code": "716",
+      "name": "Explorer XLT 4x2 4.0 V6"
+    },
+    {
+      "code": "717",
+      "name": "Explorer XLT 4x4 4.0 V6"
+    },
+    {
+      "code": "718",
+      "name": "F-100 2.3"
+    },
+    {
+      "code": "719",
+      "name": "F-100 Blazer 2.3"
+    },
+    {
+      "code": "720",
+      "name": "F-100 CD 2.3"
+    },
+    {
+      "code": "721",
+      "name": "F-100 Super 2.3"
+    },
+    {
+      "code": "722",
+      "name": "F-100 Super Série 2.3"
+    },
+    {
+      "code": "723",
+      "name": "F-1000 CD/Blazer 3.6"
+    },
+    {
+      "code": "724",
+      "name": "F-1000 CD/Blazer 3.9 Dies."
+    },
+    {
+      "code": "725",
+      "name": "F-1000 Lightning/ Super 4.9i"
+    },
+    {
+      "code": "726",
+      "name": "F-1000 Regular Cab. 4.9i"
+    },
+    {
+      "code": "727",
+      "name": "F-1000 S. S. Diesel / S.S. Diesel Turbo"
+    },
+    {
+      "code": "728",
+      "name": "F-1000 SR XK  Deserter Diesel"
+    },
+    {
+      "code": "729",
+      "name": "F-1000 SR XK Deserter"
+    },
+    {
+      "code": "730",
+      "name": "F-1000 Super 3.6 / Super Série 3.6"
+    },
+    {
+      "code": "731",
+      "name": "F-1000 Super CE 4.9i / 3.6"
+    },
+    {
+      "code": "732",
+      "name": "F-1000 Super Diesel / Super Diesel Turbo"
+    },
+    {
+      "code": "733",
+      "name": "F-1000 Super Diesel CE 3.9"
+    },
+    {
+      "code": "734",
+      "name": "F-1000 Super Série CE 4.9/3.6"
+    },
+    {
+      "code": "735",
+      "name": "F-1000 Super Série CE Diesel 3.9"
+    },
+    {
+      "code": "736",
+      "name": "F-1000 Super/ S.Série 4x4 3.9 Diesel"
+    },
+    {
+      "code": "738",
+      "name": "F-1000 Tropical CD 4.9i"
+    },
+    {
+      "code": "737",
+      "name": "F-1000 Tropical CD HSD 2.5/4.3 Diesel TB"
+    },
+    {
+      "code": "739",
+      "name": "F-1000 Tropical SL/ Van 4.9i"
+    },
+    {
+      "code": "740",
+      "name": "F-1000 Tropical SL/ Van T.Diesel (todas)"
+    },
+    {
+      "code": "741",
+      "name": "F-1000 XL 2.5 HSD Diesel TB"
+    },
+    {
+      "code": "742",
+      "name": "F-1000 XL 4.9i"
+    },
+    {
+      "code": "743",
+      "name": "F-1000 XL 4.9i CE"
+    },
+    {
+      "code": "744",
+      "name": "F-1000 XL 4x4 Diesel Turbo"
+    },
+    {
+      "code": "745",
+      "name": "F-1000 XL Diesel Turbo"
+    },
+    {
+      "code": "746",
+      "name": "F-1000 XLT 2.5 HSD Diesel TB"
+    },
+    {
+      "code": "747",
+      "name": "F-1000 XLT 4x4 Diesel Turbo"
+    },
+    {
+      "code": "748",
+      "name": "F-1000 XLT CE 4.9i"
+    },
+    {
+      "code": "749",
+      "name": "F-1000 XLT Diesel Turbo"
+    },
+    {
+      "code": "750",
+      "name": "F-1000 XLT/XL Lighting 4.9i"
+    },
+    {
+      "code": "10398",
+      "name": "F-150 Lariat 4x4 5.0 V8"
+    },
+    {
+      "code": "11223",
+      "name": "F-150 Lariat Black 4x4 5.0 V8"
+    },
+    {
+      "code": "10399",
+      "name": "F-150 Platinum 4x4 5.0 V8"
+    },
+    {
+      "code": "11494",
+      "name": "F-150 Tremor 4x4 5.0 V8"
+    },
+    {
+      "code": "751",
+      "name": "F-150 XL Triton 4.3 V6"
+    },
+    {
+      "code": "752",
+      "name": "F-150 XLT Triton 4.3"
+    },
+    {
+      "code": "753",
+      "name": "F-150 XLT Triton 4.6 V8"
+    },
+    {
+      "code": "754",
+      "name": "F-150 XLT Triton 5.8"
+    },
+    {
+      "code": "5191",
+      "name": "F-250 F-MILHA CD 3.9 TB Diesel"
+    },
+    {
+      "code": "6032",
+      "name": "F-250 Tropica./Tropmine Exec. 3.9 Diesel"
+    },
+    {
+      "code": "4161",
+      "name": "F-250 TropiCab CE 3.9 TB Diesel"
+    },
+    {
+      "code": "755",
+      "name": "F-250 Tropical 3.9 Diesel"
+    },
+    {
+      "code": "756",
+      "name": "F-250 Tropical 4.2 CE / CD Diesel TB"
+    },
+    {
+      "code": "757",
+      "name": "F-250 Tropical 4.2 V6"
+    },
+    {
+      "code": "758",
+      "name": "F-250 Tropical SL/ Van T.Diesel (todas)"
+    },
+    {
+      "code": "4162",
+      "name": "F-250 Tropicampo CD 3.9 TB Diesel"
+    },
+    {
+      "code": "4163",
+      "name": "F-250 Tropiclassic 3.9 TB Diesel"
+    },
+    {
+      "code": "4164",
+      "name": "F-250 Tropivan Executive 3.9 TB Diesel"
+    },
+    {
+      "code": "4165",
+      "name": "F-250 Tropivan/Tropi. Plus 3.9 TB Diesel"
+    },
+    {
+      "code": "762",
+      "name": "F-250 XL 3.9 4x2 Diesel"
+    },
+    {
+      "code": "4056",
+      "name": "F-250 XL 3.9 4x4 TB Diesel"
+    },
+    {
+      "code": "4057",
+      "name": "F-250 XL 3.9 CD TB Diesel"
+    },
+    {
+      "code": "759",
+      "name": "F-250 XL 4.2 180cv CD TB Diesel"
+    },
+    {
+      "code": "760",
+      "name": "F-250 XL 4.2 Turbo Diesel"
+    },
+    {
+      "code": "761",
+      "name": "F-250 XL 4.2 V6"
+    },
+    {
+      "code": "763",
+      "name": "F-250 XL Super Duty 3.9 Diesel"
+    },
+    {
+      "code": "764",
+      "name": "F-250 XL Super Duty 4.2 TB Diesel"
+    },
+    {
+      "code": "765",
+      "name": "F-250 XL Super Duty 4.2 V6"
+    },
+    {
+      "code": "4058",
+      "name": "F-250 XLT 3.9 4x2 CD TB Diesel"
+    },
+    {
+      "code": "766",
+      "name": "F-250 XLT 3.9 4x2 Diesel TB"
+    },
+    {
+      "code": "4059",
+      "name": "F-250 XLT 3.9 4x4 CD TB Diesel"
+    },
+    {
+      "code": "4060",
+      "name": "F-250 XLT 3.9 4x4 TB Diesel"
+    },
+    {
+      "code": "767",
+      "name": "F-250 XLT 4.2 180cv CD TB Diesel"
+    },
+    {
+      "code": "768",
+      "name": "F-250 XLT 4.2 TB Diesel"
+    },
+    {
+      "code": "769",
+      "name": "F-250 XLT 4.2 V6"
+    },
+    {
+      "code": "4135",
+      "name": "Fiesta 1.0 8V Flex/Class 1.0 8V Flex 5p"
+    },
+    {
+      "code": "770",
+      "name": "Fiesta 1.0i 3p e 5p"
+    },
+    {
+      "code": "771",
+      "name": "Fiesta 1.3  3p e 5p"
+    },
+    {
+      "code": "6422",
+      "name": "Fiesta 1.5 16V Flex Mec. 5p"
+    },
+    {
+      "code": "6423",
+      "name": "Fiesta 1.6 16V Flex Aut. 5p"
+    },
+    {
+      "code": "6424",
+      "name": "Fiesta 1.6 16V Flex Mec. 5p"
+    },
+    {
+      "code": "772",
+      "name": "Fiesta 1.6 8V Flex/Class 1.6 8V Flex 5p"
+    },
+    {
+      "code": "773",
+      "name": "Fiesta Class 1.0 2p"
+    },
+    {
+      "code": "774",
+      "name": "Fiesta Class 1.0 4p"
+    },
+    {
+      "code": "775",
+      "name": "Fiesta Class 1.6 8V 98cv 5p"
+    },
+    {
+      "code": "776",
+      "name": "Fiesta CLX 1.3i 3p"
+    },
+    {
+      "code": "777",
+      "name": "Fiesta CLX 1.3i 5p"
+    },
+    {
+      "code": "778",
+      "name": "Fiesta CLX 1.4i 16V 3p e 5p"
+    },
+    {
+      "code": "779",
+      "name": "Fiesta GL 1.0 3p"
+    },
+    {
+      "code": "780",
+      "name": "Fiesta GL 1.0 5p"
+    },
+    {
+      "code": "781",
+      "name": "Fiesta GL Class 1.0i 5p"
+    },
+    {
+      "code": "782",
+      "name": "Fiesta GLX 1.6 8V 3p"
+    },
+    {
+      "code": "783",
+      "name": "Fiesta GLX 1.6 8V 5p"
+    },
+    {
+      "code": "784",
+      "name": "Fiesta Personnalité 1.0 8V 66cv 5p"
+    },
+    {
+      "code": "6425",
+      "name": "Fiesta S 1.0 8V Flex 5p"
+    },
+    {
+      "code": "6426",
+      "name": "Fiesta SE 1.0 8V Flex 5p"
+    },
+    {
+      "code": "5668",
+      "name": "Fiesta SE 1.6 16V Flex 5p"
+    },
+    {
+      "code": "6427",
+      "name": "Fiesta SE 1.6 8V Flex 5p"
+    },
+    {
+      "code": "8148",
+      "name": "Fiesta SE Plus 1.6 16V Flex Aut. 5p"
+    },
+    {
+      "code": "8008",
+      "name": "Fiesta SE Plus Direct 1.6 16V Flex Aut."
+    },
+    {
+      "code": "7753",
+      "name": "Fiesta SE Style 1.6 16V Flex Mec. 5p"
+    },
+    {
+      "code": "785",
+      "name": "Fiesta Sed. 1.6 8V Flex 4p"
+    },
+    {
+      "code": "786",
+      "name": "Fiesta Sed. Personnalité 1.0 8V 4p"
+    },
+    {
+      "code": "787",
+      "name": "Fiesta Sed. Supercharger 1.0 8V 4p"
+    },
+    {
+      "code": "6523",
+      "name": "Fiesta Sed. TI./TI.Plus1.6 16V Flex Aut."
+    },
+    {
+      "code": "4136",
+      "name": "Fiesta Sedan 1.0 8V Flex 4p"
+    },
+    {
+      "code": "6521",
+      "name": "Fiesta Sedan 1.6 16V Flex Aut."
+    },
+    {
+      "code": "6522",
+      "name": "Fiesta Sedan 1.6 16V Flex Mec."
+    },
+    {
+      "code": "6428",
+      "name": "Fiesta Sedan S 1.0 8V Flex 4p"
+    },
+    {
+      "code": "6429",
+      "name": "Fiesta Sedan SE 1.0 8V Flex 4p"
+    },
+    {
+      "code": "5345",
+      "name": "Fiesta Sedan SE 1.6 16V Flex 4p"
+    },
+    {
+      "code": "6430",
+      "name": "Fiesta Sedan SE 1.6 8V Flex 4p"
+    },
+    {
+      "code": "8047",
+      "name": "Fiesta Sedan SEL 1.6 16V Flex Aut."
+    },
+    {
+      "code": "8048",
+      "name": "Fiesta Sedan SEL 1.6 16V Flex Mec."
+    },
+    {
+      "code": "788",
+      "name": "Fiesta Sedan Street 1.0 8v 4p"
+    },
+    {
+      "code": "789",
+      "name": "Fiesta Sedan Street 1.6 8v 4p"
+    },
+    {
+      "code": "6524",
+      "name": "Fiesta Sedan TITANIUM 1.6 16V Flex Mec"
+    },
+    {
+      "code": "8009",
+      "name": "Fiesta SEL 1.0 12V EcoBoost Aut. 5p"
+    },
+    {
+      "code": "7659",
+      "name": "Fiesta SEL 1.6 16V Flex  Aut. 5p"
+    },
+    {
+      "code": "7660",
+      "name": "Fiesta SEL 1.6 16V Flex Mec. 5p"
+    },
+    {
+      "code": "8177",
+      "name": "Fiesta SEL Style 1.0 EcoBoost Aut . 5p"
+    },
+    {
+      "code": "7754",
+      "name": "Fiesta SEL Style 1.6 16V Flex Mec. 5p"
+    },
+    {
+      "code": "790",
+      "name": "Fiesta Sport 1.0MPi 4p"
+    },
+    {
+      "code": "7184",
+      "name": "Fiesta Sport 1.6 16V Flex Mec."
+    },
+    {
+      "code": "791",
+      "name": "Fiesta Sport 1.6MPi 4p"
+    },
+    {
+      "code": "792",
+      "name": "Fiesta Street 1.0 8v 3p"
+    },
+    {
+      "code": "793",
+      "name": "Fiesta Street 1.6 8v 95cv 5p"
+    },
+    {
+      "code": "794",
+      "name": "Fiesta Street/ Action 1.0 8v 5p"
+    },
+    {
+      "code": "795",
+      "name": "Fiesta Supercharger 1.0 8V 95cv 5p"
+    },
+    {
+      "code": "6431",
+      "name": "Fiesta TIT./TIT.Plus 1.6 16V Flex Aut."
+    },
+    {
+      "code": "7661",
+      "name": "Fiesta TIT.Plus 1.0 12V EcoBoost Aut. 5p"
+    },
+    {
+      "code": "6432",
+      "name": "Fiesta TITANIUM 1.6 16V Flex Mec."
+    },
+    {
+      "code": "4409",
+      "name": "Fiesta TRAIL 1.0 8V Flex 5p"
+    },
+    {
+      "code": "4410",
+      "name": "Fiesta TRAIL 1.6 8V Flex 5p"
+    },
+    {
+      "code": "6610",
+      "name": "Focus 1.6 S/1.6 SE Flex 16v 5p Aut"
+    },
+    {
+      "code": "796",
+      "name": "Focus 1.6 S/SE/SE Plus Flex 8V/16V  5p"
+    },
+    {
+      "code": "797",
+      "name": "Focus 1.8 16V 5p"
+    },
+    {
+      "code": "798",
+      "name": "Focus 2.0 16V/ 2.0 16V Flex 5p"
+    },
+    {
+      "code": "799",
+      "name": "Focus 2.0 16V/SE/SE Plus Flex 5p Aut."
+    },
+    {
+      "code": "7284",
+      "name": "Focus Fastback SE/SE PLUS 2.0 Flex Aut."
+    },
+    {
+      "code": "7285",
+      "name": "Focus Fastback TIT./T.PLUS 2.0 Flex Aut."
+    },
+    {
+      "code": "800",
+      "name": "Focus Ghia  2.0 16V/ 2.0 16V Flex 5p Aut"
+    },
+    {
+      "code": "801",
+      "name": "Focus Ghia Sed. 2.0 16V/ 2.0 16V Flex 4p"
+    },
+    {
+      "code": "802",
+      "name": "Focus Ghia Sed. 2.0 16V/2.0 16V Flex Aut"
+    },
+    {
+      "code": "803",
+      "name": "Focus Ghia/ XR 2.0 /Ghia 2.0 16V Flex 5p"
+    },
+    {
+      "code": "5450",
+      "name": "Focus Sed. TI./TI.Plus 2.0 16V Flex  Aut"
+    },
+    {
+      "code": "7687",
+      "name": "Focus Sedan 1.6 16V Flex 4p Aut."
+    },
+    {
+      "code": "804",
+      "name": "Focus Sedan 1.6/1.6 Flex 8V/16V 4p Mec."
+    },
+    {
+      "code": "805",
+      "name": "Focus Sedan 1.8 16V 115cv 4p"
+    },
+    {
+      "code": "806",
+      "name": "Focus Sedan 2.0 16V/2.0 16V Flex 4p"
+    },
+    {
+      "code": "807",
+      "name": "Focus Sedan 2.0 16V/2.0 16V Flex 4p Aut."
+    },
+    {
+      "code": "5451",
+      "name": "Focus TITA/TITA Plus 2.0  Flex 5p Aut."
+    },
+    {
+      "code": "5452",
+      "name": "Focus TITANIUM 2.0 16V Flex 5p Mec."
+    },
+    {
+      "code": "808",
+      "name": "Furglaine 3.6"
+    },
+    {
+      "code": "809",
+      "name": "Furglaine 3.9 Diesel"
+    },
+    {
+      "code": "810",
+      "name": "Furglaine Chateaux/Exec. 3.9 Diesel"
+    },
+    {
+      "code": "10006",
+      "name": "Fusion 2.5 16V 193cv Aut. (Híbrido)"
+    },
+    {
+      "code": "6381",
+      "name": "Fusion 2.5L I-VCT Flex Aut."
+    },
+    {
+      "code": "7826",
+      "name": "Fusion SE 2.5 I-VCT Flex 16V Aut."
+    },
+    {
+      "code": "7755",
+      "name": "Fusion SEL 2.0 Ecobo. 16V 248cv Aut."
+    },
+    {
+      "code": "4061",
+      "name": "Fusion SEL 2.3 16V  162cv Aut."
+    },
+    {
+      "code": "4922",
+      "name": "Fusion SEL 2.5 16V 173cv Aut."
+    },
+    {
+      "code": "5622",
+      "name": "Fusion SEL 3.0 V6  24V 243cv Aut."
+    },
+    {
+      "code": "4923",
+      "name": "Fusion SEL 3.0 V6 AWD 24V 243cv Aut."
+    },
+    {
+      "code": "10007",
+      "name": "Fusion Titanium 2.0 145cv Aut. (Híbrido)"
+    },
+    {
+      "code": "6324",
+      "name": "Fusion Titanium 2.0 GTDI Eco. Awd Aut."
+    },
+    {
+      "code": "6382",
+      "name": "Fusion Titanium 2.0 GTDI Eco. Fwd Aut."
+    },
+    {
+      "code": "811",
+      "name": "Ibiza 3.9 Furgão Diesel"
+    },
+    {
+      "code": "812",
+      "name": "Ibiza Chat./Exec. 3.9 Diesel"
+    },
+    {
+      "code": "4514",
+      "name": "Ka 1.0 8V/1.0 8V ST Flex 3p"
+    },
+    {
+      "code": "8744",
+      "name": "Ka 1.0 FREESTYLE 12V Flex 5p Mec."
+    },
+    {
+      "code": "8149",
+      "name": "Ka 1.0 S TiVCT Flex 5p"
+    },
+    {
+      "code": "6915",
+      "name": "Ka 1.0 SE/SE Plus TiVCT Flex 5p"
+    },
+    {
+      "code": "6914",
+      "name": "Ka 1.0 SEL TiVCT Flex 5p"
+    },
+    {
+      "code": "8122",
+      "name": "Ka 1.0 TECNO 12V Flex 5p"
+    },
+    {
+      "code": "4789",
+      "name": "Ka 1.0 TECNO 8V Flex 3p"
+    },
+    {
+      "code": "813",
+      "name": "Ka 1.0i 3p"
+    },
+    {
+      "code": "8745",
+      "name": "Ka 1.5 100 Anos Flex 5p Aut."
+    },
+    {
+      "code": "8401",
+      "name": "Ka 1.5 FreeStyle 12V Flex 5p Aut."
+    },
+    {
+      "code": "8402",
+      "name": "Ka 1.5 FreeStyle 12V Flex 5p Mec."
+    },
+    {
+      "code": "8440",
+      "name": "Ka 1.5 SE 12V Flex 5p Aut."
+    },
+    {
+      "code": "8441",
+      "name": "Ka 1.5 SE 12V Flex 5p Mec."
+    },
+    {
+      "code": "8442",
+      "name": "Ka 1.5 SE Plus 12V Flex 5p Aut."
+    },
+    {
+      "code": "8443",
+      "name": "Ka 1.5 SE Plus 12V Flex 5p Mec."
+    },
+    {
+      "code": "6916",
+      "name": "Ka 1.5 SE/SE PLUS 16V Flex 5p"
+    },
+    {
+      "code": "8444",
+      "name": "Ka 1.5 Sedan SE 12V Flex 4p Aut."
+    },
+    {
+      "code": "8445",
+      "name": "Ka 1.5 Sedan SE 12V Flex 4p Mec."
+    },
+    {
+      "code": "8446",
+      "name": "Ka 1.5 Sedan SE Plus 12V Flex 4p Aut."
+    },
+    {
+      "code": "8447",
+      "name": "Ka 1.5 Sedan SE Plus 12V Flex 4p Mec."
+    },
+    {
+      "code": "8746",
+      "name": "Ka 1.5 Sedan SEL 12V Flex 4p Aut."
+    },
+    {
+      "code": "8448",
+      "name": "Ka 1.5 Sedan SEL 12V Flex 4p Mec."
+    },
+    {
+      "code": "8403",
+      "name": "Ka 1.5 Sedan TITANIUM 12V Flex 4p Aut."
+    },
+    {
+      "code": "8449",
+      "name": "Ka 1.5 TITANIUM 12V Flex 5p Aut."
+    },
+    {
+      "code": "4515",
+      "name": "Ka 1.6 8V Flex 3p"
+    },
+    {
+      "code": "4790",
+      "name": "Ka 1.6 TECNO 8V Flex 3p"
+    },
+    {
+      "code": "814",
+      "name": "Ka Action 1.6 MPI 8V 95cv"
+    },
+    {
+      "code": "815",
+      "name": "Ka Black 1.0 MPI 8v 65cv"
+    },
+    {
+      "code": "816",
+      "name": "Ka Black 1.6 MPI 8v 95cv"
+    },
+    {
+      "code": "817",
+      "name": "Ka CLX 1.3i 3p"
+    },
+    {
+      "code": "818",
+      "name": "Ka GL 1.0i Zetec Rocam"
+    },
+    {
+      "code": "819",
+      "name": "Ka GL Image 1.0i/ 1.0i Zetec Rocam"
+    },
+    {
+      "code": "820",
+      "name": "Ka Image 1.0i"
+    },
+    {
+      "code": "3887",
+      "name": "Ka MP3 1.0 MPI 8V 65cv"
+    },
+    {
+      "code": "3888",
+      "name": "Ka MP3 1.6 MPI 8V 95cv"
+    },
+    {
+      "code": "6917",
+      "name": "Ka SEL 1.5 16V Flex 5p"
+    },
+    {
+      "code": "5623",
+      "name": "Ka Sport 1.6 8V Flex 3p"
+    },
+    {
+      "code": "821",
+      "name": "Ka Street 1.0i"
+    },
+    {
+      "code": "822",
+      "name": "Ka Tecno 1.0i 8v Zetec Rocam"
+    },
+    {
+      "code": "7905",
+      "name": "Ka TRAIL 1.0 12V Flex Mec. 5p"
+    },
+    {
+      "code": "7904",
+      "name": "Ka TRAIL 1.5 16V Flex Mec. 5p"
+    },
+    {
+      "code": "823",
+      "name": "Ka XR 1.6 MPI 8V"
+    },
+    {
+      "code": "6919",
+      "name": "Ka+ Sedan 1.0 SE/SE PLUS TiVCT Flex 4p"
+    },
+    {
+      "code": "6918",
+      "name": "Ka+ Sedan 1.0 SEL TiCVT Flex 4p"
+    },
+    {
+      "code": "8123",
+      "name": "Ka+ Sedan 1.5 ADVANCED 16V Flex 4p"
+    },
+    {
+      "code": "6920",
+      "name": "Ka+ Sedan 1.5 SE/SE PLUS 16V Flex 4p"
+    },
+    {
+      "code": "6921",
+      "name": "Ka+ Sedan 1.5 SEL 16V Flex 4p"
+    },
+    {
+      "code": "11505",
+      "name": "Maverick L. Black 2.0 EcoBoost AWD Aut."
+    },
+    {
+      "code": "9744",
+      "name": "Maverick Lariat FX4 2.0 EcoBoost Aut."
+    },
+    {
+      "code": "11775",
+      "name": "Maverick Lariat Hybrid 2.5 AWD Aut."
+    },
+    {
+      "code": "11776",
+      "name": "Maverick Lariat Hybrid 2.5 FWD Aut."
+    },
+    {
+      "code": "11506",
+      "name": "Maverick Tremor 2.0 EcoBoost 4WD Aut."
+    },
+    {
+      "code": "824",
+      "name": "Mondeo CLX 1.8 4p e 5p"
+    },
+    {
+      "code": "825",
+      "name": "Mondeo CLX 1.8i SW"
+    },
+    {
+      "code": "826",
+      "name": "Mondeo CLX 2.0i 4p Aut"
+    },
+    {
+      "code": "827",
+      "name": "Mondeo CLX 2.0i 4p Mec"
+    },
+    {
+      "code": "828",
+      "name": "Mondeo CLX 2.0i SW Aut"
+    },
+    {
+      "code": "829",
+      "name": "Mondeo CLX 2.0i SW Mec"
+    },
+    {
+      "code": "830",
+      "name": "Mondeo Ghia 2.0 16V 143cv 4p Aut"
+    },
+    {
+      "code": "831",
+      "name": "Mondeo Ghia 2.0 16V 143cv 4p Mec"
+    },
+    {
+      "code": "832",
+      "name": "Mondeo Ghia 2.5 V6 Aut"
+    },
+    {
+      "code": "833",
+      "name": "Mondeo Ghia 2.5 V6 Mec"
+    },
+    {
+      "code": "834",
+      "name": "Mondeo GLX 2.0 16V 4p Aut"
+    },
+    {
+      "code": "835",
+      "name": "Mondeo GLX 2.0 4p e 5p"
+    },
+    {
+      "code": "836",
+      "name": "Mondeo GLX 2.0i SW Mec./ Aut."
+    },
+    {
+      "code": "837",
+      "name": "Mustang 3.8 V6"
+    },
+    {
+      "code": "838",
+      "name": "Mustang 3.8 V6 Conv."
+    },
+    {
+      "code": "8987",
+      "name": "Mustang Black Shadow 5.0 V8"
+    },
+    {
+      "code": "839",
+      "name": "Mustang Cobra 5.7 V8"
+    },
+    {
+      "code": "11612",
+      "name": "Mustang Dark Horse 5.0 V8 Aut."
+    },
+    {
+      "code": "11613",
+      "name": "Mustang GT Performance 5.0 V8 Aut."
+    },
+    {
+      "code": "11614",
+      "name": "Mustang GT Performance 5.0 V8 Mec."
+    },
+    {
+      "code": "8238",
+      "name": "Mustang GT Premium 5.0 V8"
+    },
+    {
+      "code": "840",
+      "name": "Mustang GT V8"
+    },
+    {
+      "code": "841",
+      "name": "Mustang GT V8 Conversível"
+    },
+    {
+      "code": "9354",
+      "name": "Mustang MACH 1 5.0 V8"
+    },
+    {
+      "code": "10868",
+      "name": "Mustang Mach-E GT Performance (Elétrico)"
+    },
+    {
+      "code": "842",
+      "name": "Pampa 4x4 Jeep GL / L 1.6"
+    },
+    {
+      "code": "843",
+      "name": "Pampa Ghia 1.6/1.8/DUO"
+    },
+    {
+      "code": "844",
+      "name": "Pampa GL 1.6/ 1.8"
+    },
+    {
+      "code": "845",
+      "name": "Pampa L 1.6"
+    },
+    {
+      "code": "846",
+      "name": "Pampa L 1.8i / 1.8"
+    },
+    {
+      "code": "847",
+      "name": "Pampa S 1.8"
+    },
+    {
+      "code": "848",
+      "name": "Probe 2.0/2.2"
+    },
+    {
+      "code": "849",
+      "name": "Probe GT 2.5 V6"
+    },
+    {
+      "code": "850",
+      "name": "Ranger 2.5 4x2 CD TB Diesel"
+    },
+    {
+      "code": "851",
+      "name": "Ranger 2.5 4x2 CE Diesel"
+    },
+    {
+      "code": "852",
+      "name": "Ranger 2.5 4x2 TB Diesel"
+    },
+    {
+      "code": "853",
+      "name": "Ranger 2.5 4x4 CD TB Diesel"
+    },
+    {
+      "code": "854",
+      "name": "Ranger 2.5 4x4 CE TB Diesel"
+    },
+    {
+      "code": "855",
+      "name": "Ranger 2.5 4x4 TB Diesel"
+    },
+    {
+      "code": "856",
+      "name": "Ranger 2.5i CD"
+    },
+    {
+      "code": "857",
+      "name": "Ranger 2.5i CE"
+    },
+    {
+      "code": "858",
+      "name": "Ranger 2.5i CS"
+    },
+    {
+      "code": "11234",
+      "name": "Ranger Black 2.0 4x2 CD TB Diesel Aut."
+    },
+    {
+      "code": "9359",
+      "name": "Ranger Black 2.2 4x2 CD Diesel Aut."
+    },
+    {
+      "code": "9772",
+      "name": "Ranger FX4 3.2 20V 4x4 CD Diesel Aut."
+    },
+    {
+      "code": "4998",
+      "name": "Ranger Limited 2.3 150cv CD"
+    },
+    {
+      "code": "6163",
+      "name": "Ranger Limited 2.5 16V 4x2 CD Flex"
+    },
+    {
+      "code": "859",
+      "name": "Ranger Limited 3.0 PSE 4x4 CD TB Diesel"
+    },
+    {
+      "code": "10761",
+      "name": "Ranger Limited 3.0 V6 4x4 CD TB Die. Aut"
+    },
+    {
+      "code": "10741",
+      "name": "Ranger Limited 3.2 4x4 CD Diesel Aut."
+    },
+    {
+      "code": "10762",
+      "name": "Ranger Limited+ 3.0 V6 4x4 CD TB Die Aut"
+    },
+    {
+      "code": "10891",
+      "name": "Ranger Raptor 3.0 V6 Bi-Turbo 4WD AUT."
+    },
+    {
+      "code": "860",
+      "name": "Ranger Splash CE"
+    },
+    {
+      "code": "861",
+      "name": "Ranger Splash CS"
+    },
+    {
+      "code": "6746",
+      "name": "Ranger SPORT 2.5 Flex 16V 4x2 CS"
+    },
+    {
+      "code": "8079",
+      "name": "Ranger SPORTRAC 2.2 16V 4x4 CD Dies Aut."
+    },
+    {
+      "code": "9080",
+      "name": "Ranger Storm 3.2 20V 4x4 CD Diesel Aut."
+    },
+    {
+      "code": "862",
+      "name": "Ranger STX 4.0 CS/ CE"
+    },
+    {
+      "code": "6525",
+      "name": "Ranger TROPICAB 2.5 16V 4X2 Flex"
+    },
+    {
+      "code": "6526",
+      "name": "Ranger TROPICAB 3.2 20V 4X4 TB Diesel"
+    },
+    {
+      "code": "6527",
+      "name": "Ranger TROPIVAN 2.5 16V 4X2 Flex"
+    },
+    {
+      "code": "6528",
+      "name": "Ranger TROPIVAN 3.2 20V 4X4 TB Dies.Aut."
+    },
+    {
+      "code": "6529",
+      "name": "Ranger TROPIVAN 3.2 20V 4X4 TB Diesel"
+    },
+    {
+      "code": "5365",
+      "name": "Ranger TROPIVAN XLT 2.3 16V 150cv"
+    },
+    {
+      "code": "5366",
+      "name": "Ranger TROPIVAN XLT 3.0 PSE 4x2 TB Dies."
+    },
+    {
+      "code": "5367",
+      "name": "Ranger TROPIVAN XLT 3.0 PSE 4x4 TB Dies."
+    },
+    {
+      "code": "10828",
+      "name": "Ranger XL 2.0 4x4 CD Diesel Mec. "
+    },
+    {
+      "code": "7688",
+      "name": "Ranger XL 2.2 4x4 CD Diesel Mec."
+    },
+    {
+      "code": "7882",
+      "name": "Ranger XL 2.2 4x4 CS Diesel Mec."
+    },
+    {
+      "code": "863",
+      "name": "Ranger XL 2.3 16v 137cv 4x2 CD Repower."
+    },
+    {
+      "code": "864",
+      "name": "Ranger XL 2.3 16v 137cv 4x2 CE Repower."
+    },
+    {
+      "code": "865",
+      "name": "Ranger XL 2.3 16v 137cv 4x2 CS Repower."
+    },
+    {
+      "code": "866",
+      "name": "Ranger XL 2.3 CS"
+    },
+    {
+      "code": "867",
+      "name": "Ranger XL 2.8 8v 135cv 4x2 CD TB Diesel"
+    },
+    {
+      "code": "868",
+      "name": "Ranger XL 2.8 8v 135cv 4x2 CE TB Diesel"
+    },
+    {
+      "code": "869",
+      "name": "Ranger XL 2.8 8v 135cv 4x2 CS TB Diesel"
+    },
+    {
+      "code": "870",
+      "name": "Ranger XL 2.8 8v 135cv 4x4 CD TB Diesel"
+    },
+    {
+      "code": "871",
+      "name": "Ranger XL 2.8 8v 135cv 4x4 CE TB Diesel"
+    },
+    {
+      "code": "872",
+      "name": "Ranger XL 2.8 8v 135cv 4x4 CS TB Diesel"
+    },
+    {
+      "code": "3814",
+      "name": "Ranger XL 3.0 PSE 163cv 4x2 CD TB Diesel"
+    },
+    {
+      "code": "3815",
+      "name": "Ranger XL 3.0 PSE 163cv 4x2 CS TB Diesel"
+    },
+    {
+      "code": "3816",
+      "name": "Ranger XL 3.0 PSE 163cv 4x4 CD TB Diesel"
+    },
+    {
+      "code": "3817",
+      "name": "Ranger XL 3.0 PSE 163cv 4x4 CS TB Diesel"
+    },
+    {
+      "code": "873",
+      "name": "Ranger XL 4.0 12v V6 210cv 4x2 CS Repow."
+    },
+    {
+      "code": "874",
+      "name": "Ranger XL 4.0 CS"
+    },
+    {
+      "code": "10829",
+      "name": "Ranger XLS 2.0 4x2 CD Diesel Aut. "
+    },
+    {
+      "code": "10830",
+      "name": "Ranger XLS 2.0 4x4 CD Diesel Aut. "
+    },
+    {
+      "code": "8316",
+      "name": "Ranger XLS 2.2 4x2 CD Diesel Aut."
+    },
+    {
+      "code": "8049",
+      "name": "Ranger XLS 2.2 4x2 CD Diesel Mec."
+    },
+    {
+      "code": "7590",
+      "name": "Ranger XLS 2.2 4x4 CD Diesel Aut."
+    },
+    {
+      "code": "6693",
+      "name": "Ranger XLS 2.2 4x4 CD Diesel Mec."
+    },
+    {
+      "code": "875",
+      "name": "Ranger XLS 2.3 16V 145cv/150cv 4x2 CD"
+    },
+    {
+      "code": "876",
+      "name": "Ranger XLS 2.3 16V 145cv/150cv 4x2 CS"
+    },
+    {
+      "code": "6165",
+      "name": "Ranger XLS 2.5 16V 4x2 CD Flex"
+    },
+    {
+      "code": "6166",
+      "name": "Ranger XLS 2.5 16V 4x2 CS Flex"
+    },
+    {
+      "code": "877",
+      "name": "Ranger XLS 2.8 8V 135cv 4x2 CD TB Diesel"
+    },
+    {
+      "code": "878",
+      "name": "Ranger XLS 2.8 8V 135cv 4x2 CS TB Diesel"
+    },
+    {
+      "code": "879",
+      "name": "Ranger XLS 2.8 8V 135cv 4x4 CS TB Diesel"
+    },
+    {
+      "code": "880",
+      "name": "Ranger XLS 2.8/2.8 Storm  4x4 CD TB Dies"
+    },
+    {
+      "code": "881",
+      "name": "Ranger XLS 3.0 PSE 163cv 4x2 CD TB Dies."
+    },
+    {
+      "code": "882",
+      "name": "Ranger XLS 3.0 PSE 163cv 4x2 CS TB Dies."
+    },
+    {
+      "code": "883",
+      "name": "Ranger XLS 3.0 PSE 163cv 4x4 CD TB Dies."
+    },
+    {
+      "code": "4848",
+      "name": "Ranger XLS 3.0 PSE Storm 4x4 CD TB Dies."
+    },
+    {
+      "code": "10831",
+      "name": "Ranger XLS 3.0 V6 4x4 CD Diesel Aut. "
+    },
+    {
+      "code": "6562",
+      "name": "Ranger XLS 3.2 20V 4x4 CD Diesel Aut."
+    },
+    {
+      "code": "6167",
+      "name": "Ranger XLS 3.2 20V 4x4 CD Diesel Mec."
+    },
+    {
+      "code": "6168",
+      "name": "Ranger XLS 3.2 20V 4x4 CS Diesel"
+    },
+    {
+      "code": "4474",
+      "name": "Ranger XLS SPORT 2.3 16V 150cv CS"
+    },
+    {
+      "code": "4291",
+      "name": "Ranger XLT 2.3 16V 150cv CD Repower."
+    },
+    {
+      "code": "884",
+      "name": "Ranger XLT 2.3 CS"
+    },
+    {
+      "code": "6169",
+      "name": "Ranger XLT 2.5 16V 4x2 CD Flex"
+    },
+    {
+      "code": "885",
+      "name": "Ranger XLT 2.5 4x2 CD Diesel"
+    },
+    {
+      "code": "886",
+      "name": "Ranger XLT 2.5 4x2 CE Diesel"
+    },
+    {
+      "code": "887",
+      "name": "Ranger XLT 2.5 4x2 CS Diesel"
+    },
+    {
+      "code": "888",
+      "name": "Ranger XLT 2.5 4x4 CD Diesel"
+    },
+    {
+      "code": "889",
+      "name": "Ranger XLT 2.5 4x4 CE TB Diesel"
+    },
+    {
+      "code": "890",
+      "name": "Ranger XLT 2.5 4x4 CS TB Diesel"
+    },
+    {
+      "code": "891",
+      "name": "Ranger XLT 2.8 8v 135cv 4x2 CD TB Diesel"
+    },
+    {
+      "code": "892",
+      "name": "Ranger XLT 2.8 8v 135cv 4x4 CD TB Diesel"
+    },
+    {
+      "code": "893",
+      "name": "Ranger XLT 2.8 8v 135cv 4x4 CE TB Diesel"
+    },
+    {
+      "code": "894",
+      "name": "Ranger XLT 3.0 PSE 163cv 4x2 CD TB Dies."
+    },
+    {
+      "code": "895",
+      "name": "Ranger XLT 3.0 PSE 163cv 4x4 CD TB Dies."
+    },
+    {
+      "code": "10763",
+      "name": "Ranger XLT 3.0 V6 4x4 CD TB  Die. Aut."
+    },
+    {
+      "code": "6170",
+      "name": "Ranger XLT 3.2 20V 4x4 CD Diesel"
+    },
+    {
+      "code": "6171",
+      "name": "Ranger XLT 3.2 20V 4x4 CD Diesel Aut."
+    },
+    {
+      "code": "896",
+      "name": "Ranger XLT 4.0 12v V6 210cv 4x4 CD Repow"
+    },
+    {
+      "code": "897",
+      "name": "Ranger XLT 4.0 12v V6 210cv 4x4 CE Repow"
+    },
+    {
+      "code": "898",
+      "name": "Ranger XLT 4.0 4x2 CE"
+    },
+    {
+      "code": "899",
+      "name": "Ranger XLT 4.0 4x2 CS"
+    },
+    {
+      "code": "900",
+      "name": "Ranger XLT 4.0 4x4 CD"
+    },
+    {
+      "code": "901",
+      "name": "Ranger XLT 4.0 4x4 CE"
+    },
+    {
+      "code": "902",
+      "name": "Ranger XLT 4.0 4x4 CS"
+    },
+    {
+      "code": "903",
+      "name": "Ranger XLT Limit./L.Cent. 2.8 CD TB Dies"
+    },
+    {
+      "code": "904",
+      "name": "Royale Ghia 2.0/2.0i 2p e 4p"
+    },
+    {
+      "code": "905",
+      "name": "Royale GL 1.8/1.8i  2p e 4p"
+    },
+    {
+      "code": "906",
+      "name": "Royale GL 2.0/2.0i 2p e 4p"
+    },
+    {
+      "code": "907",
+      "name": "Taurus GL 3.0 V6"
+    },
+    {
+      "code": "908",
+      "name": "Taurus GL SW 3.0 V6 24V"
+    },
+    {
+      "code": "909",
+      "name": "Taurus L/LX 3.0 V6"
+    },
+    {
+      "code": "910",
+      "name": "Taurus LX SW 3.0 V6 24V"
+    },
+    {
+      "code": "911",
+      "name": "Taurus SHO 3.0 V6"
+    },
+    {
+      "code": "9163",
+      "name": "TERRITORY SEL 1.5 GTDi EcoBoost Aut."
+    },
+    {
+      "code": "9164",
+      "name": "TERRITORY Titanium 1.5 GTDi EcoBo. Aut."
+    },
+    {
+      "code": "912",
+      "name": "Thunderbird SC 3.8 V6"
+    },
+    {
+      "code": "6202",
+      "name": "TRANSIT Chassi 2.2 TDCI Diesel"
+    },
+    {
+      "code": "5247",
+      "name": "TRANSIT Chassi 2.4 TDCI Diesel"
+    },
+    {
+      "code": "11110",
+      "name": "TRANSIT Chassi 350E 2.0 EcoBlue Diesel"
+    },
+    {
+      "code": "11111",
+      "name": "TRANSIT Chassi 470E 2.0 EcoBlue Diesel"
+    },
+    {
+      "code": "10638",
+      "name": "TRANSIT Furgão 2.0 Longo Turbo Die Aut."
+    },
+    {
+      "code": "9840",
+      "name": "TRANSIT Furgão 2.0 Longo Turbo Diesel "
+    },
+    {
+      "code": "11653",
+      "name": "TRANSIT Furgão 2.0 Medio Turbo Aut."
+    },
+    {
+      "code": "11470",
+      "name": "TRANSIT Furgão 2.0 Medio Turbo Diesel"
+    },
+    {
+      "code": "6383",
+      "name": "TRANSIT Furgão 2.2 TDCI Curto Diesel"
+    },
+    {
+      "code": "6296",
+      "name": "TRANSIT Furgão 2.2 TDCI Longa Diesel"
+    },
+    {
+      "code": "5884",
+      "name": "TRANSIT Furgão 2.2 TDCI Longo Jumbo Dies"
+    },
+    {
+      "code": "4838",
+      "name": "TRANSIT Furgão 3330 2.4 TDCI Curto Dies."
+    },
+    {
+      "code": "4839",
+      "name": "TRANSIT Furgão 3550 2.4 TDCI Longo Dies."
+    },
+    {
+      "code": "10639",
+      "name": "TRANSIT Minibus 15 Lug. 2.0 16V Die Aut."
+    },
+    {
+      "code": "9650",
+      "name": "TRANSIT Minibus 15 Lug. 2.0 16V Diesel"
+    },
+    {
+      "code": "10640",
+      "name": "TRANSIT Minibus 18 Lug. 2.0 16V Die Aut."
+    },
+    {
+      "code": "9651",
+      "name": "TRANSIT Minibus 18 Lug. 2.0 16V Diesel"
+    },
+    {
+      "code": "10641",
+      "name": "TRANSIT Minibus Vidrada 2.0 16V Die Aut."
+    },
+    {
+      "code": "9652",
+      "name": "TRANSIT Minibus Vidrada 2.0 16V Diesel"
+    },
+    {
+      "code": "6203",
+      "name": "TRANSIT Van 3550 2.2 TDCI 14/16lug. Dies"
+    },
+    {
+      "code": "4840",
+      "name": "TRANSIT Van 3550 2.4 TDCI 14lug. Diesel"
+    },
+    {
+      "code": "913",
+      "name": "Verona Ghia 2.0i 4p"
+    },
+    {
+      "code": "914",
+      "name": "Verona GL 1.8i / LX 1.8i 4p"
+    },
+    {
+      "code": "915",
+      "name": "Verona GLX 1.8 (Modelo antigo)"
+    },
+    {
+      "code": "916",
+      "name": "Verona GLX 1.8i / 1.8 4p"
+    },
+    {
+      "code": "917",
+      "name": "Verona GLX 2.0i / 2.0 4p"
+    },
+    {
+      "code": "918",
+      "name": "Verona LX 1.6 (Modelo antigo)"
+    },
+    {
+      "code": "919",
+      "name": "Verona LX 1.8 (Modelo antigo)"
+    },
+    {
+      "code": "920",
+      "name": "Verona S 2.0i 4p"
+    },
+    {
+      "code": "921",
+      "name": "Versailles Ghia 2.0i / 2.0 2p e 4p"
+    },
+    {
+      "code": "922",
+      "name": "Versailles GL 1.8i / 1.8 2p e 4p"
+    },
+    {
+      "code": "923",
+      "name": "Versailles GL 2.0i / 2.0 2p e 4p"
+    },
+    {
+      "code": "924",
+      "name": "Windstar GL"
+    },
+    {
+      "code": "925",
+      "name": "Windstar LX"
+    }
+  ]
+}

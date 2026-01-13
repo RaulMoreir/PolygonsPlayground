@@ -1,0 +1,693 @@
+{
+  "fipeModelCode" : 58,
+  "models": [
+    {
+      "code": "2296",
+      "name": "440 Turbo 1.8"
+    },
+    {
+      "code": "2297",
+      "name": "460 GLT 2.0/ Turbo 1.8"
+    },
+    {
+      "code": "2298",
+      "name": "850 GLE 2.5 20V"
+    },
+    {
+      "code": "2299",
+      "name": "850 GLE SW 20V"
+    },
+    {
+      "code": "2300",
+      "name": "850 GLT 2.5 20V"
+    },
+    {
+      "code": "2301",
+      "name": "850 GLT SW 2.5 20V"
+    },
+    {
+      "code": "2302",
+      "name": "850 R SW 2.3 Turbo"
+    },
+    {
+      "code": "2303",
+      "name": "850 Sedan"
+    },
+    {
+      "code": "2304",
+      "name": "850 T-5 SW 2.5 BI-Turbo/ 2.3 Turbo"
+    },
+    {
+      "code": "2305",
+      "name": "850 TURBO 20V/ R Turbo 2.3"
+    },
+    {
+      "code": "2306",
+      "name": "940 Turbo/ SW Turbo 3.0"
+    },
+    {
+      "code": "2307",
+      "name": "960 Sedan"
+    },
+    {
+      "code": "4319",
+      "name": "C30 2.0 145cv"
+    },
+    {
+      "code": "4320",
+      "name": "C30 2.4 170cv Aut"
+    },
+    {
+      "code": "4321",
+      "name": "C30 T-5 2.5 220/ 230cv Aut."
+    },
+    {
+      "code": "4418",
+      "name": "C30 T-5 2.5 230cv Mec."
+    },
+    {
+      "code": "5475",
+      "name": "C30 T-5 R-DESIGN 2.5 230cv Aut."
+    },
+    {
+      "code": "9968",
+      "name": "C40 Pure  (Elétrico)"
+    },
+    {
+      "code": "10876",
+      "name": "C40 Recharge Plus (Elétrico)"
+    },
+    {
+      "code": "10196",
+      "name": "C40 Twin Ultimate (Elétrico)"
+    },
+    {
+      "code": "2308",
+      "name": "C70 Cabriolet"
+    },
+    {
+      "code": "2309",
+      "name": "C70 Cupê"
+    },
+    {
+      "code": "11712",
+      "name": "EC40 Black Edition Ultra AWD P8"
+    },
+    {
+      "code": "11369",
+      "name": "EC40 Plus P6 (Elétrico)"
+    },
+    {
+      "code": "11713",
+      "name": "EC40 Ultra AWD P8 (Elétrico)"
+    },
+    {
+      "code": "11044",
+      "name": "EX30 E40 Core (Elétrico)"
+    },
+    {
+      "code": "11045",
+      "name": "EX30 E60 Core (Elétrico)"
+    },
+    {
+      "code": "11714",
+      "name": "EX30 E60 Cross Country AWD"
+    },
+    {
+      "code": "11046",
+      "name": "EX30 E60 Plus (Elétrico)"
+    },
+    {
+      "code": "11047",
+      "name": "EX30 E60 Ultra (Elétrico)"
+    },
+    {
+      "code": "11715",
+      "name": "EX40 Black Edition Ultra AWD P8"
+    },
+    {
+      "code": "11374",
+      "name": "EX40 Plus P6 (Elétrico)"
+    },
+    {
+      "code": "11716",
+      "name": "EX40 Ultra P8 AWD (Elétrico)"
+    },
+    {
+      "code": "11375",
+      "name": "EX90 Twin Ultra AWD (Elétrico)"
+    },
+    {
+      "code": "2310",
+      "name": "S40 1.8 Aut."
+    },
+    {
+      "code": "2311",
+      "name": "S40 1.8 Mec."
+    },
+    {
+      "code": "2312",
+      "name": "S40 2.0 Aut."
+    },
+    {
+      "code": "2313",
+      "name": "S40 2.0 Mec."
+    },
+    {
+      "code": "2314",
+      "name": "S40 2.0 T"
+    },
+    {
+      "code": "4127",
+      "name": "S40 2.4 140cv Aut."
+    },
+    {
+      "code": "2315",
+      "name": "S40 2.4 170cv Aut."
+    },
+    {
+      "code": "2316",
+      "name": "S40 T 2.0  Turbo Aut."
+    },
+    {
+      "code": "2317",
+      "name": "S40 T-4"
+    },
+    {
+      "code": "2318",
+      "name": "S40 T-4 ARM Aut."
+    },
+    {
+      "code": "2319",
+      "name": "S40 T-4 ARM Mec."
+    },
+    {
+      "code": "2320",
+      "name": "S40 T-5 2.5 220/230cv Aut."
+    },
+    {
+      "code": "2321",
+      "name": "S60 R 2.5 300cv Aut."
+    },
+    {
+      "code": "2322",
+      "name": "S60 R 2.5 300cv Mec."
+    },
+    {
+      "code": "2323",
+      "name": "S60 T 2.0 4p"
+    },
+    {
+      "code": "2324",
+      "name": "S60 T 2.4/ 2.5"
+    },
+    {
+      "code": "5491",
+      "name": "S60 T-4 1.6 180cv 4p"
+    },
+    {
+      "code": "7777",
+      "name": "S60 T-4 KINETIC 2.0 190cv 4p"
+    },
+    {
+      "code": "7778",
+      "name": "S60 T-4 MOMENTUM 2.0 190cv 4p"
+    },
+    {
+      "code": "5492",
+      "name": "S60 T-5 2.0 240cv 4p"
+    },
+    {
+      "code": "2325",
+      "name": "S60 T-5 2.3"
+    },
+    {
+      "code": "8875",
+      "name": "S60 T-5 INSCRIPTION 2.0 254cv 4p"
+    },
+    {
+      "code": "7170",
+      "name": "S60 T-5 KINETIC 2.0 245cv 4p"
+    },
+    {
+      "code": "7171",
+      "name": "S60 T-5 MOMENTUM 2.0 245cv 4p"
+    },
+    {
+      "code": "6485",
+      "name": "S60 T-5 R-DESIGN 2.0 240cv 4p"
+    },
+    {
+      "code": "5493",
+      "name": "S60 T-6 3.0 304cv AWD 4p"
+    },
+    {
+      "code": "7362",
+      "name": "S60 T-6 R-DESIGN 2.0 306cv FWD 4p"
+    },
+    {
+      "code": "5653",
+      "name": "S60 T-6 R-DESIGN 3.0 AWD 4p"
+    },
+    {
+      "code": "9917",
+      "name": "S60 T8 POLESTAR 2.0  (Híbrido)"
+    },
+    {
+      "code": "9916",
+      "name": "S60 T-8 R-DESIGN 2.0 407cv (Híbrido)"
+    },
+    {
+      "code": "2326",
+      "name": "S70 2.5"
+    },
+    {
+      "code": "2327",
+      "name": "S70 2.5 Aut."
+    },
+    {
+      "code": "2328",
+      "name": "S70 R"
+    },
+    {
+      "code": "2329",
+      "name": "S70 R Aut."
+    },
+    {
+      "code": "2330",
+      "name": "S70 T-5 2.3"
+    },
+    {
+      "code": "2331",
+      "name": "S80 2.9"
+    },
+    {
+      "code": "2332",
+      "name": "S80 2.9 ARM"
+    },
+    {
+      "code": "4248",
+      "name": "S80 3.2 238cv Aut."
+    },
+    {
+      "code": "4249",
+      "name": "S80 4.4 V8 315cv AWD Aut."
+    },
+    {
+      "code": "2333",
+      "name": "S80 T6 2.8 BI-Turbo"
+    },
+    {
+      "code": "2334",
+      "name": "S80 T6 2.8 BI-Turbo ARM"
+    },
+    {
+      "code": "2335",
+      "name": "S80 T-6 Executive 2.8"
+    },
+    {
+      "code": "2336",
+      "name": "S80 T-6 Executive ARM 2.8 24v"
+    },
+    {
+      "code": "9918",
+      "name": "S90 T-8  INSCRIPT 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "2337",
+      "name": "V40 1.8 Aut."
+    },
+    {
+      "code": "2338",
+      "name": "V40 1.8 Mec."
+    },
+    {
+      "code": "2339",
+      "name": "V40 2.0"
+    },
+    {
+      "code": "2340",
+      "name": "V40 2.0 Aut."
+    },
+    {
+      "code": "2341",
+      "name": "V40 2.0 Turbo"
+    },
+    {
+      "code": "7363",
+      "name": "V40 T-3 KINETIC 1.5 Aut."
+    },
+    {
+      "code": "2342",
+      "name": "V40 T-4"
+    },
+    {
+      "code": "2344",
+      "name": "V40 T-4 2.0 Aut./Mec."
+    },
+    {
+      "code": "2343",
+      "name": "V40 T-4 ARM Aut."
+    },
+    {
+      "code": "7779",
+      "name": "V40 T-4 Cross Country 2.0 FWD Aut."
+    },
+    {
+      "code": "7713",
+      "name": "V40 T-4 KINETIC 2.0 Aut."
+    },
+    {
+      "code": "7364",
+      "name": "V40 T-4 MOMENTUM 2.0 Aut."
+    },
+    {
+      "code": "6759",
+      "name": "V40 T-5 Cross Country 2.0 Awd Aut."
+    },
+    {
+      "code": "6599",
+      "name": "V40 T-5 R-DESIGN 2.0 Aut."
+    },
+    {
+      "code": "4628",
+      "name": "V50 2.4 20V 140cv Aut."
+    },
+    {
+      "code": "2345",
+      "name": "V50 2.4 20V 170cv Aut."
+    },
+    {
+      "code": "2346",
+      "name": "V50 T-5 2.5 220cv Aut."
+    },
+    {
+      "code": "7852",
+      "name": "V60 T-4 KINETIC 2.0 190cv 5p"
+    },
+    {
+      "code": "7780",
+      "name": "V60 T-4 MOMENTUM 2.0 190cv 5p"
+    },
+    {
+      "code": "7233",
+      "name": "V60 T-5 KINETIC 2.0 245cv 5p"
+    },
+    {
+      "code": "7234",
+      "name": "V60 T-5 MOMENTUM 2.0  5p"
+    },
+    {
+      "code": "11069",
+      "name": "V60 T-5 R-DESIGN 2.0 5p"
+    },
+    {
+      "code": "7437",
+      "name": "V60 T-6 R-DESIGN 2.0 FWD 4p"
+    },
+    {
+      "code": "6217",
+      "name": "V60 T-6 R-DESIGN 3.0 AWD 4p"
+    },
+    {
+      "code": "2347",
+      "name": "V70 2.5"
+    },
+    {
+      "code": "2348",
+      "name": "V70 Cross Country 2.4"
+    },
+    {
+      "code": "2349",
+      "name": "V70 R 2.5 300cv AWD Aut."
+    },
+    {
+      "code": "2350",
+      "name": "V70 R 2.5 300cv AWD Mec."
+    },
+    {
+      "code": "2351",
+      "name": "V70 T 2.0 20v 180cv 4p Aut."
+    },
+    {
+      "code": "2352",
+      "name": "V70 T 2.4"
+    },
+    {
+      "code": "2353",
+      "name": "V70 T 2.4/ 2.5 Premium"
+    },
+    {
+      "code": "2354",
+      "name": "V70 T5 2.3"
+    },
+    {
+      "code": "2355",
+      "name": "V70 XC/ XC 70"
+    },
+    {
+      "code": "10080",
+      "name": "XC 40 Pure (Elétrico)"
+    },
+    {
+      "code": "10377",
+      "name": "XC 40 Recharge Plus (Elétrico)"
+    },
+    {
+      "code": "8368",
+      "name": "XC 40 T-4 2.0 190cv FWD"
+    },
+    {
+      "code": "9066",
+      "name": "XC 40 T-4 INSCRIPTION 2.0 190cv FWD"
+    },
+    {
+      "code": "9067",
+      "name": "XC 40 T-4 MOMENTUM 2.0 190cv FWD"
+    },
+    {
+      "code": "9928",
+      "name": "XC 40 T-5 INSC. EXPRE. 1.5 FWD (Híbrido)"
+    },
+    {
+      "code": "9929",
+      "name": "XC 40 T-5 INSCRIPTION 1.5 FWD (Híbrido)"
+    },
+    {
+      "code": "8253",
+      "name": "XC 40 T-5 MOMENT FIRST ED. 2.0 252cv AWD"
+    },
+    {
+      "code": "9930",
+      "name": "XC 40 T-5 MOMENTUM 1.5 FWD (Híbrido)"
+    },
+    {
+      "code": "8254",
+      "name": "XC 40 T-5 MOMENTUM 2.0 252cv AWD"
+    },
+    {
+      "code": "9931",
+      "name": "XC 40 T-5 R-DESIGN 1.5 FWD (Híbrido)"
+    },
+    {
+      "code": "8255",
+      "name": "XC 40 T-5 R-DESIGN 2.0 252cv AWD"
+    },
+    {
+      "code": "8256",
+      "name": "XC 40 T-5 R-DESIGN FIR. ED 2.0 252cv AWD"
+    },
+    {
+      "code": "8877",
+      "name": "XC 40 T-5 R-DESIGN SPE. ED 2.0 252cv AWD"
+    },
+    {
+      "code": "9932",
+      "name": "XC 40 Twin Ultimate (Elétrico)"
+    },
+    {
+      "code": "5561",
+      "name": "XC 60 2.0 T5  5p"
+    },
+    {
+      "code": "4816",
+      "name": "XC 60 3.0 AWD 5p"
+    },
+    {
+      "code": "8507",
+      "name": "XC 60 D-5 INSCRIPT 2.0 AWD Diesel 5p"
+    },
+    {
+      "code": "7714",
+      "name": "XC 60 D-5 KINETIC 2.4 AWD Diesel 5p"
+    },
+    {
+      "code": "8485",
+      "name": "XC 60 D-5 MOMENTUM 2.0 AWD Diesel 5p"
+    },
+    {
+      "code": "7715",
+      "name": "XC 60 D-5 MOMENTUM 2.4  AWD Diesel  5p"
+    },
+    {
+      "code": "5459",
+      "name": "XC 60 R-DESIGN 3.0 304cv AWD 5p"
+    },
+    {
+      "code": "7716",
+      "name": "XC 60 T-5 INSCRIPTION 2.0 245 cv FWD 5p"
+    },
+    {
+      "code": "8066",
+      "name": "XC 60 T-5 INSCRIPTION 2.0 AWD 5p"
+    },
+    {
+      "code": "7365",
+      "name": "XC 60 T-5 KINETIC 2.0 245cv FWD 5p"
+    },
+    {
+      "code": "7366",
+      "name": "XC 60 T-5 MOMENTUM 2.0 245cv FWD 5p"
+    },
+    {
+      "code": "8043",
+      "name": "XC 60 T-5 MOMENTUM 2.0 254cv AWD 5p"
+    },
+    {
+      "code": "8044",
+      "name": "XC 60 T-5 R-DESIGN 2.0 AWD 5p"
+    },
+    {
+      "code": "6131",
+      "name": "XC 60 T-5 R-DESIGN 2.0 FWD 5p"
+    },
+    {
+      "code": "7319",
+      "name": "XC 60 T-6  R-DESIGN 2.0 306cv FWD 5p"
+    },
+    {
+      "code": "7291",
+      "name": "XC 60 T-6 INSCRIPTION 2.0 FWD 5p"
+    },
+    {
+      "code": "9933",
+      "name": "XC 60 T-8 INSC. EXPRESS. 2.0 (Híbrido)"
+    },
+    {
+      "code": "9934",
+      "name": "XC 60 T-8 INSCRIPTION 2.0 (Híbrido)"
+    },
+    {
+      "code": "9935",
+      "name": "XC 60 T-8 MOMENTUM 2.0 (Híbrido)"
+    },
+    {
+      "code": "9936",
+      "name": "XC 60 T-8 Plus 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "9937",
+      "name": "XC 60 T-8 Pol. Eng. 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "9938",
+      "name": "XC 60 T-8 POLESTAR 2.0 (Híbrido)"
+    },
+    {
+      "code": "9939",
+      "name": "XC 60 T-8 R-DESIGN 2.0 (Híbrido)"
+    },
+    {
+      "code": "9940",
+      "name": "XC 60 T-8 Ultim.Dark 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "9941",
+      "name": "XC 60 T-8 Ultimate 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "11356",
+      "name": "XC 60 T-8 Ultra 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "11357",
+      "name": "XC 60 T-8 Ultra Dark 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "2356",
+      "name": "XC 90 2.5T 210cv AWD 5p"
+    },
+    {
+      "code": "4450",
+      "name": "XC 90 3.2 238cv AWD 5p"
+    },
+    {
+      "code": "2357",
+      "name": "XC 90 4.4 V8 315cv AWD 5p"
+    },
+    {
+      "code": "7879",
+      "name": "XC 90 D-5 INSCRIPTION 2.0 235cv Dies. 5p"
+    },
+    {
+      "code": "7853",
+      "name": "XC 90 D-5 MOMENTUM 2.0 235cv Diesel 5p"
+    },
+    {
+      "code": "2358",
+      "name": "XC 90 T6 2.9 BI-TB 272cv AWD 5p"
+    },
+    {
+      "code": "7292",
+      "name": "XC 90 T-6 FIRST EDITION 2.0 320cv 5p"
+    },
+    {
+      "code": "7293",
+      "name": "XC 90 T-6 INSCRIPTION 2.0 320CV 5p"
+    },
+    {
+      "code": "7294",
+      "name": "XC 90 T-6 MOMENTUM 2.0 320cv 5P"
+    },
+    {
+      "code": "9942",
+      "name": "XC 90 T-8 EXCELLENCE 2.0 (Híbrido)"
+    },
+    {
+      "code": "9943",
+      "name": "XC 90 T-8 INSC. EXPRESS. 2.0 (Híbrido)"
+    },
+    {
+      "code": "9944",
+      "name": "XC 90 T-8 INSCRIPT 2.0 (Híbrido)"
+    },
+    {
+      "code": "9945",
+      "name": "XC 90 T-8 MOMENTUM 2.0 (Híbrido)"
+    },
+    {
+      "code": "9946",
+      "name": "XC 90 T-8 Plus 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "9947",
+      "name": "XC 90 T-8 R-DESIGN 2.0 (Híbrido)"
+    },
+    {
+      "code": "9948",
+      "name": "XC 90 T-8 Ultim. Dark 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "9949",
+      "name": "XC 90 T-8 Ultimate 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "11303",
+      "name": "XC 90 T-8 Ultra 2.0 AWD (Híbrido)"
+    },
+    {
+      "code": "11304",
+      "name": "XC 90 T-8 Ultra Dark 2.0 AWD (Híbrido)"
+    }
+  ]
+}

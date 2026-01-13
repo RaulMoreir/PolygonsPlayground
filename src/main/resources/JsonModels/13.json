@@ -1,0 +1,977 @@
+{
+  "fipeModelCode" : 13,
+  "models": [
+    {
+      "code": "8737",
+      "name": "AIRCROSS 100 Anos 1.6 Flex 16V Aut."
+    },
+    {
+      "code": "8045",
+      "name": "AIRCROSS BUSINESS 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6418",
+      "name": "AIRCROSS Exc. ATACA. 1.6 Flex 16V 5p Aut"
+    },
+    {
+      "code": "6419",
+      "name": "AIRCROSS Exc. ATACA. 1.6 Flex 16V 5p Mec"
+    },
+    {
+      "code": "5609",
+      "name": "AIRCROSS Exclusive 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "5337",
+      "name": "AIRCROSS Exclusive 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "7420",
+      "name": "AIRCROSS Feel 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "7421",
+      "name": "AIRCROSS Feel 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "5338",
+      "name": "AIRCROSS GL 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "5610",
+      "name": "AIRCROSS GLX 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "5339",
+      "name": "AIRCROSS GLX 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6420",
+      "name": "AIRCROSS GLX ATACAMA 1.6 Flex 16V 5p Aut"
+    },
+    {
+      "code": "6421",
+      "name": "AIRCROSS GLX ATACAMA 1.6 Flex 16V 5p Mec"
+    },
+    {
+      "code": "7422",
+      "name": "AIRCROSS Live 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "7423",
+      "name": "AIRCROSS Live 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "7962",
+      "name": "AIRCROSS Live 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "9585",
+      "name": "AIRCROSS Live Bus. 1.6 Flex 5p Aut."
+    },
+    {
+      "code": "7903",
+      "name": "AIRCROSS SALOMON 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "7897",
+      "name": "AIRCROSS SALOMON 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "7090",
+      "name": "AIRCROSS SALOMON EXCLUSIVE 1.6 Flex Aut."
+    },
+    {
+      "code": "7091",
+      "name": "AIRCROSS SALOMON EXCLUSIVE 1.6 Flex Mec."
+    },
+    {
+      "code": "7092",
+      "name": "AIRCROSS SALOMON TENDANCE 1.6 Flex Aut."
+    },
+    {
+      "code": "7093",
+      "name": "AIRCROSS SALOMON TENDANCE 1.6 Flex Mec."
+    },
+    {
+      "code": "7424",
+      "name": "AIRCROSS Shine 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "7425",
+      "name": "AIRCROSS Start 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "7963",
+      "name": "AIRCROSS Start 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6770",
+      "name": "AIRCROSS TENDANCE 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "6771",
+      "name": "AIRCROSS TENDANCE 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "283",
+      "name": "AX GTi"
+    },
+    {
+      "code": "11631",
+      "name": "BASALT Dark Edition 1.0 TB 200 5p Aut."
+    },
+    {
+      "code": "11214",
+      "name": "BASALT Feel 1.0 Flex 6V 5p Mec."
+    },
+    {
+      "code": "11215",
+      "name": "BASALT Feel 1.0 Flex TB 200 5p Aut."
+    },
+    {
+      "code": "11216",
+      "name": "BASALT First Edit.1.0 Flex TB 200 5p Aut"
+    },
+    {
+      "code": "11217",
+      "name": "BASALT Shine 1.0 Flex TB 200 5p Aut."
+    },
+    {
+      "code": "8391",
+      "name": "Berlingo Furgão 1.6 16V Flex 5P"
+    },
+    {
+      "code": "285",
+      "name": "Berlingo MultSpace GLX 1.6 16V 110cv 4p"
+    },
+    {
+      "code": "284",
+      "name": "Berlingo MultSpace GLX 1.8i 3p"
+    },
+    {
+      "code": "286",
+      "name": "Berlingo MultSpace GLX 1.8i 4p"
+    },
+    {
+      "code": "287",
+      "name": "BX 1.6S 16V"
+    },
+    {
+      "code": "288",
+      "name": "BX GTi 1.9"
+    },
+    {
+      "code": "8738",
+      "name": "C3 100 Anos 1.6 16V Flex Aut."
+    },
+    {
+      "code": "10961",
+      "name": "C3 AIRCROSS F. Pack 1.0 Flex TB 200 Aut."
+    },
+    {
+      "code": "10962",
+      "name": "C3 AIRCROSS Feel 1.0 Flex Turbo 200 Aut."
+    },
+    {
+      "code": "10963",
+      "name": "C3 AIRCROSS Shine 1.0 Flex TB 200 Aut."
+    },
+    {
+      "code": "11096",
+      "name": "C3 AIRCROSS7 F. Pack 1.0 Flex TB 200 Aut"
+    },
+    {
+      "code": "11097",
+      "name": "C3 AIRCROSS7 Feel 1.0 Flex TB. 200 Aut."
+    },
+    {
+      "code": "11098",
+      "name": "C3 AIRCROSS7 Shine 1.0 Flex TB 200 Aut."
+    },
+    {
+      "code": "11632",
+      "name": "C3 AIRCROSS7 XTR 1.0 TB. 200 Aut."
+    },
+    {
+      "code": "6835",
+      "name": "C3 Attra/Origine Pack 1.5 Flex 8V 5p Mec"
+    },
+    {
+      "code": "7964",
+      "name": "C3 Attraction 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "7585",
+      "name": "C3 Attraction Pure Tech 1.2 Flex 12V Mec"
+    },
+    {
+      "code": "6152",
+      "name": "C3 Excl. 1.6 VTi Flex Start 16V 5p Aut."
+    },
+    {
+      "code": "6153",
+      "name": "C3 Excl. 1.6 VTi Flex Start 16V 5p Mec."
+    },
+    {
+      "code": "4761",
+      "name": "C3 Excl./Excl.Solar./Sonora 1.6 Flex Aut"
+    },
+    {
+      "code": "289",
+      "name": "C3 Exclus./Excl.Solaris 1.6 Flex 16V Mec"
+    },
+    {
+      "code": "4315",
+      "name": "C3 Exclusive 1.4 Flex 8V 5p"
+    },
+    {
+      "code": "6772",
+      "name": "C3 Exclusive 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "9346",
+      "name": "C3 Exclusive Bus. 1.6 Flex 5p Aut."
+    },
+    {
+      "code": "10091",
+      "name": "C3 Feel 1.0 Flex 6V 5p Mec."
+    },
+    {
+      "code": "10092",
+      "name": "C3 Feel 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "10093",
+      "name": "C3 Feel Pack 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "10094",
+      "name": "C3 First Edition 1.0 Flex 6V 5p Mec."
+    },
+    {
+      "code": "10095",
+      "name": "C3 First Edition 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "290",
+      "name": "C3 GLX 1.4/ GLX Sonora 1.4 Flex 8V 5p"
+    },
+    {
+      "code": "4762",
+      "name": "C3 GLX 1.6 Flex 16V 5p  Aut."
+    },
+    {
+      "code": "291",
+      "name": "C3 GLX 1.6/ 1.6 Flex 16V 5p"
+    },
+    {
+      "code": "10096",
+      "name": "C3 Live 1.0 Flex 6V 5p Mec."
+    },
+    {
+      "code": "10097",
+      "name": "C3 Live Pack 1.0 Flex 6V 5p Mec."
+    },
+    {
+      "code": "10945",
+      "name": "C3 Live Pack 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "292",
+      "name": "C3 Ocimar Versolato 1.6 16V 110cv 5p"
+    },
+    {
+      "code": "6154",
+      "name": "C3 Origine 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "7586",
+      "name": "C3 Origine Pure Tech 1.2 Flex 12V Mec"
+    },
+    {
+      "code": "5611",
+      "name": "C3 Picasso Excl. 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "5551",
+      "name": "C3 Picasso Exclusive 1.6 Flex 16V 5p Mec"
+    },
+    {
+      "code": "6092",
+      "name": "C3 Picasso GL 1.5 Flex 8V Mec."
+    },
+    {
+      "code": "5552",
+      "name": "C3 Picasso GL 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6093",
+      "name": "C3 Picasso GLX 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "5612",
+      "name": "C3 Picasso GLX 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "5553",
+      "name": "C3 Picasso GLX 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6773",
+      "name": "C3 Picasso Origine 1.5 Flex 8V Mec."
+    },
+    {
+      "code": "6774",
+      "name": "C3 Picasso Tendance 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "6775",
+      "name": "C3 Picasso Tendance 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "8003",
+      "name": "C3 Start 1.2 Flex 12V 5p"
+    },
+    {
+      "code": "7730",
+      "name": "C3 Style Ed. Pure Tech 1.2 Flex 12V Mec."
+    },
+    {
+      "code": "7731",
+      "name": "C3 Style Edition 1.6 Flex 16V Aut."
+    },
+    {
+      "code": "6155",
+      "name": "C3 Tendance 1.5 Flex 8V 5p Mec."
+    },
+    {
+      "code": "6776",
+      "name": "C3 Tendance 1.6 VTi Flex Start 16V Aut."
+    },
+    {
+      "code": "7587",
+      "name": "C3 Tendance Pure Tech 1.2 Flex 12V Mec."
+    },
+    {
+      "code": "8341",
+      "name": "C3 Urban Trail 1.6 Flex 16V 5p Aut."
+    },
+    {
+      "code": "8882",
+      "name": "C3 Urban Trail P.Tech 1.2 Flex 12V Mec."
+    },
+    {
+      "code": "6777",
+      "name": "C3 X-BOX ONE 1.6 VTi Flex 16V 5p Mec."
+    },
+    {
+      "code": "11633",
+      "name": "C3 XTR 1.0 8V 5p"
+    },
+    {
+      "code": "4302",
+      "name": "C3 XTR 1.4 Flex 8V 5p"
+    },
+    {
+      "code": "4054",
+      "name": "C3 XTR 1.6 Flex 16V 5p"
+    },
+    {
+      "code": "11176",
+      "name": "C3 YOU! 1.0 Flex Turbo 200 Aut."
+    },
+    {
+      "code": "8739",
+      "name": "C4 CACTUS 100 Anos 1.6 TB 16V Flex Aut."
+    },
+    {
+      "code": "9207",
+      "name": "C4 CACTUS C-SERIES 1.6 16V Flex Aut."
+    },
+    {
+      "code": "8466",
+      "name": "C4 CACTUS FEEL 1.6 16V Flex Aut."
+    },
+    {
+      "code": "8467",
+      "name": "C4 CACTUS FEEL 1.6 16V Flex Mec."
+    },
+    {
+      "code": "9586",
+      "name": "C4 CACTUS FEEL Bus. 1.6 Flex Aut."
+    },
+    {
+      "code": "8469",
+      "name": "C4 CACTUS FEEL Pack 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9191",
+      "name": "C4 CACTUS LIVE 1.6 16V Flex Aut."
+    },
+    {
+      "code": "8470",
+      "name": "C4 CACTUS LIVE 1.6 16V Flex Mec."
+    },
+    {
+      "code": "10807",
+      "name": "C4 CACTUS NOIR 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "9453",
+      "name": "C4 CACTUS Rip Curl 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9757",
+      "name": "C4 CACTUS SHINE 1.6 16V Flex Aut."
+    },
+    {
+      "code": "8471",
+      "name": "C4 CACTUS SHINE 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "8472",
+      "name": "C4 CACTUS SHINE Pack 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "9609",
+      "name": "C4 CACTUS X-Series 1.6 16V Flex Aut."
+    },
+    {
+      "code": "6574",
+      "name": "C4 Competition 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6559",
+      "name": "C4 Competition 2.0 Flex 16V 5p Aut."
+    },
+    {
+      "code": "4888",
+      "name": "C4 Excl./Excl. Solar. 2.0 Flex 16V Mec."
+    },
+    {
+      "code": "4845",
+      "name": "C4 Excl.2.0/2.0 Solaris Flex 16V 5p Aut."
+    },
+    {
+      "code": "4846",
+      "name": "C4 GLX 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "4847",
+      "name": "C4 GLX 2.0 Flex 16V 5p Aut."
+    },
+    {
+      "code": "4889",
+      "name": "C4 GLX 2.0 Flex 16V 5p Mec."
+    },
+    {
+      "code": "8740",
+      "name": "C4 LOUNGE 100 Anos 1.6 16V TB Flex Aut."
+    },
+    {
+      "code": "6575",
+      "name": "C4 LOUNGE Exclusive 1.6 Turbo 4p Aut."
+    },
+    {
+      "code": "7094",
+      "name": "C4 LOUNGE Exclusive 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "6576",
+      "name": "C4 LOUNGE Exclusive 2.0 Flex 4p Aut."
+    },
+    {
+      "code": "8234",
+      "name": "C4 LOUNGE Feel 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "8515",
+      "name": "C4 LOUNGE Live 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "9347",
+      "name": "C4 LOUNGE Live Bus. 1.6 Flex Aut."
+    },
+    {
+      "code": "7658",
+      "name": "C4 LOUNGE Orig.Business 1.6 TB Flex Aut."
+    },
+    {
+      "code": "7684",
+      "name": "C4 LOUNGE Origine 1.6 Turbo Flex  Aut."
+    },
+    {
+      "code": "7685",
+      "name": "C4 LOUNGE Origine 1.6 Turbo Flex Mec."
+    },
+    {
+      "code": "7370",
+      "name": "C4 LOUNGE Origine 2.0 Flex 4p Aut."
+    },
+    {
+      "code": "6577",
+      "name": "C4 LOUNGE Origine 2.0 Flex 4p Mec."
+    },
+    {
+      "code": "7787",
+      "name": "C4 LOUNGE S 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "8235",
+      "name": "C4 LOUNGE Shine 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "6884",
+      "name": "C4 LOUNGE Tendance 1.6 Turbo 4p Aut"
+    },
+    {
+      "code": "7118",
+      "name": "C4 LOUNGE Tendance 1.6 Turbo Flex Aut."
+    },
+    {
+      "code": "6578",
+      "name": "C4 LOUNGE Tendance 2.0 Flex 4p Aut."
+    },
+    {
+      "code": "6579",
+      "name": "C4 LOUNGE Tendance 2.0 Flex 4p Mec."
+    },
+    {
+      "code": "4397",
+      "name": "C4 PAL.Excl/Excl(Tech.) 2.0/2.0 Flex Aut"
+    },
+    {
+      "code": "4398",
+      "name": "C4 PALLAS Exclusive 2.0/2.0 Flex 16V Mec"
+    },
+    {
+      "code": "4399",
+      "name": "C4 PALLAS GLX 2.0/ 2.0 Flex Aut."
+    },
+    {
+      "code": "4400",
+      "name": "C4 PALLAS GLX 2.0/2.0 Flex 16V Mec."
+    },
+    {
+      "code": "7426",
+      "name": "C4 Picasso Intensive 1.6 Turbo 16V Aut."
+    },
+    {
+      "code": "7427",
+      "name": "C4 Picasso Seduction 1.6 Turbo 16V Aut."
+    },
+    {
+      "code": "4824",
+      "name": "C4 Picasso/Pic. La Luna 2.0 16V  Aut."
+    },
+    {
+      "code": "6580",
+      "name": "C4 Rock You 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6737",
+      "name": "C4 Tendance 1.6 Flex 16V 5p Mec."
+    },
+    {
+      "code": "6738",
+      "name": "C4 Tendance 2.0 Flex 16V 5p Aut."
+    },
+    {
+      "code": "4159",
+      "name": "C4 VTR 2.0 16V 143cv"
+    },
+    {
+      "code": "293",
+      "name": "C5 3.0 24V 210cv 4p Aut."
+    },
+    {
+      "code": "294",
+      "name": "C5 Exclusive 2.0 16V 138cv 4p Mec."
+    },
+    {
+      "code": "295",
+      "name": "C5 Exclusive 2.0 16V 4p Aut."
+    },
+    {
+      "code": "296",
+      "name": "C5 Exclusive Break 2.0 16V 138cv 5p Mec."
+    },
+    {
+      "code": "297",
+      "name": "C5 Exclusive Break 2.0 16V Aut."
+    },
+    {
+      "code": "4937",
+      "name": "C5 Tourer Exclusive 2.0 16V 5p Aut."
+    },
+    {
+      "code": "4328",
+      "name": "C6 Exclusive 3.0 V6 24V 215cv Aut."
+    },
+    {
+      "code": "298",
+      "name": "C8 Exclusive 2.0 16V 138cv 5p Aut."
+    },
+    {
+      "code": "6050",
+      "name": "DS3 1.6 Turbo 16V 3p Mec."
+    },
+    {
+      "code": "7067",
+      "name": "DS3 Sport Chic 1.6 TB 16V 3p Mec."
+    },
+    {
+      "code": "7068",
+      "name": "DS4 1.6 Chic Turbo 16V 5p Aut."
+    },
+    {
+      "code": "7069",
+      "name": "DS4 1.6 So Chic Turbo 16V 5p Aut."
+    },
+    {
+      "code": "6347",
+      "name": "DS4 1.6 Turbo 16V 5p Aut."
+    },
+    {
+      "code": "7095",
+      "name": "DS5 1.6 Be Chic Turbo 16V 5p Aut."
+    },
+    {
+      "code": "7096",
+      "name": "DS5 1.6 So Chic Turbo 16V 5p Aut."
+    },
+    {
+      "code": "6295",
+      "name": "DS5 1.6 Turbo 16V 5p Aut."
+    },
+    {
+      "code": "9759",
+      "name": "Ë-Jumpy Cargo 136cv (Elétrico)"
+    },
+    {
+      "code": "299",
+      "name": "Evasion  GLX 2.0 16V"
+    },
+    {
+      "code": "300",
+      "name": "Evasion VSX Turbo"
+    },
+    {
+      "code": "10777",
+      "name": "Grand C4 Picasso 2.0 16V 143cv Aut"
+    },
+    {
+      "code": "7588",
+      "name": "Grand C4 Picasso Intensive 1.6 TB Aut."
+    },
+    {
+      "code": "7589",
+      "name": "Grand C4 Picasso Seduction 1.6 TB Aut."
+    },
+    {
+      "code": "9556",
+      "name": "Jumper 2.0 Cargo Furgão 16V TB Diesel"
+    },
+    {
+      "code": "8516",
+      "name": "Jumper 2.0 FurgãoTurbo Diesel"
+    },
+    {
+      "code": "8883",
+      "name": "Jumper 2.0 Minibus 16L Turbo Diesel"
+    },
+    {
+      "code": "5103",
+      "name": "Jumper 2.3 15/16Lug. TB Diesel"
+    },
+    {
+      "code": "5140",
+      "name": "Jumper 2.3 Furgão TB Diesel"
+    },
+    {
+      "code": "5659",
+      "name": "Jumper 2.3 Vetrato Exec. 16Lug. TB Dies."
+    },
+    {
+      "code": "5411",
+      "name": "Jumper 2.3 Vetrato TB Diesel"
+    },
+    {
+      "code": "301",
+      "name": "Jumper 2.5 Diesel"
+    },
+    {
+      "code": "302",
+      "name": "Jumper 2.8 16Lug.  Diesel"
+    },
+    {
+      "code": "303",
+      "name": "Jumper 2.8 Furgão 35C Diesel"
+    },
+    {
+      "code": "304",
+      "name": "Jumper 2.8 Furgão 35MH Diesel"
+    },
+    {
+      "code": "9763",
+      "name": "Jumper Cargo 2.2 Turbo Diesel"
+    },
+    {
+      "code": "9764",
+      "name": "Jumper Furgão 2.2 Turbo Diesel"
+    },
+    {
+      "code": "11267",
+      "name": "Jumper Minibus Executive 2.2 17L Dies. "
+    },
+    {
+      "code": "11377",
+      "name": "Jumper Vitré 2.2 Turbo Diesel"
+    },
+    {
+      "code": "8078",
+      "name": "Jumpy 1.6  Furgão Pack Turbo Diesel"
+    },
+    {
+      "code": "8077",
+      "name": "Jumpy 1.6  Furgão Turbo Diesel"
+    },
+    {
+      "code": "8342",
+      "name": "Jumpy 1.6 Minibus Turbo Diesel"
+    },
+    {
+      "code": "11646",
+      "name": "Jumpy 2.2  Cargo Turbo"
+    },
+    {
+      "code": "11647",
+      "name": "Jumpy 2.2  Vitré Turbo"
+    },
+    {
+      "code": "9741",
+      "name": "Jumpy Cargo 1.5 Turbo Diesel"
+    },
+    {
+      "code": "9742",
+      "name": "Jumpy Vitré 1.5 Turbo Diesel"
+    },
+    {
+      "code": "9192",
+      "name": "Jumpy VITRÉ 1.6 Turbo Diesel"
+    },
+    {
+      "code": "305",
+      "name": "Xantia 2.0  16V"
+    },
+    {
+      "code": "306",
+      "name": "Xantia Activa 2.0"
+    },
+    {
+      "code": "307",
+      "name": "Xantia Activa 2.0 TB"
+    },
+    {
+      "code": "308",
+      "name": "Xantia Activa 3.0 V6 Mec"
+    },
+    {
+      "code": "309",
+      "name": "Xantia Break 2.0 8V/GLX 2.0 16V Aut"
+    },
+    {
+      "code": "310",
+      "name": "Xantia Break GLX 2.0 16V Mec."
+    },
+    {
+      "code": "311",
+      "name": "Xantia Exclusive 2.0 16V"
+    },
+    {
+      "code": "312",
+      "name": "Xantia Exclusive 3.0 V6"
+    },
+    {
+      "code": "313",
+      "name": "Xantia GLX 2.0 16V Aut."
+    },
+    {
+      "code": "314",
+      "name": "Xantia GLX 2.0 16V Mec."
+    },
+    {
+      "code": "315",
+      "name": "Xantia SX 1.8"
+    },
+    {
+      "code": "316",
+      "name": "Xantia SX 2.0 8V/16V Mec./Aut."
+    },
+    {
+      "code": "317",
+      "name": "Xantia VSX 2.0"
+    },
+    {
+      "code": "318",
+      "name": "Xantia VSX 2.0 16V"
+    },
+    {
+      "code": "319",
+      "name": "XM Exclusive 12v"
+    },
+    {
+      "code": "320",
+      "name": "XM Exclusive 24V"
+    },
+    {
+      "code": "321",
+      "name": "XM Exclusive Break"
+    },
+    {
+      "code": "322",
+      "name": "XM Sensation 2.0 TB"
+    },
+    {
+      "code": "323",
+      "name": "Xsara Break Exclusive 1.6 16V 5p Aut."
+    },
+    {
+      "code": "324",
+      "name": "Xsara Break Exclusive 1.6 16V 5p Mec."
+    },
+    {
+      "code": "325",
+      "name": "Xsara Break Exclusive 1.8 16V"
+    },
+    {
+      "code": "326",
+      "name": "Xsara Break Exclusive 2.0 16V"
+    },
+    {
+      "code": "327",
+      "name": "Xsara Break GLX 1.6 16V 5p Aut."
+    },
+    {
+      "code": "328",
+      "name": "Xsara Break GLX 1.6 16V 5p Mec."
+    },
+    {
+      "code": "329",
+      "name": "Xsara Break GLX 1.8 16V"
+    },
+    {
+      "code": "330",
+      "name": "Xsara Break GLX/ Paris 2.0 16V"
+    },
+    {
+      "code": "331",
+      "name": "Xsara Exclusive 1.6 16V 5p Aut."
+    },
+    {
+      "code": "332",
+      "name": "Xsara Exclusive 1.6 16V 5p Mec."
+    },
+    {
+      "code": "333",
+      "name": "Xsara Exclusive 1.8 8V/16V 5p Aut."
+    },
+    {
+      "code": "334",
+      "name": "Xsara Exclusive 1.8 8V/16V 5p Mec."
+    },
+    {
+      "code": "335",
+      "name": "Xsara Exclusive 2.0 16V"
+    },
+    {
+      "code": "336",
+      "name": "Xsara GLX 1.6 16V 3p"
+    },
+    {
+      "code": "337",
+      "name": "Xsara GLX 1.6 16V 5p Aut."
+    },
+    {
+      "code": "338",
+      "name": "Xsara GLX 1.6 16V 5p Mec."
+    },
+    {
+      "code": "339",
+      "name": "Xsara GLX 1.8 16V 5p Mec."
+    },
+    {
+      "code": "340",
+      "name": "Xsara GLX 1.8 16V Cupê Mec."
+    },
+    {
+      "code": "341",
+      "name": "Xsara GLX 1.8 8V 5p Aut."
+    },
+    {
+      "code": "342",
+      "name": "Xsara GLX 1.8 8V Cupê Aut."
+    },
+    {
+      "code": "343",
+      "name": "Xsara GLX/ Paris 2.0 16V"
+    },
+    {
+      "code": "344",
+      "name": "Xsara Picasso Exc./Etoile 2.0 16V Mec."
+    },
+    {
+      "code": "3930",
+      "name": "Xsara Picasso Exclus. 1.6/ 1.6 Flex 16V"
+    },
+    {
+      "code": "345",
+      "name": "Xsara Picasso Exclusive 2.0 16V Aut."
+    },
+    {
+      "code": "347",
+      "name": "Xsara Picasso GLX 1.6/ 1.6 Flex 16V"
+    },
+    {
+      "code": "348",
+      "name": "Xsara Picasso GLX 2.0 16V  Aut."
+    },
+    {
+      "code": "346",
+      "name": "Xsara Picasso GLX/Brasil/Etoile 2.0 Mec."
+    },
+    {
+      "code": "349",
+      "name": "Xsara VTS 1.6 16V 3p"
+    },
+    {
+      "code": "350",
+      "name": "Xsara VTS 1.8 16V"
+    },
+    {
+      "code": "351",
+      "name": "Xsara VTS 2.0  16V Cupê Mec."
+    },
+    {
+      "code": "352",
+      "name": "ZX Cupê 16V"
+    },
+    {
+      "code": "353",
+      "name": "ZX Dakar 2.0 16V"
+    },
+    {
+      "code": "354",
+      "name": "ZX Furio"
+    },
+    {
+      "code": "355",
+      "name": "ZX Paris 1.8"
+    },
+    {
+      "code": "356",
+      "name": "ZX Volcane 3p e 5p"
+    }
+  ]
+}

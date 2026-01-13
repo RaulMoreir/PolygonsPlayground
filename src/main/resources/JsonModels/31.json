@@ -1,0 +1,397 @@
+{
+  "fipeModelCode" : 31,
+  "models": [
+    {
+      "code": "1390",
+      "name": "Besta EST 2.7 Diesel (10/12lug.)"
+    },
+    {
+      "code": "1391",
+      "name": "Besta EST Full 2.7 Diesel (10/12lug.)"
+    },
+    {
+      "code": "1392",
+      "name": "Besta Furgão 2.2 Diesel"
+    },
+    {
+      "code": "1393",
+      "name": "Besta Furgão 2.7 Diesel"
+    },
+    {
+      "code": "1394",
+      "name": "Besta Furgão Grand 3.0 Diesel"
+    },
+    {
+      "code": "1395",
+      "name": "Besta GS 2.7 8V 12L Diesel"
+    },
+    {
+      "code": "1396",
+      "name": "Besta GS Full 2.7 Diesel"
+    },
+    {
+      "code": "1397",
+      "name": "Besta GS Grand 3.0 8V 16L Diesel"
+    },
+    {
+      "code": "1398",
+      "name": "Besta ST 2.2 Diesel (12lug.)"
+    },
+    {
+      "code": "1399",
+      "name": "Bongo K-2400 2.4 Diesel"
+    },
+    {
+      "code": "4476",
+      "name": "Bongo K-2500 2.5 4x2 TB Diesel"
+    },
+    {
+      "code": "10625",
+      "name": "Bongo K-2500 2.5 4x4 TB Diesel"
+    },
+    {
+      "code": "1400",
+      "name": "Bongo K-2700 2.7 4x2/4x4 Diesel"
+    },
+    {
+      "code": "4140",
+      "name": "Bongo K-2700 2.7 4x4 Basculante Diesel"
+    },
+    {
+      "code": "1401",
+      "name": "Bongo K-2700 2.7 4x4 CD Diesel"
+    },
+    {
+      "code": "1402",
+      "name": "Bongo K-3500/K-3600/110 3.6 Diesel"
+    },
+    {
+      "code": "5417",
+      "name": "CADENZA EX 3.5 V6 24V Aut."
+    },
+    {
+      "code": "4684",
+      "name": "Carens EX 2.0 16V  Aut."
+    },
+    {
+      "code": "1403",
+      "name": "Carens LS 1.8 16V 130cv Aut."
+    },
+    {
+      "code": "1404",
+      "name": "Carens LS 1.8 16V 130cv Mec."
+    },
+    {
+      "code": "1405",
+      "name": "Carnival 2.5 V6"
+    },
+    {
+      "code": "11099",
+      "name": "Carnival EX 3.5 V6 24V 276/272cv Aut."
+    },
+    {
+      "code": "4119",
+      "name": "Carnival EX 3.8 V6 24V 242cv Aut."
+    },
+    {
+      "code": "1406",
+      "name": "Carnival GS 2.9 TDI 16V 125cv Diesel"
+    },
+    {
+      "code": "6441",
+      "name": "Cerato 1.6 16 V Flex Mec."
+    },
+    {
+      "code": "6442",
+      "name": "Cerato 1.6 16V  Flex  Aut."
+    },
+    {
+      "code": "4440",
+      "name": "Cerato 1.6 16V Aut."
+    },
+    {
+      "code": "3936",
+      "name": "Cerato 1.6 16V Mec."
+    },
+    {
+      "code": "3937",
+      "name": "Cerato 2.0 16V Aut."
+    },
+    {
+      "code": "8861",
+      "name": "Cerato EX 2.0 16V Flex Aut."
+    },
+    {
+      "code": "5581",
+      "name": "Cerato KOUP 2.0 16V Aut."
+    },
+    {
+      "code": "8862",
+      "name": "Cerato SX 2.0 16V Flex Aut."
+    },
+    {
+      "code": "1407",
+      "name": "Ceres Pick-Up 2.2 Diesel"
+    },
+    {
+      "code": "1408",
+      "name": "Clarus GLX 2.0 16V Aut."
+    },
+    {
+      "code": "1409",
+      "name": "Clarus GLX 2.0 16V Mec"
+    },
+    {
+      "code": "1410",
+      "name": "Clarus Wagon GLX 2.0 16V Aut."
+    },
+    {
+      "code": "1411",
+      "name": "Clarus Wagon GLX 2.0 16V Mec."
+    },
+    {
+      "code": "11188",
+      "name": "EV5 Land (Elétrico)"
+    },
+    {
+      "code": "11373",
+      "name": "EV9 GTL (Elétrico)"
+    },
+    {
+      "code": "7351",
+      "name": "Grand Carnival EX 3.3 V6 24V 270cv Aut."
+    },
+    {
+      "code": "4121",
+      "name": "Magentis EX 2.0 16V Aut."
+    },
+    {
+      "code": "4425",
+      "name": "Magentis LX 2.0 16V Aut"
+    },
+    {
+      "code": "4891",
+      "name": "MOHAVE EX 3.0 V6 24V 256cv TB Dies. Aut."
+    },
+    {
+      "code": "4863",
+      "name": "MOHAVE EX 3.8 V6 24V 275cv 4x4 Aut."
+    },
+    {
+      "code": "4999",
+      "name": "MOHAVE EX 4.6 V8 32V 340cv 4x4 Aut."
+    },
+    {
+      "code": "10104",
+      "name": "Niro EX 1.6 GDI  (Híbrido) "
+    },
+    {
+      "code": "10105",
+      "name": "Niro SX Prestige 1.6 GDI (Híbrido)"
+    },
+    {
+      "code": "10928",
+      "name": "Niro SX Rio Limited Edt 1.6 GDI  (Híb.) "
+    },
+    {
+      "code": "1412",
+      "name": "Opirus GL 3.5 V6 24V 202cv Aut."
+    },
+    {
+      "code": "4441",
+      "name": "Opirus GL 3.8 V6 24V 267cv Aut."
+    },
+    {
+      "code": "6891",
+      "name": "OPTIMA 2.0 16V 165cv Aut."
+    },
+    {
+      "code": "5934",
+      "name": "OPTIMA 2.4 16V 180cv Aut."
+    },
+    {
+      "code": "4141",
+      "name": "Picanto EX 1.1/1.0/ 1.0 Flex Aut."
+    },
+    {
+      "code": "4142",
+      "name": "Picanto EX 1.1/1.0/ 1.0 Flex Mec."
+    },
+    {
+      "code": "8213",
+      "name": "Picanto GT 1.0 12V Flex Aut."
+    },
+    {
+      "code": "7073",
+      "name": "QUORIS EX 3.8 V6 24V 294cv Aut."
+    },
+    {
+      "code": "8990",
+      "name": "RIO EX 1.6 Flex Aut."
+    },
+    {
+      "code": "8991",
+      "name": "RIO LX 1.6 Flex Aut."
+    },
+    {
+      "code": "1413",
+      "name": "Sephia GTX 1.5 16V"
+    },
+    {
+      "code": "1414",
+      "name": "Sephia GTX 1.6"
+    },
+    {
+      "code": "1415",
+      "name": "Sephia LS 1.5 16V Aut."
+    },
+    {
+      "code": "1416",
+      "name": "Sephia LS 1.5 16V Mec."
+    },
+    {
+      "code": "1417",
+      "name": "Sephia SLX"
+    },
+    {
+      "code": "1418",
+      "name": "Shuma LS 1.5 16V Aut."
+    },
+    {
+      "code": "1419",
+      "name": "Shuma LS 1.5 16V Mec."
+    },
+    {
+      "code": "5249",
+      "name": "Sorento 2.4 16V 4x2 Aut."
+    },
+    {
+      "code": "5250",
+      "name": "Sorento 2.4 16V 4x4 Aut."
+    },
+    {
+      "code": "7352",
+      "name": "Sorento 3.3 V6 24V 270cv 4x2 Aut."
+    },
+    {
+      "code": "5251",
+      "name": "Sorento 3.5 V6 24V 4x2 Aut."
+    },
+    {
+      "code": "5252",
+      "name": "Sorento 3.5 V6 24V 4x4 Aut."
+    },
+    {
+      "code": "1420",
+      "name": "Sorento EX 2.5 140/170cv 4x4 Aut.Diesel"
+    },
+    {
+      "code": "3970",
+      "name": "Sorento EX 2.5 16V 4x4 Mec. Diesel"
+    },
+    {
+      "code": "1421",
+      "name": "Sorento EX 3.5 V6 24V 197cv 4x4 Aut."
+    },
+    {
+      "code": "4293",
+      "name": "Sorento EX 3.8 V6 24V 267cv 4x4 Aut."
+    },
+    {
+      "code": "1422",
+      "name": "Sorento LX 2.5 16V 140cv 4x4 Aut. Diesel"
+    },
+    {
+      "code": "1423",
+      "name": "Sorento LX 2.5 16V 140cv 4x4 Mec. Diesel"
+    },
+    {
+      "code": "4977",
+      "name": "SOUL 1.6/ 1.6 16V FLEX Aut."
+    },
+    {
+      "code": "4978",
+      "name": "SOUL 1.6/ 1.6 16V FLEX Mec."
+    },
+    {
+      "code": "1424",
+      "name": "Sportage 2.0 16V Aut."
+    },
+    {
+      "code": "1425",
+      "name": "Sportage 2.0 8V TB-IC Diesel"
+    },
+    {
+      "code": "1426",
+      "name": "Sportage DLX 2.0 16V Aut."
+    },
+    {
+      "code": "1427",
+      "name": "Sportage DLX 2.0 16V Mec."
+    },
+    {
+      "code": "1428",
+      "name": "Sportage DLX 2.2 Diesel Mec"
+    },
+    {
+      "code": "10063",
+      "name": "Sportage EX 1.6 T-GDI (Híbrido)"
+    },
+    {
+      "code": "4477",
+      "name": "Sportage EX 2.0 16V Mec."
+    },
+    {
+      "code": "5418",
+      "name": "Sportage EX 2.0 16V/ 2.0 16V Flex Aut."
+    },
+    {
+      "code": "1429",
+      "name": "Sportage EX 2.7 V6 4x4 Aut."
+    },
+    {
+      "code": "10834",
+      "name": "Sportage EX Prestige 1.6 T-GDI (Híbrido)"
+    },
+    {
+      "code": "1430",
+      "name": "Sportage Grand 2.0 16V Aut."
+    },
+    {
+      "code": "1431",
+      "name": "Sportage Grand 2.0 16V Mec."
+    },
+    {
+      "code": "1432",
+      "name": "Sportage Grand 2.0 8V TB-IC Diesel"
+    },
+    {
+      "code": "1433",
+      "name": "Sportage GTE 2.2 4x4 Diesel"
+    },
+    {
+      "code": "1434",
+      "name": "Sportage LX 2.0 16V 142cv 5p"
+    },
+    {
+      "code": "5419",
+      "name": "Sportage LX 2.0 16V/ 2.0 16V Flex  Aut."
+    },
+    {
+      "code": "5420",
+      "name": "Sportage LX 2.0 16V/ 2.0 16V Flex Mec."
+    },
+    {
+      "code": "1435",
+      "name": "Sportage Targa 2.0 16V"
+    },
+    {
+      "code": "8496",
+      "name": "Stinger GT 3.3 V6 Bi-Turbo 370cv Aut."
+    },
+    {
+      "code": "9668",
+      "name": "STONIC SX 1.0 TB Aut. (Híbrido)"
+    }
+  ]
+}

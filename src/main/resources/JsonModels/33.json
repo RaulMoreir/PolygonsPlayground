@@ -1,0 +1,993 @@
+{
+  "fipeModelCode" : 33,
+  "models": [
+    {
+      "code": "11490",
+      "name": "Def. 90 X-DY D350 HSE Die. Aut.( Híb.)"
+    },
+    {
+      "code": "10912",
+      "name": "Defe. 110 X-DY HSE P400e Aut. (Hib.)"
+    },
+    {
+      "code": "10653",
+      "name": "Defe. 110 X-DY SE D300 Die Aut. (Hib.)"
+    },
+    {
+      "code": "11259",
+      "name": "Defe. 110 X-DY.HSE D300 Die Aut. (Híb.)"
+    },
+    {
+      "code": "11260",
+      "name": "Defe. 110 X-DY.HSE D350 Die Aut. (Híb.)"
+    },
+    {
+      "code": "10913",
+      "name": "Defe. 130 Outbound D300 Die. Aut. (Hib.)"
+    },
+    {
+      "code": "10914",
+      "name": "Defe. 130 X-DY S 3.0 I6 Die.Aut.(Hib.)"
+    },
+    {
+      "code": "9136",
+      "name": "Defender 110 2.0 Turbo HSE Si4 Aut."
+    },
+    {
+      "code": "9137",
+      "name": "Defender 110 2.0 Turbo S Si4 Aut."
+    },
+    {
+      "code": "9138",
+      "name": "Defender 110 2.0 Turbo SE Si4 Aut."
+    },
+    {
+      "code": "4532",
+      "name": "Defender 110 2.4 122cv T.Diesel"
+    },
+    {
+      "code": "1443",
+      "name": "Defender 110 2.5 HCPU TDi CS Diesel"
+    },
+    {
+      "code": "1444",
+      "name": "Defender 110 2.5 TDi County Pers. Diesel"
+    },
+    {
+      "code": "1445",
+      "name": "Defender 110 2.5 TDi Hard Top Diesel"
+    },
+    {
+      "code": "1446",
+      "name": "Defender 110 2.5 TDi High Capacity Dies."
+    },
+    {
+      "code": "1447",
+      "name": "Defender 110 2.5 TDi Personel Diesel"
+    },
+    {
+      "code": "10655",
+      "name": "Defender 110 75th 3.0 Diesel Aut. (Hib.)"
+    },
+    {
+      "code": "10656",
+      "name": "Defender 110 HSE D300 Die. Aut.(Híb.)"
+    },
+    {
+      "code": "5072",
+      "name": "Defender 110 LE FIRE & ICE 2.4 T. Diesel"
+    },
+    {
+      "code": "5555",
+      "name": "Defender 110 RAW 2.4 122cv T. Diesel"
+    },
+    {
+      "code": "4811",
+      "name": "Defender 110 SVX Lim.Edit. 2.4 T.Diesel"
+    },
+    {
+      "code": "3971",
+      "name": "Defender 110 TD5 2.5 4x4 Diesel"
+    },
+    {
+      "code": "1448",
+      "name": "Defender 110 TDI County SW Diesel"
+    },
+    {
+      "code": "1449",
+      "name": "Defender 110 TDI SW Diesel"
+    },
+    {
+      "code": "11636",
+      "name": "Defender 110 TROPHY Edition 3.0 D350 4X4 Aut."
+    },
+    {
+      "code": "10657",
+      "name": "Defender 110 X D300  Die. Aut. (Híb.)"
+    },
+    {
+      "code": "11315",
+      "name": "Defender 110 X D350  Die. Aut. (Híb.)"
+    },
+    {
+      "code": "10915",
+      "name": "Defender 110 X P400e Aut. (Hibrido)"
+    },
+    {
+      "code": "10658",
+      "name": "Defender 110 X-DY S D300 Die Aut. (Hib.)"
+    },
+    {
+      "code": "1450",
+      "name": "Defender 130 Chassis CD Diesel"
+    },
+    {
+      "code": "1451",
+      "name": "Defender 130 High CAP Diesel"
+    },
+    {
+      "code": "1452",
+      "name": "Defender 130 TDI CD Diesel"
+    },
+    {
+      "code": "11292",
+      "name": "Defender 130 X 3.0 I6 D350.Aut.(Hibrido)"
+    },
+    {
+      "code": "10367",
+      "name": "Defender 130 X 3.0 I6 Die.Aut.(Hibrido)"
+    },
+    {
+      "code": "9630",
+      "name": "Defender 90 2.0 Turbo SE Si4 Aut."
+    },
+    {
+      "code": "4533",
+      "name": "Defender 90 2.4 122cv T.Diesel"
+    },
+    {
+      "code": "1453",
+      "name": "Defender 90 2.5 TDi CS Diesel"
+    },
+    {
+      "code": "10099",
+      "name": "Defender 90 D300 HSE Diesel Aut.( Hibr.)"
+    },
+    {
+      "code": "10564",
+      "name": "Defender 90 D300 S Diesel Aut. (Hibrido)"
+    },
+    {
+      "code": "5073",
+      "name": "Defender 90 LE FIRE & ICE 2.4 T. Diesel"
+    },
+    {
+      "code": "5556",
+      "name": "Defender 90 RAW 2.4 122cv T.Diesel"
+    },
+    {
+      "code": "1454",
+      "name": "Defender 90 Soft Top Diesel"
+    },
+    {
+      "code": "4812",
+      "name": "Defender 90 SVX Lim.Edit. 2.4 T.Diesel"
+    },
+    {
+      "code": "1455",
+      "name": "Defender 90 TDI CSW Diesel"
+    },
+    {
+      "code": "1456",
+      "name": "Defender 90 TDI Hard Top Diesel"
+    },
+    {
+      "code": "1457",
+      "name": "Defender 90 TDI SW Diesel"
+    },
+    {
+      "code": "9997",
+      "name": "Disc. Sp. S 2.0 4x4 Dies. Aut. (Híb.)"
+    },
+    {
+      "code": "10967",
+      "name": "Disc. Sp. SE Dyn 2.0 D200 Die.Aut.(Híb.)"
+    },
+    {
+      "code": "10916",
+      "name": "Discov. Metrop. Edt. 3.0 4x4 Die. (Híb.)"
+    },
+    {
+      "code": "8241",
+      "name": "Discov. Sp. HSE 2.0 TB 240cv Die. Aut"
+    },
+    {
+      "code": "11316",
+      "name": "Discovery Dyn HSE 3.0 4x4 Die. (Hib.)"
+    },
+    {
+      "code": "1458",
+      "name": "Discovery ES 3.9 V8"
+    },
+    {
+      "code": "1459",
+      "name": "Discovery ES 4.0 V8 Aut."
+    },
+    {
+      "code": "1460",
+      "name": "Discovery ES TD5 2.5 4x4 4p Diesel Aut."
+    },
+    {
+      "code": "1461",
+      "name": "Discovery ES TD5 2.5 4x4 4p Diesel Mec."
+    },
+    {
+      "code": "8015",
+      "name": "Discovery First Ed. 3.0 TD6 4x4 Die. Aut"
+    },
+    {
+      "code": "9348",
+      "name": "Discovery HSE 3.0 I6 Diesel Aut."
+    },
+    {
+      "code": "8408",
+      "name": "Discovery HSE 3.0 V6 4x4 Aut."
+    },
+    {
+      "code": "7973",
+      "name": "Discovery HSE 3.0 V6 4x4 TD6 Diesel Aut."
+    },
+    {
+      "code": "8016",
+      "name": "Discovery HSE Lux. 3.0 TD6 4x4 Die. Aut."
+    },
+    {
+      "code": "8409",
+      "name": "Discovery HSE Lux. 3.0 V6 4x4 Aut."
+    },
+    {
+      "code": "10395",
+      "name": "Discovery R- Dyn HSE 3.0 4x4 Die. (Hib.)"
+    },
+    {
+      "code": "7286",
+      "name": "Discovery RAW 3.0 4x4 TDV6 Diesel Aut."
+    },
+    {
+      "code": "10396",
+      "name": "Discovery R-Dynamic S 3.0 4x4 Die (Hib.)"
+    },
+    {
+      "code": "8410",
+      "name": "Discovery S 3.0 V6 4x4 Aut."
+    },
+    {
+      "code": "8411",
+      "name": "Discovery S 3.0 V6 4x4 TD6 Diesel Aut."
+    },
+    {
+      "code": "9349",
+      "name": "Discovery SE 3.0 I6 Diesel Aut."
+    },
+    {
+      "code": "8412",
+      "name": "Discovery SE 3.0 V6 4x4 Aut."
+    },
+    {
+      "code": "8017",
+      "name": "Discovery SE 3.0 V6 4x4 TD6  Diesel Aut."
+    },
+    {
+      "code": "9999",
+      "name": "Discovery Sp. SE 2.0 4x4 Dies Aut.(Híb.)"
+    },
+    {
+      "code": "10968",
+      "name": "Discovery Sp. SE Dyn 2.0 P250 Flex Aut."
+    },
+    {
+      "code": "11317",
+      "name": "Discovery Sp. SE Dyn 2.0 TB Die.(Híb.)"
+    },
+    {
+      "code": "10000",
+      "name": "Discovery Sp. SE R-Dyn 2.0 TB Die.(Híb.)"
+    },
+    {
+      "code": "7550",
+      "name": "Discovery Sport BLACK 2.2 4x4 Dies. Aut."
+    },
+    {
+      "code": "7192",
+      "name": "Discovery Sport HSE 2.0 4x4 Aut/ Flex"
+    },
+    {
+      "code": "7796",
+      "name": "Discovery Sport HSE 2.0 4x4 Diesel Aut."
+    },
+    {
+      "code": "7392",
+      "name": "Discovery Sport HSE 2.2 4x4 Diesel Aut."
+    },
+    {
+      "code": "7925",
+      "name": "Discovery Sport HSE L. 2.0 4x4 Die. Aut."
+    },
+    {
+      "code": "7457",
+      "name": "Discovery Sport HSE L. 2.2 4x4 Die. Aut."
+    },
+    {
+      "code": "7193",
+      "name": "Discovery Sport HSE Lux. 2.0 4x4 /Flex"
+    },
+    {
+      "code": "8631",
+      "name": "Discovery Sport Landmark 2.0 4x4 Diesel"
+    },
+    {
+      "code": "9022",
+      "name": "Discovery Sport S 2.0 4x4 Flex Aut."
+    },
+    {
+      "code": "7194",
+      "name": "Discovery Sport SE 2.0 4x4 Aut./Flex"
+    },
+    {
+      "code": "7393",
+      "name": "Discovery Sport SE 2.2 4x4 Diesel Aut."
+    },
+    {
+      "code": "9023",
+      "name": "Discovery Sport SE R-Dyn 2.0 Si4 Flex"
+    },
+    {
+      "code": "1462",
+      "name": "Discovery TDI 2.5 Diesel"
+    },
+    {
+      "code": "11637",
+      "name": "Discovery Tempest 3.0 D350 4X4 Aut."
+    },
+    {
+      "code": "1463",
+      "name": "Discovery3 HSE 2.7 4x4 TDI Diesel Aut."
+    },
+    {
+      "code": "1464",
+      "name": "Discovery3 HSE 4.4 V8 4x4 299cv Aut."
+    },
+    {
+      "code": "1465",
+      "name": "Discovery3 S 2.7 4x4 TDI Diesel Aut."
+    },
+    {
+      "code": "4201",
+      "name": "Discovery3 S 4.0 V6 4x4 215cv Aut."
+    },
+    {
+      "code": "4417",
+      "name": "Discovery3 SE 2.7 4x4 TDI Diesel Aut."
+    },
+    {
+      "code": "1466",
+      "name": "Discovery3 SE 4.0 V6 4x4 215cv Aut."
+    },
+    {
+      "code": "5624",
+      "name": "Discovery4 B&W 3.0 4x4 TDV6 Diesel Aut."
+    },
+    {
+      "code": "7353",
+      "name": "Discovery4 BLACK 3.0 4x4 SDV6 Dies. Aut."
+    },
+    {
+      "code": "7704",
+      "name": "Discovery4 GRAPHITE 3.0 4x4 SDV6 Die.Aut"
+    },
+    {
+      "code": "5141",
+      "name": "Discovery4 HSE 2.7 4x4 TDV6 Diesel Aut."
+    },
+    {
+      "code": "5142",
+      "name": "Discovery4 HSE 3.0 4x4 TDV6/SDV6 Die.Aut"
+    },
+    {
+      "code": "5143",
+      "name": "Discovery4 HSE 5.0 4x4 Aut."
+    },
+    {
+      "code": "5131",
+      "name": "Discovery4 S 2.7 4x4 TDV6 Diesel Aut."
+    },
+    {
+      "code": "5899",
+      "name": "Discovery4 S 3.0 4X4 TDV6 Diesel Aut."
+    },
+    {
+      "code": "5109",
+      "name": "Discovery4 SE 2.7 4x4 TDV6 Diesel Aut."
+    },
+    {
+      "code": "5144",
+      "name": "Discovery4 SE 3.0 4x4 TDV6/SDV6 Die.Aut."
+    },
+    {
+      "code": "1467",
+      "name": "Freelander 1.8 16v"
+    },
+    {
+      "code": "1468",
+      "name": "Freelander HSE 2.5 V6 24V 177cv 5p"
+    },
+    {
+      "code": "3823",
+      "name": "Freelander HSE3 2.5 V6 24V 177cv 3p"
+    },
+    {
+      "code": "1469",
+      "name": "Freelander S/ SE 2.5 V6 24V 177cv 5p"
+    },
+    {
+      "code": "1470",
+      "name": "Freelander SE3 2.5 V6 24V 177cv 3p"
+    },
+    {
+      "code": "6177",
+      "name": "Freelander2 Dynamique 2.2 SD4 T. Diesel"
+    },
+    {
+      "code": "5557",
+      "name": "Freelander2 HSE 2.2 SD4 190cv T.Diesel"
+    },
+    {
+      "code": "4303",
+      "name": "Freelander2 I6 HSE 3.2 232cv Aut. 5p"
+    },
+    {
+      "code": "5537",
+      "name": "Freelander2 I6 LE Sport 3.2 232cv Aut. 5"
+    },
+    {
+      "code": "4304",
+      "name": "Freelander2 I6 S 3.2 232cv Aut. 5p"
+    },
+    {
+      "code": "5379",
+      "name": "Freelander2 I6 S Sport 3.2 232cv Aut. 5p"
+    },
+    {
+      "code": "4305",
+      "name": "Freelander2 I6 SE 3.2 232cv Aut. 5p"
+    },
+    {
+      "code": "5558",
+      "name": "Freelander2 S 2.2 SD4 190cv T.Diesel"
+    },
+    {
+      "code": "5559",
+      "name": "Freelander2 SE 2.2 SD4 190cv T.Diesel"
+    },
+    {
+      "code": "6385",
+      "name": "Freelander2 Si4 Dyn. 2.0 240cv Aut. 5p"
+    },
+    {
+      "code": "6386",
+      "name": "Freelander2 Si4 HSE 2.0 240cv Aut. 5p"
+    },
+    {
+      "code": "6387",
+      "name": "Freelander2 Si4 S 2.0 240cv Aut. 5p"
+    },
+    {
+      "code": "6388",
+      "name": "Freelander2 Si4 SE 2.0 240cv Aut. 5p"
+    },
+    {
+      "code": "1471",
+      "name": "New Range/Range Rover Vogue 3.9 V8"
+    },
+    {
+      "code": "10220",
+      "name": "Range R. Autobio. 3.0 I6 TB Die. (Híb.)"
+    },
+    {
+      "code": "11275",
+      "name": "Range R. Autobio. 3.0 I6 TB P550e (Híb.)"
+    },
+    {
+      "code": "8751",
+      "name": "Range R. EVO HSE Si4 R-Dyn.2.0 300cv Aut"
+    },
+    {
+      "code": "8904",
+      "name": "Range R. EVO SE Si4 R-Dyn. 2.0 Flex Aut."
+    },
+    {
+      "code": "11731",
+      "name": "Range R. First Ed.3.0 350cv Die.(Hib.)"
+    },
+    {
+      "code": "10221",
+      "name": "Range R. First.Ed. 4.4 V8 TB 530cv Aut."
+    },
+    {
+      "code": "10673",
+      "name": "Range R. Sp. Dyn. HSE 3.0I6 Die. (Hib.)"
+    },
+    {
+      "code": "11328",
+      "name": "Range R. Sp. Dynam. HSE 3.0  (Híb.)"
+    },
+    {
+      "code": "10675",
+      "name": "Range R. Sp. First Ed. 3.0 510cv (Híb.)"
+    },
+    {
+      "code": "9559",
+      "name": "Range R. Sp.SVR AWD 5.0 Carbon Ed. Aut."
+    },
+    {
+      "code": "6389",
+      "name": "Range R. Sport Autob. 3.0 SDV6 Diesel"
+    },
+    {
+      "code": "10890",
+      "name": "Range R. Sport Autob. 3.0 TB Die. (Híb.)"
+    },
+    {
+      "code": "7139",
+      "name": "Range R. Sport Autob. Dyn.SCHA. 5.0 V8"
+    },
+    {
+      "code": "6390",
+      "name": "Range R. Sport Autob. SUPERCHAR. 5.0 V8"
+    },
+    {
+      "code": "11233",
+      "name": "Range R. Sport Autobio. 3.0 P550e (Híb.)"
+    },
+    {
+      "code": "8459",
+      "name": "Range R. Sport HSE Dyna. 3.0 SDV6 Dies."
+    },
+    {
+      "code": "6641",
+      "name": "Range R. Sport HSE Dynamic SUPERC.5.0 V8"
+    },
+    {
+      "code": "6665",
+      "name": "Range R. Sport HSE SUPERCHARGED 3.0 V6"
+    },
+    {
+      "code": "7483",
+      "name": "Range R. Sport HST SUPERCHARGED 3.0 V6"
+    },
+    {
+      "code": "7764",
+      "name": "Range R. Sport L. Edit. SCHARGED 3.0 V6"
+    },
+    {
+      "code": "7307",
+      "name": "Range R. Sport TECH S 3.0 SDV6 Diesel"
+    },
+    {
+      "code": "9341",
+      "name": "Range R. SV Autob. Sc. Dyn. SWB 5.0 V8"
+    },
+    {
+      "code": "9053",
+      "name": "Range R. SV Autob. Super. LWB 5.0 V8"
+    },
+    {
+      "code": "7667",
+      "name": "Range R. SVAutobiography SUPERC. 5.0 V8"
+    },
+    {
+      "code": "8522",
+      "name": "Range R. VE. R-Dyn HSE 2.0 4X4 300cv Aut"
+    },
+    {
+      "code": "8523",
+      "name": "Range R. VE. R-Dyn S 2.0 4X4 300cv Aut."
+    },
+    {
+      "code": "8095",
+      "name": "Range R. VE. R-Dyn SE 2.0 4x4 250cv Aut."
+    },
+    {
+      "code": "8478",
+      "name": "Range R. VE. R-Dyn SE 2.0 4x4 300cv Aut."
+    },
+    {
+      "code": "10112",
+      "name": "Range R. VEL. R-Dyn HSE 3.0 Aut.(Híb.)"
+    },
+    {
+      "code": "8090",
+      "name": "Range R. VEL. R-Dyn. 2.0 4x4 250cv Aut."
+    },
+    {
+      "code": "8479",
+      "name": "Range R. VEL. R-Dyn. 2.0 4x4 300cv Aut."
+    },
+    {
+      "code": "10407",
+      "name": "Range R. VEL. R-Dyn. HSE 2.0 Aut. (Híb.)"
+    },
+    {
+      "code": "10408",
+      "name": "Range R. VEL. R-Dyn. S 2.0 Aut.(Híbrido)"
+    },
+    {
+      "code": "10409",
+      "name": "Range R. VEL. R-Dyn. SE 3.0 Aut. (Híb.)"
+    },
+    {
+      "code": "8085",
+      "name": "Range R. VELAR 2.0 4x4 TB 250cv Aut."
+    },
+    {
+      "code": "8086",
+      "name": "Range R. VELAR 3.0 4x4 V6 380cv Aut."
+    },
+    {
+      "code": "11463",
+      "name": "Range R. VELAR Autobio. 2.0 P400e (Híb)"
+    },
+    {
+      "code": "8087",
+      "name": "Range R. VELAR First Ed. 3.0 4x4 V6 Aut."
+    },
+    {
+      "code": "8088",
+      "name": "Range R. VELAR HSE 2.0 4x4 TB 250cv Aut."
+    },
+    {
+      "code": "8089",
+      "name": "Range R. VELAR HSE 3.0 4x4 V6 380cv Aut"
+    },
+    {
+      "code": "11276",
+      "name": "Range R. VELAR HSE Dyn 2.0 P400e (Hib.)"
+    },
+    {
+      "code": "10410",
+      "name": "Range R. Velar HSE R-Dyn 2.0 Si4(Hib.)"
+    },
+    {
+      "code": "8091",
+      "name": "Range R. VELAR R-Dyn. 3.0 4x4 V6 Aut."
+    },
+    {
+      "code": "8092",
+      "name": "Range R. VELAR R-Dyn. HSE 2.0 4x4 TB Aut"
+    },
+    {
+      "code": "8093",
+      "name": "Range R. VELAR R-Dyn. HSE 3.0 4x4 V6 Aut"
+    },
+    {
+      "code": "8097",
+      "name": "Range R. VELAR R-Dyn. S 2.0 4x4 TB Aut."
+    },
+    {
+      "code": "8094",
+      "name": "Range R. VELAR R-Dyn. S 3.0 4x4 V6 Aut."
+    },
+    {
+      "code": "8096",
+      "name": "Range R. VELAR R-Dyn. SE 3.0 4x4 V6 Aut."
+    },
+    {
+      "code": "8098",
+      "name": "Range R. VELAR S 2.0 4x4 TB 250cv Aut."
+    },
+    {
+      "code": "8497",
+      "name": "Range R. VELAR S 2.0 4x4 TB 300cv Aut."
+    },
+    {
+      "code": "8099",
+      "name": "Range R. VELAR S 3.0 4x4 V6 380cv Aut."
+    },
+    {
+      "code": "8100",
+      "name": "Range R. VELAR SE 2.0 4x4 TB 250cv Aut."
+    },
+    {
+      "code": "8101",
+      "name": "Range R. VELAR SE 3.0 4x4 V6 380cv Aut."
+    },
+    {
+      "code": "8961",
+      "name": "Range R. VELAR SV Autob. Super.C 5.0 V8"
+    },
+    {
+      "code": "5421",
+      "name": "Range R. Vogue 4.4 TDV8/SDV8 Diesel Aut."
+    },
+    {
+      "code": "6391",
+      "name": "Range R. Vogue Autob. SUPERCHAR. 5.0 V8"
+    },
+    {
+      "code": "6392",
+      "name": "Range R. Vogue/4.4 Autobio. SDV8 Diesel."
+    },
+    {
+      "code": "7354",
+      "name": "Range R.EVO DYNAMIC. BLACK 2.0 Aut. 5p"
+    },
+    {
+      "code": "7355",
+      "name": "Range R.EVO STYLE 2.0 Aut. 5p"
+    },
+    {
+      "code": "7926",
+      "name": "Range R.EVOQ. HSE Dyn. Convers 2.0 Aut."
+    },
+    {
+      "code": "11420",
+      "name": "Range R.EVOQUE Autob. 2.0 P250 Flex Aut"
+    },
+    {
+      "code": "5700",
+      "name": "Range R.EVOQUE Dynamic 2.0 Aut 3p"
+    },
+    {
+      "code": "5701",
+      "name": "Range R.EVOQUE Dynamic 2.0 Aut 5p"
+    },
+    {
+      "code": "5707",
+      "name": "Range R.EVOQUE Dynamic Tech 2.0 Aut 3p"
+    },
+    {
+      "code": "5702",
+      "name": "Range R.EVOQUE Dynamic Tech 2.0 Aut 5p"
+    },
+    {
+      "code": "8214",
+      "name": "Range R.EVOQUE HSE Dyna. 2.0 Dies. Aut."
+    },
+    {
+      "code": "7287",
+      "name": "Range R.EVOQUE LONDON 2.0 240cv Aut. 5p"
+    },
+    {
+      "code": "6697",
+      "name": "Range R.EVOQUE ONE SICILIAN 2.0 Aut. 5p"
+    },
+    {
+      "code": "5703",
+      "name": "Range R.EVOQUE Prestige 2.0 Aut. 5p"
+    },
+    {
+      "code": "6923",
+      "name": "Range R.EVOQUE Prestige 2.2 5p Dies."
+    },
+    {
+      "code": "5704",
+      "name": "Range R.EVOQUE Prestige Tech 2.0 Aut 5p"
+    },
+    {
+      "code": "6924",
+      "name": "Range R.EVOQUE PrestigeTech 2.2 5p Dies."
+    },
+    {
+      "code": "5705",
+      "name": "Range R.EVOQUE Pure  2.0 Aut. 5p"
+    },
+    {
+      "code": "5706",
+      "name": "Range R.EVOQUE Pure 2.0 Aut. 3p"
+    },
+    {
+      "code": "7551",
+      "name": "Range R.EVOQUE SD4 HSE 2.2 Dies. Aut.5p"
+    },
+    {
+      "code": "7374",
+      "name": "Range R.EVOQUE SD4 SE 2.2 Dies. Aut. 5p"
+    },
+    {
+      "code": "7394",
+      "name": "Range R.EVOQUE Si4 HSE Dyn. 2.0/Flex Aut"
+    },
+    {
+      "code": "7375",
+      "name": "Range R.EVOQUE Si4 SE 2.0 Aut.5p/Flex"
+    },
+    {
+      "code": "7395",
+      "name": "Range R.EVOQUE Si4 SE Dynamic 2.0 Aut."
+    },
+    {
+      "code": "10177",
+      "name": "Range R.Sp. First.Ed.4.4 V8 TB 530cv Aut"
+    },
+    {
+      "code": "10053",
+      "name": "Range R.Sp. SE 3.0 4x4 I6 TB Die. (Híb.)"
+    },
+    {
+      "code": "10054",
+      "name": "Range R.Sp.HSE Dyn.Bl. 3.0 I6 Die.(Híb.)"
+    },
+    {
+      "code": "10676",
+      "name": "Range R.Sport First.Ed.3.0 I6 Die.(Hib.)"
+    },
+    {
+      "code": "10055",
+      "name": "Range R.Sport HSE 3.0 I6 TB Die. (Híb.)"
+    },
+    {
+      "code": "7396",
+      "name": "Range R.Sport HSE Dynamic 4.4 SDV8 Dies."
+    },
+    {
+      "code": "5133",
+      "name": "Range R.Sport SE 3.0 4x4 TDV6/SDV6 Dies."
+    },
+    {
+      "code": "10222",
+      "name": "Range Rover Autobio 4.4 V8 TB 530cv Aut."
+    },
+    {
+      "code": "9487",
+      "name": "Range Rover Autobio. 2.0 Si4 (Hibrido)"
+    },
+    {
+      "code": "10677",
+      "name": "Range Rover Autobio.3.0 I6 510cv (Híb.)"
+    },
+    {
+      "code": "8413",
+      "name": "Range Rover EVOQUE Autobiography 2.0 Aut"
+    },
+    {
+      "code": "8498",
+      "name": "Range Rover EVOQUE HSE 2.0 Diesel Aut."
+    },
+    {
+      "code": "6466",
+      "name": "Range Rover EVOQUE Pure Tech 2.0 Aut. 3p"
+    },
+    {
+      "code": "6328",
+      "name": "Range Rover EVOQUE Pure Tech 2.0 Aut. 5p"
+    },
+    {
+      "code": "7798",
+      "name": "Range Rover EVOQUE SE 2.0 Diesel Aut."
+    },
+    {
+      "code": "7121",
+      "name": "Range Rover EVOQUE Zanzibar 2.0 Aut. 5p"
+    },
+    {
+      "code": "10678",
+      "name": "Range Rover HSE 3.0 I6 510cv (Híbrido)"
+    },
+    {
+      "code": "1472",
+      "name": "Range Rover HSE 4.4/ 4.6"
+    },
+    {
+      "code": "10679",
+      "name": "Range Rover SE 3.0 I6 510cv (Híbrido)"
+    },
+    {
+      "code": "10223",
+      "name": "Range Rover SE 4.4 V8 TB 530cv Aut."
+    },
+    {
+      "code": "10224",
+      "name": "Range Rover SE. 3.0 I6 TB Die. (Híb.)"
+    },
+    {
+      "code": "4385",
+      "name": "Range Rover Sport 3.6 TDV8 272cv Diesel"
+    },
+    {
+      "code": "11652",
+      "name": "Range Rover Sport Dynamic HSE 3.0 4X4 P550e"
+    },
+    {
+      "code": "8993",
+      "name": "Range Rover Sport HSE 2.0 Si4 (Híbrido)"
+    },
+    {
+      "code": "3892",
+      "name": "Range Rover Sport HSE 2.7 190cv TB Dies."
+    },
+    {
+      "code": "5145",
+      "name": "Range Rover Sport HSE 3.0 4x4 SDV6 Dies."
+    },
+    {
+      "code": "3824",
+      "name": "Range Rover Sport HSE 4.4 V8 32V 295cv"
+    },
+    {
+      "code": "5132",
+      "name": "Range Rover Sport HSE SUPERCHAR. 5.0 V8"
+    },
+    {
+      "code": "4275",
+      "name": "Range Rover Sport SE 2.7 190cv TB Diesel"
+    },
+    {
+      "code": "4499",
+      "name": "Range Rover Sport SE 3.6 TDV8 272cv Dies"
+    },
+    {
+      "code": "4276",
+      "name": "Range Rover Sport SE 4.4 V8 32V 299cv"
+    },
+    {
+      "code": "10760",
+      "name": "Range Rover Sport SE Dy.3.0 I6 Die.(Hib)"
+    },
+    {
+      "code": "8040",
+      "name": "Range Rover Sport SE SUPERCH. 3.0  Aut."
+    },
+    {
+      "code": "3825",
+      "name": "Range Rover Sport SUPERCHAGED 4.2 V8"
+    },
+    {
+      "code": "7157",
+      "name": "Range Rover Sport SVR SUPERCHA. 5.0 V8"
+    },
+    {
+      "code": "1473",
+      "name": "Range Rover SUPERCHARGED 4.2 V8 396cv"
+    },
+    {
+      "code": "11542",
+      "name": "Range Rover SV 3.0 I6 TB (Híb.)"
+    },
+    {
+      "code": "10225",
+      "name": "Range Rover SV 4.4 V8 TB 530cv Aut."
+    },
+    {
+      "code": "10226",
+      "name": "Range Rover SV. 3.0 I6 TB Die. (Híb.)"
+    },
+    {
+      "code": "6783",
+      "name": "Range Rover Vogue 3.0 TDV6 Diesel Aut."
+    },
+    {
+      "code": "4332",
+      "name": "Range Rover Vogue 3.6 TDV8 272cv Diesel"
+    },
+    {
+      "code": "6925",
+      "name": "Range Rover Vogue HSE 3.0 TDV6 Diesel"
+    },
+    {
+      "code": "9116",
+      "name": "Range Rover Vogue SE 2.0 Si4 (Híbrido)"
+    },
+    {
+      "code": "6393",
+      "name": "Range Rover Vogue SE 4.4 SDV8 Dies. Aut"
+    },
+    {
+      "code": "5146",
+      "name": "Range Rover Vogue SE SUPERCHAR. 5.0 V8"
+    },
+    {
+      "code": "9305",
+      "name": "Range.R. SP.HSE Dyn.BL. 2.0 Si4(Hibrido)"
+    }
+  ]
+}

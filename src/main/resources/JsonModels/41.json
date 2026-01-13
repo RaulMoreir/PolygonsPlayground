@@ -1,0 +1,869 @@
+{
+  "fipeModelCode" : 41,
+  "models": [
+    {
+      "code": "1697",
+      "name": "3000 GT SL 3.0"
+    },
+    {
+      "code": "1698",
+      "name": "3000 GT VR-4"
+    },
+    {
+      "code": "4251",
+      "name": "Airtrek 2.0 16V TB-IC 202cv 4x4 5p"
+    },
+    {
+      "code": "1699",
+      "name": "Airtrek 2.4 16V 163cv/ 136cv 4x4 5p Aut."
+    },
+    {
+      "code": "7288",
+      "name": "ASX 2.0 16V  4x4 Aut.(By Armura-Blind.)"
+    },
+    {
+      "code": "5424",
+      "name": "ASX 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "5425",
+      "name": "ASX 2.0 16V 160cv Mec."
+    },
+    {
+      "code": "7310",
+      "name": "ASX 2.0 16V 4x2 Aut.(By Amura-Blind.)"
+    },
+    {
+      "code": "7979",
+      "name": "ASX 2.0 16V 4x2 Flex Aut."
+    },
+    {
+      "code": "5426",
+      "name": "ASX 2.0 16V 4x4 160cv Aut."
+    },
+    {
+      "code": "7980",
+      "name": "ASX 2.0 16V 4x4 Flex Aut."
+    },
+    {
+      "code": "8670",
+      "name": "ASX GLS FWD 2.0 16V Flex Aut."
+    },
+    {
+      "code": "8671",
+      "name": "ASX HPE AWD 2.0 16V Flex Aut."
+    },
+    {
+      "code": "8672",
+      "name": "ASX HPE FWD 2.0 16V Flex Aut."
+    },
+    {
+      "code": "8634",
+      "name": "ASX HPE-S AWD Flex 2.0 16V Aut."
+    },
+    {
+      "code": "7311",
+      "name": "ASX O NEILL 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "7513",
+      "name": "ASX OUTDOOR 2.0 4x2 16V 160cv Aut."
+    },
+    {
+      "code": "7432",
+      "name": "ASX OUTDOOR 2.0 4X4 16V 160 cv Mec."
+    },
+    {
+      "code": "7514",
+      "name": "ASX-S 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "1700",
+      "name": "Colt GLXi"
+    },
+    {
+      "code": "1701",
+      "name": "Colt GTi Mec"
+    },
+    {
+      "code": "1702",
+      "name": "Diamant  LS 3.0 V6"
+    },
+    {
+      "code": "11757",
+      "name": "Eclipse Cross GLS 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "11758",
+      "name": "Eclipse Cross GLS RUSH 1.5 16V TB 165cv Aut"
+    },
+    {
+      "code": "11759",
+      "name": "Eclipse Cross HPE 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "11760",
+      "name": "Eclipse Cross HPE Black 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "11761",
+      "name": "Eclipse Cross HPE-S 1.5 16V AWC TB 165cv Aut."
+    },
+    {
+      "code": "11762",
+      "name": "Eclipse Cross HPE-S 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "11763",
+      "name": "Eclipse Cross HPE-S Black 1.5 16V AWC TB 165cv Aut"
+    },
+    {
+      "code": "11764",
+      "name": "Eclipse Cross HPE-S MTSp. 1.5 16V AWC TB 165cv Aut"
+    },
+    {
+      "code": "11765",
+      "name": "Eclipse Cross HPE-S Outd. 1.5 16V AWC TB 165cv Aut"
+    },
+    {
+      "code": "11766",
+      "name": "Eclipse Cross HPE-S Sport 1.5 16V AWC TB 165cv Aut"
+    },
+    {
+      "code": "11767",
+      "name": "Eclipse Cross HPE-S Sport 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "11768",
+      "name": "Eclipse Cross RUSH 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "11769",
+      "name": "Eclipse Cross Tarmac 1.5 16V TB 165cv Aut."
+    },
+    {
+      "code": "1703",
+      "name": "Eclipse GS/ GS Turbo Mec"
+    },
+    {
+      "code": "1704",
+      "name": "Eclipse GST 2.0 16V Turbo"
+    },
+    {
+      "code": "10397",
+      "name": "Eclipse GSX 2.0 16V Turbo"
+    },
+    {
+      "code": "1706",
+      "name": "Eclipse GT 3.0 V6 24V"
+    },
+    {
+      "code": "4192",
+      "name": "Eclipse GT 3.8 V6 267cv"
+    },
+    {
+      "code": "1707",
+      "name": "Expo LRV Sport 2.3 16V"
+    },
+    {
+      "code": "1708",
+      "name": "Expo SP Van 2.3 16V"
+    },
+    {
+      "code": "1709",
+      "name": "Galant 2.0"
+    },
+    {
+      "code": "1710",
+      "name": "Galant 2.5 V6"
+    },
+    {
+      "code": "1711",
+      "name": "Galant ES"
+    },
+    {
+      "code": "1712",
+      "name": "Galant GS 2.0 V6"
+    },
+    {
+      "code": "1713",
+      "name": "GRANDIS 2.4 16V 163cv 5p Aut."
+    },
+    {
+      "code": "1714",
+      "name": "L200 2.5 4x2 CD Turbo Diesel"
+    },
+    {
+      "code": "1715",
+      "name": "L200 2.5 4x2 Turbo Diesel"
+    },
+    {
+      "code": "1716",
+      "name": "L200 2.5 4x4 CD Turbo Diesel"
+    },
+    {
+      "code": "1717",
+      "name": "L200 Evolution 3.2 4x4 TB Int. Diesel"
+    },
+    {
+      "code": "1718",
+      "name": "L200 GL 2.5 4X4 CD Diesel"
+    },
+    {
+      "code": "1719",
+      "name": "L200 GLS 2.5 4X4 CD Diesel"
+    },
+    {
+      "code": "1720",
+      "name": "L200 GLS Sport 2.5 4x4 121cv CD DTI Dies"
+    },
+    {
+      "code": "1721",
+      "name": "L200 HPE 2.5 8V 95cv/118cv TB-IC Diesel"
+    },
+    {
+      "code": "1722",
+      "name": "L200 L 2.5 4X4 CD Turbo Diesel"
+    },
+    {
+      "code": "4122",
+      "name": "L200 OUTDOOR GLS 2.5 4X4 CD TDI Diesel"
+    },
+    {
+      "code": "4124",
+      "name": "L200 OUTDOOR HPE 2.5 4x4 CD T.Dies. Aut."
+    },
+    {
+      "code": "4123",
+      "name": "L200 OUTDOOR HPE 2.5 4x4 CD T.Dies. Mec."
+    },
+    {
+      "code": "1723",
+      "name": "L200 RI/ RII/ RIII CD 2.5 TB Int. Diesel"
+    },
+    {
+      "code": "1724",
+      "name": "L200 Savana 2.5 4x4 121cv CD DTI  Dies."
+    },
+    {
+      "code": "1725",
+      "name": "L200 Sport 2.5 4x4 CD Turbo Diesel"
+    },
+    {
+      "code": "1726",
+      "name": "L200 Sport HPE 2.5 4x4 CD DTI Dies. Aut."
+    },
+    {
+      "code": "1727",
+      "name": "L200 Sport HPE 2.5 4x4 CD DTI Dies. Mec."
+    },
+    {
+      "code": "1728",
+      "name": "L200 Sport RS 2.5 CD DTI (passeio) Dies."
+    },
+    {
+      "code": "7487",
+      "name": "L200 T. OUTDOOR 3.2 CD TB Int.Dies. Mec."
+    },
+    {
+      "code": "7489",
+      "name": "L200 T.OUTDOOR 3.2 CD TB Int. Dies. Aut."
+    },
+    {
+      "code": "9142",
+      "name": "L200 Tri. Out. HPE-S 2-4 CD 4X4 Die. Aut"
+    },
+    {
+      "code": "9143",
+      "name": "L200 Tri. Outd. GLX 2.4 CD 4x4 Die. Mec."
+    },
+    {
+      "code": "9144",
+      "name": "L200 Tri. Outd. HPE 2.4 CD 4x4 Die. Aut."
+    },
+    {
+      "code": "9145",
+      "name": "L200 Tri. Outdo. GLS 2.4 CD 4x4 Die. Aut"
+    },
+    {
+      "code": "11193",
+      "name": "L200 Tri. S. Outd. Plus 2.4 4x4 Die. Aut"
+    },
+    {
+      "code": "11048",
+      "name": "L200 Tri. S.Terra HPE-S 2.4 4x4 Die. Aut"
+    },
+    {
+      "code": "11049",
+      "name": "L200 Tri. S.Urban HPE-S 2.4 4x4 Die. Aut"
+    },
+    {
+      "code": "10783",
+      "name": "L200 Tri. Sav. SERTOES 2.4 CD 4x4 Dies."
+    },
+    {
+      "code": "8783",
+      "name": "L200 Tri. Sport Outd. GLX 2.4 4x4 Diesel"
+    },
+    {
+      "code": "9059",
+      "name": "L200 Tri. Sport Outdoor 2.4 CD 4x4 Dies."
+    },
+    {
+      "code": "7312",
+      "name": "L200 Tri.HLS Chrome Ed. 2.4 CD Flex Mec."
+    },
+    {
+      "code": "11022",
+      "name": "L200 Trit. S.Out. GLS 2.4 CD Diesel Aut."
+    },
+    {
+      "code": "8321",
+      "name": "L200 Triton GL 3.2 CD TB Int. Dies. Mec."
+    },
+    {
+      "code": "5936",
+      "name": "L200 Triton GLS 3.2 CD TB Int.Diesel Mec"
+    },
+    {
+      "code": "5937",
+      "name": "L200 Triton GLX 3.2 CD TB Int.Diesel Mec"
+    },
+    {
+      "code": "6544",
+      "name": "L200 Triton HLS 2.4 Flex 16V CD Mec."
+    },
+    {
+      "code": "4478",
+      "name": "L200 Triton HPE 3.2 CD TB Int.Diesel Aut"
+    },
+    {
+      "code": "4503",
+      "name": "L200 Triton HPE 3.2 CD TB Int.Diesel Mec"
+    },
+    {
+      "code": "4479",
+      "name": "L200 Triton HPE 3.5 CD V6 24V Flex Aut."
+    },
+    {
+      "code": "7515",
+      "name": "L200 Triton KTM 3.2 CD TB Int.Dies. Mec."
+    },
+    {
+      "code": "9120",
+      "name": "L200 Triton MotorSports HPE 2.4 Dies."
+    },
+    {
+      "code": "10733",
+      "name": "L200 Triton OUTDOOR 2.4 16V CD Flex Mec."
+    },
+    {
+      "code": "7740",
+      "name": "L200 Triton S. HPE FTP 2.4 CD Dies. Aut."
+    },
+    {
+      "code": "10734",
+      "name": "L200 Triton Savana 2.4 4x4 Die. Aut."
+    },
+    {
+      "code": "7488",
+      "name": "L200 Triton Savana 3.2 CD TBI Dies. Aut."
+    },
+    {
+      "code": "6240",
+      "name": "L200 Triton Savana 3.2 CD TBI Dies. Mec."
+    },
+    {
+      "code": "7230",
+      "name": "L200 Triton Savanaoff 3.2 CD TBI Die.Mec"
+    },
+    {
+      "code": "8182",
+      "name": "L200 Triton Sport GLS 2.4 CD Diesel Aut."
+    },
+    {
+      "code": "7741",
+      "name": "L200 Triton Sport GLS 2.4 CD Diesel Mec."
+    },
+    {
+      "code": "8217",
+      "name": "L200 Triton Sport GLX 2.4 CD Diesel Mec."
+    },
+    {
+      "code": "7742",
+      "name": "L200 Triton Sport HPE 2.4 CD Diesel Aut."
+    },
+    {
+      "code": "8218",
+      "name": "L200 Triton Sport HPE-S 2.4 CD Dies. Aut"
+    },
+    {
+      "code": "5560",
+      "name": "L200 Triton XB 3.2 CD TB Int.Diesel Mec."
+    },
+    {
+      "code": "1729",
+      "name": "L300 Base/DX/Canter 2.5 Diesel"
+    },
+    {
+      "code": "1730",
+      "name": "L300 Top/Luxo 2.5 Diesel"
+    },
+    {
+      "code": "5733",
+      "name": "Lancer 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "5734",
+      "name": "Lancer 2.0 16V 160cv Mec."
+    },
+    {
+      "code": "1731",
+      "name": "Lancer Evol. 2.0 Turbo"
+    },
+    {
+      "code": "1732",
+      "name": "Lancer Evol. VI 2.0 Turbo 4p"
+    },
+    {
+      "code": "7142",
+      "name": "Lancer Evol. X J. Easton 2.0 16V TB Int."
+    },
+    {
+      "code": "4143",
+      "name": "Lancer Evolut. IX MR 2.0 290cv TB-IC"
+    },
+    {
+      "code": "1733",
+      "name": "Lancer Evolut. VII/ VIII/ IX 2.0 280cv T"
+    },
+    {
+      "code": "5381",
+      "name": "Lancer Evolution X 2.0 16V 295cv TB Int."
+    },
+    {
+      "code": "1734",
+      "name": "Lancer GLX"
+    },
+    {
+      "code": "5689",
+      "name": "Lancer GT 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "6301",
+      "name": "Lancer GT 2.0 16V 4X4 160cv Aut."
+    },
+    {
+      "code": "7313",
+      "name": "Lancer GT 2.0 16V Aut.(By Armura-Blind.)"
+    },
+    {
+      "code": "1735",
+      "name": "Lancer GTi Mec"
+    },
+    {
+      "code": "7263",
+      "name": "Lancer HL 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "7314",
+      "name": "Lancer HL 2.0 16V Aut.(By Armura-Blind.)"
+    },
+    {
+      "code": "7264",
+      "name": "Lancer HLE 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "7315",
+      "name": "Lancer HLE 2.0 16V Aut.(By Armura-Blind)"
+    },
+    {
+      "code": "7433",
+      "name": "Lancer HL-T 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "1736",
+      "name": "Lancer LS 1.8"
+    },
+    {
+      "code": "5690",
+      "name": "Lancer Sport Ralliart 2.0 16V TB Int. 5p"
+    },
+    {
+      "code": "1737",
+      "name": "Mirage ES"
+    },
+    {
+      "code": "1738",
+      "name": "Mirage GS 16V/ GLSi1.6"
+    },
+    {
+      "code": "1739",
+      "name": "Mirage LS"
+    },
+    {
+      "code": "1740",
+      "name": "Montero 2.8 Diesel"
+    },
+    {
+      "code": "5503",
+      "name": "OUTLANDER 2.0 16V 160cv Aut."
+    },
+    {
+      "code": "10035",
+      "name": "OUTLANDER 2.0 16V 4x4 Aut. (Híbrido)"
+    },
+    {
+      "code": "7265",
+      "name": "OUTLANDER 2.2 165cv Diesel Aut."
+    },
+    {
+      "code": "4813",
+      "name": "OUTLANDER 2.4 16V 170cv Aut."
+    },
+    {
+      "code": "4411",
+      "name": "OUTLANDER 3.0/ GT 3.0 V6 Aut."
+    },
+    {
+      "code": "7981",
+      "name": "OUTLANDER COMFORT 2.0 16V Aut."
+    },
+    {
+      "code": "8673",
+      "name": "OUTLANDER GLS 2.0 16V 5p Aut."
+    },
+    {
+      "code": "8590",
+      "name": "OUTLANDER HPE 2.0 16V 5p Aut."
+    },
+    {
+      "code": "8635",
+      "name": "OUTLANDER HPE-S 2.2 Diesel 4x4 Aut."
+    },
+    {
+      "code": "11507",
+      "name": "OUTLANDER HPE-S 2.4 4x4 Aut (Híbrido)"
+    },
+    {
+      "code": "8591",
+      "name": "OUTLANDER HPE-S 3.0 V6 4x4 5p Aut."
+    },
+    {
+      "code": "9624",
+      "name": "OUTLANDER HPE-S BLACK ED. 3.0 4x4 Aut."
+    },
+    {
+      "code": "11508",
+      "name": "OUTLANDER Signature 2.4 4x4 Aut (Híb)"
+    },
+    {
+      "code": "9595",
+      "name": "OUTLANDER SP. HPE BL.ED 4x2 2.0 Flex Aut"
+    },
+    {
+      "code": "9596",
+      "name": "OUTLANDER Sp. HPE BL.ED 4x4 2.0 Flex Aut"
+    },
+    {
+      "code": "9146",
+      "name": "OUTLANDER Sport GLS 2.0 16V Flex Aut."
+    },
+    {
+      "code": "9147",
+      "name": "OUTLANDER Sport HPE 2.0 16V Flex Aut."
+    },
+    {
+      "code": "9148",
+      "name": "OUTLANDER Sport HPE 4x4 2.0 16V Flex Aut"
+    },
+    {
+      "code": "7198",
+      "name": "Pajero 3.2 4x4 T.I. Dies. 5p Aut"
+    },
+    {
+      "code": "4979",
+      "name": "Pajero DAKAR 3.2 4x4 T.I. Dies. 5p Aut."
+    },
+    {
+      "code": "4980",
+      "name": "Pajero DAKAR 3.2 4x4 T.I. Dies. 5p Mec."
+    },
+    {
+      "code": "6071",
+      "name": "Pajero DAKAR HPE 3.2 4x4 T.I Dies 5p Aut"
+    },
+    {
+      "code": "5583",
+      "name": "Pajero DAKAR/HPE 3.5 4x4 Flex 5p Aut."
+    },
+    {
+      "code": "1741",
+      "name": "Pajero Evolution 4x4 3.5 V6"
+    },
+    {
+      "code": "4802",
+      "name": "Pajero Full GLS/GLS/PKHPE 3.2 Dies.TI 5p"
+    },
+    {
+      "code": "9485",
+      "name": "Pajero Full Legend Ed.3.2 T.I. Die. Aut."
+    },
+    {
+      "code": "1742",
+      "name": "Pajero GLS 2.8 Diesel Turbo Aut."
+    },
+    {
+      "code": "1743",
+      "name": "Pajero GLS 2.8 Diesel Turbo Mec."
+    },
+    {
+      "code": "1744",
+      "name": "Pajero GLS 3.0 V6 2p Aut."
+    },
+    {
+      "code": "1745",
+      "name": "Pajero GLS 3.0 V6 2p Mec."
+    },
+    {
+      "code": "1746",
+      "name": "Pajero GLS 3.0 V6 4p Aut."
+    },
+    {
+      "code": "1747",
+      "name": "Pajero GLS 3.0 V6 4p Mec."
+    },
+    {
+      "code": "1748",
+      "name": "Pajero GLS 3.5 V6 2p Aut"
+    },
+    {
+      "code": "1749",
+      "name": "Pajero GLS 3.5 V6 2p Mec."
+    },
+    {
+      "code": "1750",
+      "name": "Pajero GLS 3.5 V6 4p Aut."
+    },
+    {
+      "code": "1751",
+      "name": "Pajero GLS 3.5 V6 4p Mec."
+    },
+    {
+      "code": "1752",
+      "name": "Pajero GLS 3.5 V6 Top 2p Aut"
+    },
+    {
+      "code": "1753",
+      "name": "Pajero GLS 3.5 V6 Top 4p Aut"
+    },
+    {
+      "code": "4333",
+      "name": "Pajero GLS Full 3.8 V6 250cv 5p Aut."
+    },
+    {
+      "code": "1754",
+      "name": "Pajero GLS HPE/HPE Full 3.8 233cv 3p Aut"
+    },
+    {
+      "code": "1755",
+      "name": "Pajero GLS HPE/HPE Full 3.8 233cv 5p Aut"
+    },
+    {
+      "code": "1757",
+      "name": "Pajero GLX 2.8 Diesel 4p Mec"
+    },
+    {
+      "code": "1758",
+      "name": "Pajero GLX 3.0 V6 4p Mec"
+    },
+    {
+      "code": "1759",
+      "name": "Pajero GLZ 2.8 4x4 Turbo Diesel"
+    },
+    {
+      "code": "1760",
+      "name": "Pajero GLZ 3.0 4x4 V6"
+    },
+    {
+      "code": "8219",
+      "name": "Pajero HD-S 3.2 4x4 T.I. Diesel 5p Mec."
+    },
+    {
+      "code": "7199",
+      "name": "Pajero HPE 3.2 4x4 T.I. Dies. 5p Aut."
+    },
+    {
+      "code": "7200",
+      "name": "Pajero HPE 3.5 4x4 Flex 5p Aut."
+    },
+    {
+      "code": "4803",
+      "name": "Pajero HPE Full 3.2 4x4 T.I.Dies. 5p Aut"
+    },
+    {
+      "code": "3972",
+      "name": "Pajero HPE Full 3.2 4x4 T.I.Dies.3p Aut."
+    },
+    {
+      "code": "4334",
+      "name": "Pajero HPE Full 3.8 V6 250cv 3p Aut."
+    },
+    {
+      "code": "4335",
+      "name": "Pajero HPE Full 3.8 V6 250cv 5p Aut."
+    },
+    {
+      "code": "7358",
+      "name": "Pajero HPE-S 3.2 4x4 T.I.Diesel 5p Aut."
+    },
+    {
+      "code": "1761",
+      "name": "Pajero iO Aut."
+    },
+    {
+      "code": "1762",
+      "name": "Pajero iO Mec."
+    },
+    {
+      "code": "1763",
+      "name": "Pajero iO SE 1.8 16V Aut."
+    },
+    {
+      "code": "1764",
+      "name": "Pajero iO SE 1.8 16V Mec."
+    },
+    {
+      "code": "7621",
+      "name": "Pajero OUTDOOR 3.2 4x4 T.I. Dies.5p Aut."
+    },
+    {
+      "code": "1765",
+      "name": "Pajero Sport 2.8 4x4 Diesel Aut."
+    },
+    {
+      "code": "1766",
+      "name": "Pajero Sport 2.8 4x4 Diesel Mec."
+    },
+    {
+      "code": "1767",
+      "name": "Pajero Sport 3.0 4x2 V6 Mec./Aut."
+    },
+    {
+      "code": "1768",
+      "name": "Pajero Sport 3.0 4x4 V6 Mec./Aut."
+    },
+    {
+      "code": "4981",
+      "name": "Pajero Sport 3.5 V6 Flex 4x4 Aut."
+    },
+    {
+      "code": "8674",
+      "name": "Pajero Sport HPE 2.4 4x4 Diesel Aut."
+    },
+    {
+      "code": "4065",
+      "name": "Pajero Sport HPE 2.5 4x4 Diesel Aut."
+    },
+    {
+      "code": "4066",
+      "name": "Pajero Sport HPE 2.5 4x4 Diesel Mec."
+    },
+    {
+      "code": "3973",
+      "name": "Pajero Sport HPE 3.5 4x4 200cv Aut."
+    },
+    {
+      "code": "9121",
+      "name": "Pajero Sport HPE-S 2.4  4x4 Diesel Aut."
+    },
+    {
+      "code": "11080",
+      "name": "Pajero Sport Le.Black 2.4 4x4 (Die) Aut."
+    },
+    {
+      "code": "10887",
+      "name": "Pajero Sport Legend 2.4 4x4 Diesel Aut."
+    },
+    {
+      "code": "1769",
+      "name": "Pajero Sport SE 3.0 4x2 V6 177cv Aut."
+    },
+    {
+      "code": "1770",
+      "name": "Pajero Sport SE/ HPE 2.8 4x4 Diesel Aut."
+    },
+    {
+      "code": "1771",
+      "name": "Pajero Sport SE/ HPE 3.0 4x4 177cv Aut."
+    },
+    {
+      "code": "1774",
+      "name": "Pajero TR4 2.0 Blind. 16V 131cv 4x4 Aut."
+    },
+    {
+      "code": "1775",
+      "name": "Pajero TR4 2.0 Blind. 16V 131cv 4x4 Mec."
+    },
+    {
+      "code": "5735",
+      "name": "Pajero TR4 2.0 Flex 16V 4X2 Aut."
+    },
+    {
+      "code": "5736",
+      "name": "Pajero TR4 2.0 Flex 16V 4X2 Mec."
+    },
+    {
+      "code": "1772",
+      "name": "Pajero TR4 2.0/ 2.0 Flex 16V 4x4 Aut."
+    },
+    {
+      "code": "1773",
+      "name": "Pajero TR4 2.0/ 2.0 Flex 16V 4x4 Mec."
+    },
+    {
+      "code": "4642",
+      "name": "Pajero TR4 GLS 2.0 Flex 16V 4x4 Mec."
+    },
+    {
+      "code": "1776",
+      "name": "Space Wagon GLS 2.0"
+    },
+    {
+      "code": "1777",
+      "name": "Space Wagon GLS 2.4"
+    },
+    {
+      "code": "1778",
+      "name": "Space Wagon GLXi 2.4 (Nova Série)"
+    },
+    {
+      "code": "1779",
+      "name": "Space Wagon/ GLXi 2.4"
+    },
+    {
+      "code": "11349",
+      "name": "Triton GLS 2.4 CD 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11654",
+      "name": "Triton GLS Tarmac 2.4 CD TB Aut."
+    },
+    {
+      "code": "11350",
+      "name": "Triton HPE 2.4 CD 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11351",
+      "name": "Triton HPE-S 2.4 CD 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11352",
+      "name": "Triton Katana 2.4 CD 4x4 TB Diesel Aut."
+    },
+    {
+      "code": "11623",
+      "name": "Triton SR80 2.4 CD 4x4 TB Aut."
+    }
+  ]
+}

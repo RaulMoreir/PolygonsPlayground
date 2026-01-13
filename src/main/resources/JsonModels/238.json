@@ -1,0 +1,73 @@
+{
+  "fipeModelCode" : 238,
+  "models": [
+    {
+      "code": "9902",
+      "name": "D1 EV (Elétrico)"
+    },
+    {
+      "code": "10813",
+      "name": "Dolphin EV (Elétrico)"
+    },
+    {
+      "code": "10986",
+      "name": "Dolphin Mini (Elétrico)"
+    },
+    {
+      "code": "10878",
+      "name": "Dolphin Plus (Elétrico)"
+    },
+    {
+      "code": "9831",
+      "name": "eT3  (Elétrico)"
+    },
+    {
+      "code": "9860",
+      "name": "Han EV  (Elétrico)"
+    },
+    {
+      "code": "11078",
+      "name": "King GL 1.5 16V Aut. (Hibrido)"
+    },
+    {
+      "code": "11079",
+      "name": "King GS 1.5 16V Aut. (Hibrido)"
+    },
+    {
+      "code": "10833",
+      "name": "Seal (Elétrico)"
+    },
+    {
+      "code": "11277",
+      "name": "SHARK GS 1.5 16V 4x4 Aut. (Híbrido)"
+    },
+    {
+      "code": "11084",
+      "name": "Song Plus 1.5 16V Aut. (Hibrido)"
+    },
+    {
+      "code": "11299",
+      "name": "Song Plus Premium 1.5 16V Aut. (Hibrido)"
+    },
+    {
+      "code": "11106",
+      "name": "Song Pro GL 1.5 16V Aut. (Hibrido)"
+    },
+    {
+      "code": "11107",
+      "name": "Song Pro GS 1.5 16V Aut. (Hibrido)"
+    },
+    {
+      "code": "9775",
+      "name": "TAN EV 4x4 (Elétrico)"
+    },
+    {
+      "code": "10184",
+      "name": "Yuan Plus (Elétrico)"
+    },
+    {
+      "code": "11199",
+      "name": "Yuan Pro (Elétrico)"
+    }
+  ]
+}

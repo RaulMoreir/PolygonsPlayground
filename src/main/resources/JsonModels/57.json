@@ -1,0 +1,89 @@
+{
+  "fipeModelCode" : 57,
+  "models":[
+    {
+      "code": "3978",
+      "name": "PANTANAL 3.0 TDI Elet. 4x2 CS Diesel"
+    },
+    {
+      "code": "3979",
+      "name": "PANTANAL 3.0 TDI Elet. 4x4 CS Diesel"
+    },
+    {
+      "code": "2289",
+      "name": "RF Esport 4x4 2.0"
+    },
+    {
+      "code": "2290",
+      "name": "RF Esport T-4 4x4 2.0 Cap. Lona"
+    },
+    {
+      "code": "2291",
+      "name": "RF Esport T-4 4x4 2.0 Cap. Rígida"
+    },
+    {
+      "code": "2292",
+      "name": "T-4 4x4 2.8 TB Int. Cap. Lona Diesel"
+    },
+    {
+      "code": "2293",
+      "name": "T-4 4x4 2.8 TB Int. Cap. Rígida Diesel"
+    },
+    {
+      "code": "2294",
+      "name": "T-4 4x4 3.0 TB Int. Cap. Lona Diesel"
+    },
+    {
+      "code": "2295",
+      "name": "T-4 4x4 3.0 TB Int. Cap. Rígida Diesel"
+    },
+    {
+      "code": "6933",
+      "name": "T-4 4x4 3.2 20V Tdi Cap. Rígida Diesel"
+    },
+    {
+      "code": "9065",
+      "name": "T-4 4x4 3.2 Tdi Cap.Rígida Die. Aut."
+    },
+    {
+      "code": "6194",
+      "name": "T-4 4x4 3.2 TGV tdi Cap. Rígida Diesel"
+    },
+    {
+      "code": "7816",
+      "name": "T-4 BOLD 4x4 3.2 Tdi Cap. Rígida Diesel"
+    },
+    {
+      "code": "9563",
+      "name": "T-4 Connect 4x4 3.2 Tdi Cap.Rig. Diesel"
+    },
+    {
+      "code": "9344",
+      "name": "T-4 Connect 4x4 3.2 Tdi Cap.Rig.Die.Aut."
+    },
+    {
+      "code": "5652",
+      "name": "T-4 DESERT STORM 4x4 3.0 TB Int Diesel"
+    },
+    {
+      "code": "8798",
+      "name": "T-4 TRAIL 4x4 3.2 Tdi Cap. Ríg. Diesel"
+    },
+    {
+      "code": "9086",
+      "name": "T-4 TX4 4x4 3.2 20V Cap. Rígido Diesel"
+    },
+    {
+      "code": "8970",
+      "name": "T-4 TX4 4x4 3.2 20V Cap.Ríg Diesel Aut."
+    },
+    {
+      "code": "9360",
+      "name": "T-4 TX4 Connect 4x4 3.2 Cap.Ríg.Die.Aut."
+    },
+    {
+      "code": "9361",
+      "name": "T-4 TX4 Connect 4x4 3.2 Cap.Ríg.Die.Mec."
+    }
+  ]
+}

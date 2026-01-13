@@ -1,0 +1,1353 @@
+{
+  "fipeModelCode" : 48,
+  "models": [
+    {
+      "code": "1986",
+      "name": "19 16S/ RT 16V"
+    },
+    {
+      "code": "1987",
+      "name": "19 RN"
+    },
+    {
+      "code": "1988",
+      "name": "19 RT 1.8/ 1.8i"
+    },
+    {
+      "code": "1989",
+      "name": "19 RT 1.8/ 1.8i Conv."
+    },
+    {
+      "code": "1990",
+      "name": "21 GTX 2.0"
+    },
+    {
+      "code": "1991",
+      "name": "21 Nevada GTX 2.2"
+    },
+    {
+      "code": "1992",
+      "name": "21 Nevada TXE 2.2"
+    },
+    {
+      "code": "1993",
+      "name": "21 TXE/ TXi 2.2"
+    },
+    {
+      "code": "11708",
+      "name": "Boreal Evolution 1.3 Turbo 16V 5p Aut."
+    },
+    {
+      "code": "11709",
+      "name": "Boreal Iconic 1.3 Turbo 16V 5p Aut."
+    },
+    {
+      "code": "11710",
+      "name": "Boreal Techno 1.3 Turbo 16V 5p Aut."
+    },
+    {
+      "code": "9545",
+      "name": "CAPTUR Iconic 1.3 TB 16V Flex 5p Aut."
+    },
+    {
+      "code": "9546",
+      "name": "CAPTUR Intense 1.3 TB 16V Flex 5p Aut."
+    },
+    {
+      "code": "7990",
+      "name": "CAPTUR Intense 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "7890",
+      "name": "CAPTUR Intense 2.0 16V Flex 5p Aut."
+    },
+    {
+      "code": "8869",
+      "name": "CAPTUR Intense Bose 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "8870",
+      "name": "CAPTUR Intense Bose 2.0 16V Flex 5p Aut."
+    },
+    {
+      "code": "9587",
+      "name": "CAPTUR Life 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "9547",
+      "name": "CAPTUR Zen 1.3 TB 16V Flex 5p Aut."
+    },
+    {
+      "code": "7991",
+      "name": "CAPTUR Zen 1.6 16V Flex 5p Aut."
+    },
+    {
+      "code": "7891",
+      "name": "CAPTUR Zen 1.6 16V Flex 5p Mec."
+    },
+    {
+      "code": "1997",
+      "name": "Clio Auth. /AIR Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "1994",
+      "name": "Clio Authentique 1.0 8V 3p"
+    },
+    {
+      "code": "1995",
+      "name": "Clio Authentique 1.0/1.0 Hi-Power 16V 3p"
+    },
+    {
+      "code": "3903",
+      "name": "Clio Authentique Hi-Flex 1.0 16V 3p"
+    },
+    {
+      "code": "3904",
+      "name": "Clio Authentique Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "1996",
+      "name": "Clio Authentique Hi-Flex 1.6 16V 3p"
+    },
+    {
+      "code": "4643",
+      "name": "Clio Campus Hi-Flex 1.0 16V 3p"
+    },
+    {
+      "code": "4644",
+      "name": "Clio Campus Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "1998",
+      "name": "Clio Dynamique 1.0/ 1.0 Hi-Power 16V 3p"
+    },
+    {
+      "code": "1999",
+      "name": "Clio Dynamique 1.6 16V 110cv 3p"
+    },
+    {
+      "code": "2000",
+      "name": "Clio Dynamique Hi-Flex 1.6 16V 3p"
+    },
+    {
+      "code": "2001",
+      "name": "Clio Expression 1.0 8V 60cv 3p"
+    },
+    {
+      "code": "2002",
+      "name": "Clio Expression 1.0/1.0 Hi-Power 16V 3p"
+    },
+    {
+      "code": "3905",
+      "name": "Clio Expression Hi-Flex 1.0 16V 3p"
+    },
+    {
+      "code": "3906",
+      "name": "Clio Expression Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "3993",
+      "name": "Clio GetUp Hi-Flex 1.0 16V 3p"
+    },
+    {
+      "code": "3994",
+      "name": "Clio GetUp Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "5312",
+      "name": "Clio Hi-Flex 1.0 16V 3p"
+    },
+    {
+      "code": "5313",
+      "name": "Clio Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "9658",
+      "name": "Clio Hi-Flex/ Expres. Hi-Flex 1.6 16V 3p"
+    },
+    {
+      "code": "2004",
+      "name": "Clio Hi-Flex/ Expres. Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "3907",
+      "name": "Clio Privilège Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "2005",
+      "name": "Clio Privilège Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "2006",
+      "name": "Clio RL / Yahoo/ Authent. 1.0 8V 5p"
+    },
+    {
+      "code": "2007",
+      "name": "Clio RL 1.6 3p/5p"
+    },
+    {
+      "code": "2008",
+      "name": "Clio RL Alizé/ Authent. 1.6 16V 110cv 5p"
+    },
+    {
+      "code": "2009",
+      "name": "Clio RL/ JP/Auth.1.0/1.0 Hi-Power 16V 5p"
+    },
+    {
+      "code": "2010",
+      "name": "Clio RN 1.6 3p (importado)"
+    },
+    {
+      "code": "2011",
+      "name": "Clio RN 1.6 5p"
+    },
+    {
+      "code": "2013",
+      "name": "Clio RN/ Expression 1.0 5p"
+    },
+    {
+      "code": "2014",
+      "name": "Clio RN/ Expression 1.6 16V 5p"
+    },
+    {
+      "code": "2012",
+      "name": "Clio RN/Alizé/Expr./1.0 Hi-Power 16V 5p"
+    },
+    {
+      "code": "2015",
+      "name": "Clio RT 1.6 5p"
+    },
+    {
+      "code": "2016",
+      "name": "Clio RT/ Privil. 1.0/1.0 Hi-Power 16V 5p"
+    },
+    {
+      "code": "2017",
+      "name": "Clio RT/ Privilège 1.6 16V 5p"
+    },
+    {
+      "code": "2018",
+      "name": "Clio Sed RT/ Privilège/ Botic 1.6 16V 4p"
+    },
+    {
+      "code": "2019",
+      "name": "Clio Sed. Alizé 1.6/ 1.6 Hi-Flex 16v 4p"
+    },
+    {
+      "code": "3908",
+      "name": "Clio Sed. Authentique Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "2020",
+      "name": "Clio Sed. Authentique Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "3909",
+      "name": "Clio Sed. Expression Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "2021",
+      "name": "Clio Sed. Hi-Flex/Exp.Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "3910",
+      "name": "Clio Sed. Privilège Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "2022",
+      "name": "Clio Sed. Privilège Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "2023",
+      "name": "Clio Sed.RL/Auth.1.0/1.0 Hi-Power 16V 4p"
+    },
+    {
+      "code": "2024",
+      "name": "Clio Sed.RN/Alizé/Botic./Exp.1.0 Hi-Pow."
+    },
+    {
+      "code": "2025",
+      "name": "Clio Sed.RT/Privil.1.0/1.0 Hi-Pow.16V 4p"
+    },
+    {
+      "code": "2026",
+      "name": "Clio Sedan Authentique 1.6 16V 110cv 4p"
+    },
+    {
+      "code": "3995",
+      "name": "Clio Sedan Egeus Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "3996",
+      "name": "Clio Sedan Egeus Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "2027",
+      "name": "Clio Sedan RN/ Expression 1.6 16V 4p"
+    },
+    {
+      "code": "2028",
+      "name": "Clio SI 1.6 16V 4p"
+    },
+    {
+      "code": "2029",
+      "name": "Clio Tech Run 1.0 16v 70cv 5p"
+    },
+    {
+      "code": "5671",
+      "name": "DUSTER 1.6 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "9592",
+      "name": "DUSTER Authent. 1.6 Flex 16V Aut."
+    },
+    {
+      "code": "7403",
+      "name": "DUSTER DAKAR 4x2 1.6 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "7928",
+      "name": "DUSTER DAKAR 4x2 2.0 Hi-Flex 16V Aut."
+    },
+    {
+      "code": "7434",
+      "name": "DUSTER DAKAR 4x4 2.0 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "7993",
+      "name": "DUSTER Dynamique 1.6 Flex 16V Aut."
+    },
+    {
+      "code": "5672",
+      "name": "DUSTER Dynamique 1.6 Flex 16V Mec."
+    },
+    {
+      "code": "5673",
+      "name": "DUSTER Dynamique 2.0 Flex 16V Aut."
+    },
+    {
+      "code": "5674",
+      "name": "DUSTER Dynamique 2.0 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "5675",
+      "name": "DUSTER Dynamique 4x4 2.0 Hi-Flex 16V Mec"
+    },
+    {
+      "code": "7992",
+      "name": "DUSTER Expression 1.6 Flex 16V Aut."
+    },
+    {
+      "code": "5676",
+      "name": "DUSTER Expression 1.6 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "8785",
+      "name": "DUSTER GoPro 1.6 16V Flex Aut."
+    },
+    {
+      "code": "8786",
+      "name": "DUSTER GoPro 4x4 2.0 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "9738",
+      "name": "DUSTER Iconic 1.3 TB 16V Flex Aut."
+    },
+    {
+      "code": "9061",
+      "name": "DUSTER Iconic 1.6 16V Flex Aut."
+    },
+    {
+      "code": "10917",
+      "name": "DUSTER Iconic Plus 1.3 TB 16V Flex Aut."
+    },
+    {
+      "code": "10918",
+      "name": "DUSTER Iconic Plus 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9062",
+      "name": "DUSTER Intense 1.6 16V Flex Aut."
+    },
+    {
+      "code": "10100",
+      "name": "DUSTER Intense 1.6 16V Flex Mec."
+    },
+    {
+      "code": "10919",
+      "name": "DUSTER Intense Plus 1.6 16V Flex Aut."
+    },
+    {
+      "code": "10920",
+      "name": "DUSTER Intense Plus 1.6 16V Flex Mec."
+    },
+    {
+      "code": "7377",
+      "name": "DUSTER OROCH Dyna. 1.6 Flex 16V Mec."
+    },
+    {
+      "code": "7672",
+      "name": "DUSTER OROCH Dyna. 2.0 Flex 16V Aut."
+    },
+    {
+      "code": "7378",
+      "name": "DUSTER OROCH Dyna. 2.0 Flex 16V Mec."
+    },
+    {
+      "code": "8580",
+      "name": "DUSTER OROCH Express 1.6 Flex 16V Mec."
+    },
+    {
+      "code": "7379",
+      "name": "DUSTER OROCH Expression 1.6 Flex 16V Mec"
+    },
+    {
+      "code": "6970",
+      "name": "DUSTER OUTDOOR 1.6 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "6213",
+      "name": "DUSTER TECHROAD 1.6 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "6214",
+      "name": "DUSTER TECHROAD 2.0 Hi-Flex 16V Aut."
+    },
+    {
+      "code": "6215",
+      "name": "DUSTER TECHROAD 2.0 Hi-Flex 16V Mec."
+    },
+    {
+      "code": "6702",
+      "name": "DUSTER TECHROAD 4X4 2.0 16V Mec."
+    },
+    {
+      "code": "9063",
+      "name": "DUSTER Zen 1.6 16V Flex Aut."
+    },
+    {
+      "code": "9064",
+      "name": "DUSTER Zen 1.6 16V Flex Mec."
+    },
+    {
+      "code": "2030",
+      "name": "Express 1.6/ RL 1.6"
+    },
+    {
+      "code": "7105",
+      "name": "FLUENCE Sed. Dyn. Plus 2.0 16V FLEX Aut."
+    },
+    {
+      "code": "5509",
+      "name": "FLUENCE Sed. Dynamique 2.0 16V FLEX Aut."
+    },
+    {
+      "code": "5510",
+      "name": "FLUENCE Sed. Dynamique 2.0 16V FLEX Mec."
+    },
+    {
+      "code": "7673",
+      "name": "FLUENCE Sedan Expres. 1.6 16V FLEX Mec."
+    },
+    {
+      "code": "6870",
+      "name": "FLUENCE Sedan GT Line 2.0 Flex Aut."
+    },
+    {
+      "code": "6276",
+      "name": "FLUENCE Sedan GT SPORT"
+    },
+    {
+      "code": "5511",
+      "name": "FLUENCE Sedan Privilège 2.0 16V FLEX Aut"
+    },
+    {
+      "code": "11077",
+      "name": "Kangoo Advanced 1.6 16V Flex "
+    },
+    {
+      "code": "2031",
+      "name": "Kangoo Authentique 1.6 16V 95cv"
+    },
+    {
+      "code": "4309",
+      "name": "Kangoo Authentique Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "10974",
+      "name": "Kangoo E-Tech Furgão (Elétrico)"
+    },
+    {
+      "code": "4098",
+      "name": "Kangoo Expres.SPORTWAY 1.6/1.6 Hi-Flex"
+    },
+    {
+      "code": "4310",
+      "name": "Kangoo Express Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "2032",
+      "name": "Kangoo Express RL/ Express 1.0 16V/8V"
+    },
+    {
+      "code": "2033",
+      "name": "Kangoo Express RL/ Express 1.6 16V/8V"
+    },
+    {
+      "code": "4311",
+      "name": "Kangoo Expression Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "2034",
+      "name": "Kangoo RL 1.0 8V"
+    },
+    {
+      "code": "2035",
+      "name": "Kangoo RL 1.6 8V"
+    },
+    {
+      "code": "2036",
+      "name": "Kangoo RL/ Yahoo 1.0 16V 70cv"
+    },
+    {
+      "code": "2037",
+      "name": "Kangoo RN 1.0 8V"
+    },
+    {
+      "code": "2039",
+      "name": "Kangoo RN/ Yahoo/ Expression 1.0 16V 5p"
+    },
+    {
+      "code": "2038",
+      "name": "Kangoo RN/Expression 1.6 16V/1.6 8V 5p"
+    },
+    {
+      "code": "2040",
+      "name": "Kangoo RT 1.0 16V 70cv 5p"
+    },
+    {
+      "code": "2041",
+      "name": "Kangoo RT 1.6 16V/ 8V 90cv 5p"
+    },
+    {
+      "code": "9865",
+      "name": "Kangoo Z.E. Maxi Furgão (Elétrico)"
+    },
+    {
+      "code": "11648",
+      "name": "Kardian Authentic 1.0 TB 12V 5p Aut."
+    },
+    {
+      "code": "10990",
+      "name": "Kardian Evolut. Flex 1.0 TB 12V 5p Aut."
+    },
+    {
+      "code": "11228",
+      "name": "Kardian Evolut. Flex 1.0 TB 12V 5p Mec."
+    },
+    {
+      "code": "11649",
+      "name": "Kardian Iconic 1.0 TB 12V 5p Aut."
+    },
+    {
+      "code": "10991",
+      "name": "Kardian Prem. Ed Flex 1.0 TB 12V 5p Aut."
+    },
+    {
+      "code": "10992",
+      "name": "Kardian Techno Flex 1.0 TB 12V 5p Aut."
+    },
+    {
+      "code": "8714",
+      "name": "Kwid ConnecTV 1.0 Flex 12V Mec."
+    },
+    {
+      "code": "11774",
+      "name": "KWID E-Tech Techno"
+    },
+    {
+      "code": "11407",
+      "name": "KWID Iconic 1.0 Flex 12V 5p Mec."
+    },
+    {
+      "code": "10022",
+      "name": "KWID Intense (Elétrico) "
+    },
+    {
+      "code": "8021",
+      "name": "KWID Intense 1.0 Flex 12V 5p Mec."
+    },
+    {
+      "code": "8022",
+      "name": "KWID Life 1.0 Flex 12V 5p Mec."
+    },
+    {
+      "code": "8701",
+      "name": "KWID OUTSIDER 1.0 Flex 12V 5p Mec."
+    },
+    {
+      "code": "8023",
+      "name": "KWID Zen 1.0 Flex 12V 5p Mec."
+    },
+    {
+      "code": "2042",
+      "name": "Laguna Grand Tour Privilège 3.0 V6 210cv"
+    },
+    {
+      "code": "2043",
+      "name": "Laguna Nevada RT/ RXE 2.0s 16V"
+    },
+    {
+      "code": "2044",
+      "name": "Laguna Privilège 3.0 V6 24V 210cv 5p"
+    },
+    {
+      "code": "2045",
+      "name": "Laguna RT 2.0"
+    },
+    {
+      "code": "2046",
+      "name": "Laguna RXE 2.0s 8V/16V"
+    },
+    {
+      "code": "2047",
+      "name": "Laguna V6"
+    },
+    {
+      "code": "7808",
+      "name": "LOGAN Authentique Flex 1.0 12V 4p"
+    },
+    {
+      "code": "4387",
+      "name": "LOGAN Authentique Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "4480",
+      "name": "LOGAN Authentique Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "7268",
+      "name": "LOGAN Authentique Plus Hi-F. 1.0 16V 4p"
+    },
+    {
+      "code": "5648",
+      "name": "LOGAN Avantage Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "6971",
+      "name": "LOGAN Dyna. EasyR Hi-Flex 1.6 8V"
+    },
+    {
+      "code": "7841",
+      "name": "LOGAN Dynamique EasyR Flex 1.6 16V 4p"
+    },
+    {
+      "code": "7842",
+      "name": "LOGAN Dynamique Flex 1.6 16V 4p"
+    },
+    {
+      "code": "6649",
+      "name": "LOGAN Dynamique Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "7106",
+      "name": "LOGAN Exclusive EasyR Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "7107",
+      "name": "LOGAN Exclusive Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "8024",
+      "name": "LOGAN Expres. Avantage Flex 1.0 12v 4p"
+    },
+    {
+      "code": "8025",
+      "name": "LOGAN Expres. Avantage Flex 1.6 16V 4p"
+    },
+    {
+      "code": "6972",
+      "name": "LOGAN Expres. EasyR Hi-Flex 1.6 8V"
+    },
+    {
+      "code": "7634",
+      "name": "LOGAN Expres. P.Avant. Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "4388",
+      "name": "LOGAN Expres./Exp. UP Hi-Flex 1.0 16V 4p"
+    },
+    {
+      "code": "7843",
+      "name": "LOGAN Expression Easy R Flex 1.6 16V 4p"
+    },
+    {
+      "code": "7809",
+      "name": "LOGAN Expression Flex 1.0 12V 4p"
+    },
+    {
+      "code": "7844",
+      "name": "LOGAN Expression Flex 1.6 16V 4p"
+    },
+    {
+      "code": "5629",
+      "name": "LOGAN Expression Hi-Flex 1.6 16V 4p Aut"
+    },
+    {
+      "code": "4481",
+      "name": "LOGAN Expression Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "8787",
+      "name": "LOGAN Iconic Flex 1.6 16V 4p Aut."
+    },
+    {
+      "code": "8788",
+      "name": "LOGAN Intense Flex 1.6 16V 4p Aut."
+    },
+    {
+      "code": "8789",
+      "name": "LOGAN Life Flex 1.0 12V 4p Mec."
+    },
+    {
+      "code": "4389",
+      "name": "LOGAN Privilège Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "4482",
+      "name": "LOGAN Privilège Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "8790",
+      "name": "LOGAN Zen Flex 1.0 12V 4p Mec."
+    },
+    {
+      "code": "8791",
+      "name": "LOGAN Zen Flex 1.6 16V 4p Aut."
+    },
+    {
+      "code": "8792",
+      "name": "LOGAN Zen Flex 1.6 16V 4p Mec."
+    },
+    {
+      "code": "6400",
+      "name": "Master 2.3 dCi Chassi 16V Diesel"
+    },
+    {
+      "code": "6449",
+      "name": "Master 2.3 dCi Executive Longo 16L Dies"
+    },
+    {
+      "code": "6401",
+      "name": "Master 2.3 dCi Extra F.Vitre 16V Diesel"
+    },
+    {
+      "code": "6402",
+      "name": "Master 2.3 dCi Extra Furgão 16V Diesel"
+    },
+    {
+      "code": "9866",
+      "name": "Master 2.3 dCi Extra Pro 16V Diesel"
+    },
+    {
+      "code": "6403",
+      "name": "Master 2.3 dCi Furgão 16V Diesel"
+    },
+    {
+      "code": "6404",
+      "name": "Master 2.3 dCi Grand F.Vitre16V Diesel"
+    },
+    {
+      "code": "6405",
+      "name": "Master 2.3 dCi Grand Furgão16V Diesel"
+    },
+    {
+      "code": "9867",
+      "name": "Master 2.3 dCi Grand Pro 16V Diesel"
+    },
+    {
+      "code": "9868",
+      "name": "Master 2.3 dCi Pro 16V Diesel"
+    },
+    {
+      "code": "6450",
+      "name": "Master 2.3 dCi STD Longo 16L Diesel"
+    },
+    {
+      "code": "6451",
+      "name": "Master 2.3 dCi STD Médio 16L Diesel"
+    },
+    {
+      "code": "6452",
+      "name": "Master 2.3 dCi STD Médio Esco. 20L Dies."
+    },
+    {
+      "code": "6453",
+      "name": "Master 2.3 dCi VIP Longo 16L Diesel"
+    },
+    {
+      "code": "6406",
+      "name": "Master 2.3 dCi Vitre Furgão 16V Diesel"
+    },
+    {
+      "code": "2048",
+      "name": "Master 2.5 dCi 16V 115cv 13L Diesel"
+    },
+    {
+      "code": "2049",
+      "name": "Master 2.5 dCi 16V 115cv 16L Diesel"
+    },
+    {
+      "code": "2050",
+      "name": "Master 2.5 dCi Chassi 16V 115cv Diesel"
+    },
+    {
+      "code": "4833",
+      "name": "Master 2.5 dCi Escolar 115cv 16/19L Dies"
+    },
+    {
+      "code": "4834",
+      "name": "Master 2.5 dCi Executivo 115cv 16L Dies"
+    },
+    {
+      "code": "2052",
+      "name": "Master 2.5 dCi Furg. Medio/LongoTA Dies."
+    },
+    {
+      "code": "2051",
+      "name": "Master 2.5 dCi FurgãoTB Curto Diesel"
+    },
+    {
+      "code": "5677",
+      "name": "Master 2.5 dCi Vitré 115cv Curto Diesel"
+    },
+    {
+      "code": "5678",
+      "name": "Master 2.5 dCi Vitré 115cv Longa Diesel"
+    },
+    {
+      "code": "2053",
+      "name": "Master 2.8 DTI 114cv 16L Diesel"
+    },
+    {
+      "code": "2054",
+      "name": "Master 2.8 DTI Chassi 114cv Diesel"
+    },
+    {
+      "code": "2055",
+      "name": "Master 2.8 DTI Furgão 114cv Diesel curto"
+    },
+    {
+      "code": "2056",
+      "name": "Master 2.8 DTI Furgão Dies.Longo Alto"
+    },
+    {
+      "code": "2057",
+      "name": "Master 2.8 Furgão 85cv Diesel curto"
+    },
+    {
+      "code": "4579",
+      "name": "Megane Coupé Cabriolet Dynamique 2.0 Aut"
+    },
+    {
+      "code": "10867",
+      "name": "Megane E-Tech (Elétrico)"
+    },
+    {
+      "code": "4896",
+      "name": "Megane G. Tour EXTREME 2.0 16V Aut."
+    },
+    {
+      "code": "4897",
+      "name": "Megane G. Tour EXTREME 2.0 16V Mec."
+    },
+    {
+      "code": "4898",
+      "name": "Megane G. Tour EXTREME Hi-Flex 1.6 Mec."
+    },
+    {
+      "code": "4203",
+      "name": "Megane Grand Tour Dynam. Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "4204",
+      "name": "Megane Grand Tour Dynamique 2.0 16V Aut."
+    },
+    {
+      "code": "4205",
+      "name": "Megane Grand Tour Dynamique 2.0 16V Mec."
+    },
+    {
+      "code": "4728",
+      "name": "Megane Grand Tour Expres.Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "4677",
+      "name": "Megane Grand Tour Privilège 2.0 16V Aut."
+    },
+    {
+      "code": "2058",
+      "name": "Megane Hatch RN 1.6"
+    },
+    {
+      "code": "2059",
+      "name": "Megane Hatch RT 1.6/RT/Alizé/Exp 1.6 16V"
+    },
+    {
+      "code": "2060",
+      "name": "Megane Hatch RXE 2.0"
+    },
+    {
+      "code": "2061",
+      "name": "Megane Hatch RXE/Egeus 1.6 16V"
+    },
+    {
+      "code": "4624",
+      "name": "Megane Sed. Expression 2.0 16V Aut."
+    },
+    {
+      "code": "4687",
+      "name": "Megane Sed. Expression 2.0 16V Mec."
+    },
+    {
+      "code": "4899",
+      "name": "Megane Sed. EXTREME 2.0 16V Aut."
+    },
+    {
+      "code": "4900",
+      "name": "Megane Sed. EXTREME 2.0 16V Mec."
+    },
+    {
+      "code": "4901",
+      "name": "Megane Sed. EXTREME HI-Flex 1.6 16V Mec."
+    },
+    {
+      "code": "4067",
+      "name": "Megane Sedan Dynamique 2.0 16V Aut."
+    },
+    {
+      "code": "4068",
+      "name": "Megane Sedan Dynamique 2.0 16V Mec."
+    },
+    {
+      "code": "3975",
+      "name": "Megane Sedan Dynamique Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "3976",
+      "name": "Megane Sedan Expression Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "2062",
+      "name": "Megane Sedan Privilège 2.0 16V Aut"
+    },
+    {
+      "code": "2063",
+      "name": "Megane Sedan RT 2.0"
+    },
+    {
+      "code": "2064",
+      "name": "Megane Sedan RT/Alizé 1.6 16V"
+    },
+    {
+      "code": "2065",
+      "name": "Megane Sedan RXE/ Privilège 2.0 16V Mec"
+    },
+    {
+      "code": "2066",
+      "name": "Megane Sedan RXE/Egeus 2.0"
+    },
+    {
+      "code": "11023",
+      "name": "OROCH Iconic 1.6 Flex 16V Mec."
+    },
+    {
+      "code": "9869",
+      "name": "OROCH Intense 1.6 Flex 16V Mec."
+    },
+    {
+      "code": "10405",
+      "name": "OROCH Outsider 1.3Tce Flex Aut."
+    },
+    {
+      "code": "9870",
+      "name": "OROCH Pro 1.6 Flex 16V Mec."
+    },
+    {
+      "code": "2067",
+      "name": "Safrane RXE"
+    },
+    {
+      "code": "7289",
+      "name": "SANDERO Auth. Plus Hi-Power 1.0 16V 5p"
+    },
+    {
+      "code": "7810",
+      "name": "SANDERO Authentique Flex 1.0 12V 5p"
+    },
+    {
+      "code": "4504",
+      "name": "SANDERO Authentique Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "4505",
+      "name": "SANDERO Authentique Hi-Flex 1.6 8V 5p"
+    },
+    {
+      "code": "6892",
+      "name": "SANDERO Authentique Hi-Power 1.0 16V 5p"
+    },
+    {
+      "code": "6973",
+      "name": "SANDERO Dyna. EasyR Hi-Flex 1.6 8V"
+    },
+    {
+      "code": "7845",
+      "name": "SANDERO Dynamique Easy R Flex 1.6 16V 5p"
+    },
+    {
+      "code": "7846",
+      "name": "SANDERO Dynamique Flex 1.6 16V 5p"
+    },
+    {
+      "code": "6893",
+      "name": "SANDERO Dynamique Hi-Power 1.6 8V 5p"
+    },
+    {
+      "code": "6974",
+      "name": "SANDERO Expres EasyR Hi-Flex 1.6 8V"
+    },
+    {
+      "code": "7635",
+      "name": "SANDERO Expres. P.Avant. Hi.P. 1.6 8V 5p"
+    },
+    {
+      "code": "7847",
+      "name": "SANDERO Expression EasyR Flex 1.6 16V 5p"
+    },
+    {
+      "code": "7811",
+      "name": "SANDERO Expression Flex 1.0 12V 5p"
+    },
+    {
+      "code": "7848",
+      "name": "SANDERO Expression Flex 1.6 16V 5p"
+    },
+    {
+      "code": "4506",
+      "name": "SANDERO Expression Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "4507",
+      "name": "SANDERO Expression Hi-Flex 1.6 8V 5p"
+    },
+    {
+      "code": "6894",
+      "name": "SANDERO Expression Hi-Power 1.0 16V 5p"
+    },
+    {
+      "code": "6895",
+      "name": "SANDERO Expression Hi-Power 1.6 8V 5p"
+    },
+    {
+      "code": "9149",
+      "name": "SANDERO GT Line Flex/RLI 1.6.16V 5p Aut."
+    },
+    {
+      "code": "5401",
+      "name": "SANDERO GT line Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "6192",
+      "name": "SANDERO GT line Hi-Flex 1.6 8V 5p"
+    },
+    {
+      "code": "7359",
+      "name": "SANDERO GT line Hi-Power 1.6 8V 5p"
+    },
+    {
+      "code": "9255",
+      "name": "SANDERO GT line/RLIN Flex 1.0 12v 5p"
+    },
+    {
+      "code": "9259",
+      "name": "SANDERO GT line/RLIN Flex 1.6 16V 5p"
+    },
+    {
+      "code": "8793",
+      "name": "SANDERO Intense Flex 1.6 16V 5p Aut."
+    },
+    {
+      "code": "8794",
+      "name": "SANDERO Life Flex 1.0 12V 5p Mec."
+    },
+    {
+      "code": "4666",
+      "name": "SANDERO NOKIA Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "4508",
+      "name": "SANDERO Privilège Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "5598",
+      "name": "SANDERO Privilège Hi-Flex 1.6 16V 5p Aut"
+    },
+    {
+      "code": "4509",
+      "name": "SANDERO Privilège Hi-Flex 1.6 8V 5p"
+    },
+    {
+      "code": "7959",
+      "name": "SANDERO RS Racing Spirit Flex 2.0 16V 5p"
+    },
+    {
+      "code": "9667",
+      "name": "SANDERO S Edition Flex 1.0 12V 5p Mec."
+    },
+    {
+      "code": "7360",
+      "name": "SANDERO SPORT RS 2.0 Flex 16V 5p"
+    },
+    {
+      "code": "8247",
+      "name": "SANDERO STEP. Easy R Dyn. Flex 1.6 16V"
+    },
+    {
+      "code": "7044",
+      "name": "SANDERO STEP. Easy R H-Power 1.6 8V"
+    },
+    {
+      "code": "7520",
+      "name": "SANDERO STEP. Easy R R.CURL H.P. 1.6 5p"
+    },
+    {
+      "code": "7435",
+      "name": "SANDERO STEP. R. CURL Hi-Power 1.6 8V 5p"
+    },
+    {
+      "code": "8248",
+      "name": "SANDERO STEPWAY Dynamiq. Flex 1.6 16V 5p"
+    },
+    {
+      "code": "7850",
+      "name": "SANDERO STEPWAY Easy R Flex 1.6 16V 5p"
+    },
+    {
+      "code": "8065",
+      "name": "SANDERO STEPWAY EXP. Flex 1.6 16V 5p"
+    },
+    {
+      "code": "7851",
+      "name": "SANDERO STEPWAY Flex 1.6 16V 5p"
+    },
+    {
+      "code": "5938",
+      "name": "SANDERO STEPWAY Hi-F. R. CURL 1.6 16V 5p"
+    },
+    {
+      "code": "4780",
+      "name": "SANDERO STEPWAY Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "5737",
+      "name": "SANDERO STEPWAY Hi-Flex 1.6 16V 5p Aut."
+    },
+    {
+      "code": "6193",
+      "name": "SANDERO STEPWAY Hi-Power 1.6 8V 5p"
+    },
+    {
+      "code": "6757",
+      "name": "SANDERO STEPWAY Tweed HFlex 1.6 16V Aut"
+    },
+    {
+      "code": "6758",
+      "name": "SANDERO STEPWAY Tweed HFlex 1.6 8V 5p"
+    },
+    {
+      "code": "6617",
+      "name": "SANDERO TechRun Hi-Flex 1.0 16V 5p"
+    },
+    {
+      "code": "7812",
+      "name": "SANDERO vibe Flex 1.0 12V 5p"
+    },
+    {
+      "code": "4988",
+      "name": "SANDERO vibe Hi-Flex 1.6 8V 5p"
+    },
+    {
+      "code": "8795",
+      "name": "SANDERO Zen Flex 1.0 12V 5p Mec."
+    },
+    {
+      "code": "8796",
+      "name": "SANDERO Zen Flex 1.6 16V 5p Aut."
+    },
+    {
+      "code": "8797",
+      "name": "SANDERO Zen Flex 1.6 16V 5p Mec."
+    },
+    {
+      "code": "2068",
+      "name": "Scénic Alizé/ Expression 1.6 16V Mec."
+    },
+    {
+      "code": "2069",
+      "name": "Scénic Alizé/ Expression 2.0 16V 5p"
+    },
+    {
+      "code": "2070",
+      "name": "Scénic Expression 1.6 16V Aut."
+    },
+    {
+      "code": "4580",
+      "name": "Scénic Grand Dynamique 2.0 16V 5p Aut."
+    },
+    {
+      "code": "2071",
+      "name": "Scénic Hi-Flex/Express. Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "2072",
+      "name": "Scénic Privilège Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "2073",
+      "name": "Scénic Privillège 1.6 16V Aut."
+    },
+    {
+      "code": "2074",
+      "name": "Scénic Privillège 2.0 Plus 16V 5p Aut"
+    },
+    {
+      "code": "2075",
+      "name": "Scénic RT 2.0"
+    },
+    {
+      "code": "2076",
+      "name": "Scénic RT 2.0 16V 5p Aut."
+    },
+    {
+      "code": "2077",
+      "name": "Scénic RT 2.0 16V 5p Mec."
+    },
+    {
+      "code": "2078",
+      "name": "Scénic RT/Auth/Auth/Kids Hi-Flex 1.6 16V"
+    },
+    {
+      "code": "2079",
+      "name": "Scénic RXE 2.0 8V"
+    },
+    {
+      "code": "2080",
+      "name": "Scénic RXE Egeus 2.0"
+    },
+    {
+      "code": "2081",
+      "name": "Scénic RXE/ Privilège 1.6 16V Mec."
+    },
+    {
+      "code": "2082",
+      "name": "Scénic RXE/ Privilège 2.0 16V 5p Aut."
+    },
+    {
+      "code": "2083",
+      "name": "Scénic RXE/ Privilège 2.0 16V 5p Mec."
+    },
+    {
+      "code": "3997",
+      "name": "Scénic SPORTWAY Hi-Flex 1.6 16V 5p"
+    },
+    {
+      "code": "8755",
+      "name": "STEPWAY Iconic Flex 1.6 16V Aut."
+    },
+    {
+      "code": "8756",
+      "name": "STEPWAY Intense Flex 1.6 16V  Aut."
+    },
+    {
+      "code": "10143",
+      "name": "STEPWAY Zen Flex 1.0 12V Mec."
+    },
+    {
+      "code": "8757",
+      "name": "STEPWAY Zen Flex 1.6 16V Mec."
+    },
+    {
+      "code": "5402",
+      "name": "SYMBOL CONNECTION Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "4868",
+      "name": "SYMBOL Expression Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "4926",
+      "name": "SYMBOL Expression Hi-Flex 1.6 8V 4p"
+    },
+    {
+      "code": "4869",
+      "name": "SYMBOL Privilège Hi-Flex 1.6 16V 4p"
+    },
+    {
+      "code": "2084",
+      "name": "Trafic Furgão 2.0 98cv"
+    },
+    {
+      "code": "2085",
+      "name": "Trafic Furgão Chassi Curto 2.2"
+    },
+    {
+      "code": "2086",
+      "name": "Trafic Furgão Chassi Longo 2.2"
+    },
+    {
+      "code": "2087",
+      "name": "Trafic Van 2.2"
+    },
+    {
+      "code": "2088",
+      "name": "Twingo 1.0 8V"
+    },
+    {
+      "code": "2089",
+      "name": "Twingo 1.2"
+    },
+    {
+      "code": "2090",
+      "name": "Twingo Easy 1.2"
+    },
+    {
+      "code": "2091",
+      "name": "Twingo Initiale 1.0 16V 70cv"
+    },
+    {
+      "code": "2092",
+      "name": "Twingo Pack 1.0 16V 70cv"
+    },
+    {
+      "code": "2093",
+      "name": "Twingo Pack 1.0 8V"
+    },
+    {
+      "code": "9497",
+      "name": "ZOE Intense (Elétrico)"
+    },
+    {
+      "code": "8871",
+      "name": "ZOE Life 92cv (Elétrico)"
+    },
+    {
+      "code": "8553",
+      "name": "ZOE Ultimate 92cv (Elétrico)"
+    },
+    {
+      "code": "9498",
+      "name": "ZOE Zen (Elétrico)"
+    }
+  ]
+}

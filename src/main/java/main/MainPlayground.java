@@ -1,40 +1,38 @@
 package main;
 
+import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
+import com.opencsv.exceptions.CsvException;
+import main.FIPE.cache.APICache;
+import main.FIPE.pojo.GenericItem;
 import main.exceptions.InvalidShapeFormatException;
-import main.shapes2d.*;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainPlayground {
 
-    public static void main(String[] args) throws InvalidShapeFormatException {
+    final static String Path = "C:\\Users\\raula\\IdeaProjects\\untitled\\src\\test\\resources\\Report.csv";
 
-        AreaShape squareLado3 = new Square(3);
-        AreaShape squareLado1 = new Square(1);
-        AreaShape squareLado6 = new Square(6);
-        AreaShape squareLado33 = new Square(33);
-
-        AreaShape footBallGround = new Rectangle(120, 90);
-
-        AreaShape pizzaSlice = new Triangle(120, 90, 120, 90, 45);
-
-        AreaShape fullPizza = new Circle(30);
-        AreaShape strangeRectangle = new Trapezoid(9,10,10,15,10);
-
-        Trapezoid trapezio = new Trapezoid(10, 20, 10, 15, 15);
-
-        System.out.println(trapezio.getPerimeter());
-        System.out.println(trapezio.getArea());
-
-
-        System.out.println(squareLado1.getArea());
-        System.out.println(squareLado3.getArea());
-        System.out.println(squareLado6.getArea());
-        System.out.println(squareLado33.getArea());
-        System.out.println(footBallGround.getArea());
-        System.out.println(pizzaSlice.getArea());
-        System.out.println(fullPizza.getArea());
-        System.out.println(trapezio.determineType());
+    public static void main(String[] args) throws InvalidShapeFormatException, IOException, CsvException {
 
     }
-}
 
+    private static List<String[]> createCsvDataSimple() {
+        String[] header = {"id", "name", "address", "phone"};
+        String[] record1 = {"1", "first name", "address 1", "11111"};
+        String[] record2 = {"2", "second name", "address 2", "22222"};
+
+        List<String[]> list = new ArrayList<>();
+        list.add(header);
+        list.add(record1);
+        list.add(record2);
+
+        return list;
+}
+}
 
