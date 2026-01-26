@@ -1,58 +1,63 @@
 package main.FIPE.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CarData {
 
-    private String marca;
-    private String modelo;
-    private String ano;
-    private String combustivel;
+    private String brand;
+    private String model;
+    private String modelYear;
+    private String fuel;
+    private String codeFipe;
+
+    private String price;
+
     private String lance;
     private String taxaAdm;
     private BrandsEnum brandEnum;
     private List<Object> possibleModels = new ArrayList<>();
-
-
     public CarData() {
     }
 
     @Override
     public String toString() {
-        return marca + ", " + modelo + ", " + ano + ", " + combustivel + ", " + lance + ", " + taxaAdm + "\n";
+        return brand + ", " + model + ", " + modelYear + ", " + fuel + ", " + lance + ", " + taxaAdm + "\n";
     }
 
-    public String getMarca() {
-        return marca;
+    public String getBrand() {
+        return brand;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
-    public String getModelo() {
-        return modelo;
+    public String getModel() {
+        return model;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+    public void setModel(String model) {
+        this.model = model;
     }
 
-    public String getAno() {
-        return ano;
+    public String getModelYear() {
+        return modelYear;
     }
 
-    public void setAno(String ano) {
-        this.ano = ano;
+    public void setModelYear(String modelYear) {
+        this.modelYear = modelYear;
     }
 
-    public String getCombustivel() {
-        return combustivel;
+    public String getFuel() {
+        return fuel;
     }
 
-    public void setCombustivel(String combustivel) {
-        this.combustivel = combustivel;
+    public void setFuel(String fuel) {
+        this.fuel = fuel;
     }
 
     public String getLance() {
@@ -90,6 +95,22 @@ public class CarData {
 
     public void addPossibleModel(Object possibleModel) {
         this.possibleModels.add(possibleModel);
+    }
+
+    public String getCodeFipe() {
+        return codeFipe;
+    }
+
+    public void setCodeFipe(String codeFipe) {
+        this.codeFipe = codeFipe;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 
 }

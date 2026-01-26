@@ -14,7 +14,7 @@ public enum BrandsEnum {
     CHEVROLET(23), IMP_CHEVROLET(23), IMP_CHEV(23), CHEV(23),
     HONDA(25), IMP_HONDA(25),
     HYUNDAI(26),
-    JAC(177),
+    JAC(177), IMP_JAC(177),
     JEEP(29),
     KIA(31), IMP_KIA(31),
     LR(33),IMP_LR(33),
@@ -26,7 +26,7 @@ public enum BrandsEnum {
     SHINERAY(183),
     TOYOTA(56),
     TROLLER(57),
-    VOLVO(58),
+    VOLVO(58), IMP_VOLVO(58),
     VW(59), IMP_VW(59),
 
     UNDEFINED(0)
