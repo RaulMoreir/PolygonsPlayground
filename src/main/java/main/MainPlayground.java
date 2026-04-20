@@ -1,17 +1,10 @@
 package main;
 
-import com.opencsv.CSVReader;
-import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
-import main.FIPE.cache.APICache;
-import main.FIPE.pojo.GenericItem;
 import main.exceptions.InvalidShapeFormatException;
 
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MainPlayground {
@@ -19,7 +12,9 @@ public class MainPlayground {
     final static String Path = "C:\\Users\\raula\\IdeaProjects\\untitled\\src\\test\\resources\\Report.csv";
 
     public static void main(String[] args) throws InvalidShapeFormatException, IOException, CsvException {
-
+        for (int i = 1; i <= 4; i++){
+            System.out.println(i);
+        }
     }
 
     private static List<String[]> createCsvDataSimple() {

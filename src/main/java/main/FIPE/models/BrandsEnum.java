@@ -1,12 +1,12 @@
-package main.FIPE.pojo;
+package main.FIPE.models;
 
 import java.util.Objects;
 
 public enum BrandsEnum {
     AUDI(6),
     BMW(7), IMP_BMW(7),
-    BYD(238),
-    CAOA_CHERRY(161),
+    BYD(238), IMP_BYD(238),
+    CAOA_CHERY(161),CHERY(161),
     CITROEN(13), IMP_CITROEN(13),
     FIAT(21), IMP_FIAT(21),
     FORD(22), IMP_FORD(22),
@@ -29,7 +29,8 @@ public enum BrandsEnum {
     VOLVO(58), IMP_VOLVO(58),
     VW(59), IMP_VW(59),
 
-    UNDEFINED(0)
+    UNDEFINED(0),
+    NON_EXISTENT(999)
     ;
 
     private final Integer id;

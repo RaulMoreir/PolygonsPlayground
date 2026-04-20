@@ -1,4 +1,4 @@
-package main.FIPE.pojo;
+package main.FIPE.models;
 
 import java.util.List;
 

@@ -1,11 +1,9 @@
 package main.FIPE.cache;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import main.FIPE.pojo.CarData;
-import main.FIPE.pojo.GenericItem;
+import main.FIPE.models.GenericItem;
+import main.FIPE.services.IModelYearCache;
 
-import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,15 +14,14 @@ import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class APICache {
+public class APICache implements IModelYearCache {
 
     private static final ObjectMapper mapper = new ObjectMapper();
 
-    public static String cacheSearchYearsByBrandAndModel(int brandCode, int modelCode, String ano)
+    public String cacheSearchYearsByBrandAndModel(int brandCode, int modelCode, String ano)
             throws IOException, InterruptedException {
         String cacheFileName = "src/main/resources/cache/years/"+ brandCode + "_" + modelCode + ".json";
         Path path = Paths.get(cacheFileName);

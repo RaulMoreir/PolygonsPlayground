@@ -1,4 +1,4 @@
-package main.FIPE.pojo;
+package main.FIPE.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -7,6 +7,8 @@ import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CarData {
+
+    private String vehicleType;
 
     private String brand;
     private String model;
@@ -44,9 +46,11 @@ public class CarData {
         this.model = model;
     }
 
-    public String getModelYear() {
-        return modelYear;
-    }
+    public String getModelYear() { return modelYear;}
+
+    public String getVehicleType() { return vehicleType;}
+
+    public void setVehicleType(String vehicleType) { this.vehicleType = vehicleType;}
 
     public void setModelYear(String modelYear) {
         this.modelYear = modelYear;
