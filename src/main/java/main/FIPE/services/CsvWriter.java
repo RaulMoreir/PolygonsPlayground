@@ -7,7 +7,6 @@ import main.FIPE.models.FipeResponse;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
 
 public class CsvWriter {
     private final BufferedWriter writer;
@@ -19,11 +18,11 @@ public class CsvWriter {
         //writeHeader();
     }
 
-    private void writeHeader() throws IOException{
+    /*private void writeHeader() throws IOException{
         // Faz o cabeçalho
         writer.write("vehicleType,price,brand,model,modelYear,fuel,codeFipe,referenceMonth,fuelAcronym");
         writer.newLine();
-    }
+    }*/
 
     public void writeCarReport(CarMatchReport report) throws IOException {
         // recebe POJO CarMatchReport que contém Cardata e FipeResponse

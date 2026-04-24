@@ -1,7 +1,6 @@
 package main.FIPE.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import main.FIPE.cache.APICache;
 import main.FIPE.models.CarData;
 import main.FIPE.models.FipeResponse;
 import main.FIPE.models.GenericItem;

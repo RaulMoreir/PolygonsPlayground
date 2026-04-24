@@ -56,7 +56,7 @@ public class AuctionScraperService {
         driver.findElement(By.xpath("//*[contains(text(), 'em lista')]")).click();
 
         //Nao apague tableRows mostra quantos carros tem pra percorrer ate o fim
-        List<WebElement> tableRows = driver.findElements(By.xpath("//tr[@id='tabela']"));
+        // List<WebElement> tableRows = driver.findElements(By.xpath("//tr[@id='tabela']"));
 
         String[] auctionNumber = Objects.requireNonNull(driver.getCurrentUrl()).split("/");
 
