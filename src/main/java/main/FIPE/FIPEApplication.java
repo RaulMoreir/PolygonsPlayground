@@ -6,6 +6,6 @@ import java.io.IOException;
 
 public class FIPEApplication {
    public static void main(String[] args) throws IOException {
-        new NewFIPE().run();
+        new NewFIPE().run2();
     }
 }

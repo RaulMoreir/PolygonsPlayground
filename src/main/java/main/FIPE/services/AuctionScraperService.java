@@ -127,6 +127,13 @@ public class AuctionScraperService {
             carsFromAuctionSite.add(car);
         }
 
+        /* SetTaxa
+        SetLance
+        SetFuel
+        SetModelYear
+        SetModel
+        SetBrandEnum
+        Esses são setados no auction scrapper */
         return carsFromAuctionSite;
     }
 

@@ -2,6 +2,7 @@ package main.FIPE.services;
 
 import main.FIPE.cache.APICache;
 import main.FIPE.models.CarData;
+import main.FIPE.models.CarMatchReport;
 import main.FIPE.models.FipeResponse;
 
 import java.io.IOException;
@@ -17,25 +18,32 @@ public class NewFIPE {
 
     private final FipeModelMatcherService matcher = new FipeModelMatcherService(fetcher, filter, info, cache);
 
-    public void run() throws IOException {
+    public void run2() throws IOException{
         List<CarData> carsExtracted = scrapper.scrapeAuctionCars();
         CsvWriter csv = new CsvWriter(System.currentTimeMillis()+"Report.csv");
-        carsExtracted.forEach(carData -> {
-            System.out.println("Verificando dados da FIPE...");
-            try {
-                List<FipeResponse> response = matcher.carregarPossiveisModelos(carData);
 
-                csv.writeAll( response );
-                csv.blankLine();
+        // montagem e escrita do writer
+        try{
+            //para cada UNIDADE CarData contido em carsExtracted..
+            for (CarData carData : carsExtracted){
+                System.out.println("pegano os carro hehe");
+                try {
+                    //chama o bloco de possiveis modelos
+                    List<FipeResponse> response = matcher.carregarPossiveisModelos(carData);
 
-            } catch (IOException | InterruptedException e) {
-                throw new RuntimeException(e);
+                    CarMatchReport report = new CarMatchReport(carData , response);
+                    csv.writeCarReport(report);
+
+                }catch (InterruptedException e ){
+                    Thread.currentThread().interrupt();
+                    throw new RuntimeException("Interrupção ao consultar FIPE", e);}
             }
 
-        });
-        csv.close();
-    }
+        }finally {
+            csv.close();
+        }
 
+    }
 
 }
 
