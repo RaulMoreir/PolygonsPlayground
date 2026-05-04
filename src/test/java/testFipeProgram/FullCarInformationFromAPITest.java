@@ -13,7 +13,7 @@ public class FullCarInformationFromAPITest {
     public void testDateMethod(){
         FullCarInformationFromAPII api = new FullCarInformationFromAPII();
 
-        assertEquals(api.checkWhichMonth(), "04");
+        assertEquals(api.checkWhichMonth(), "05");
 
     }
 

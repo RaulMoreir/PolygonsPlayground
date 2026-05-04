@@ -15,14 +15,14 @@ public class CsvWriter {
     public CsvWriter(String path) throws IOException {
         // Recebe a String path (src/report.csv) e chama o header
         writer = new BufferedWriter(new FileWriter(path));
-        //writeHeader();
+//        writeHeader();
     }
 
-    /*private void writeHeader() throws IOException{
+    private void writeHeader() throws IOException{
         // Faz o cabeçalho
         writer.write("vehicleType,price,brand,model,modelYear,fuel,codeFipe,referenceMonth,fuelAcronym");
         writer.newLine();
-    }*/
+    }
 
     public void writeCarReport(CarMatchReport report) throws IOException {
         // recebe POJO CarMatchReport que contém Cardata e FipeResponse
@@ -34,17 +34,18 @@ public class CsvWriter {
             writeFipeResponseCarOnCsv(match);
         }
 
-        blankLine();
+        writer.newLine();
+        writer.flush();
     }
 
 
-    public void writeAuctionCarOnCsv(CarData car) throws IOException {
+    private void writeAuctionCarOnCsv(CarData car) throws IOException {
         //Processa UMA UNIDADE de carro vinda do leilão para csv
         if (car == null) return;
         writer.write(
-                format(car.getModel()) + "," + // ok
-                        format(car.getLance()) + "," + //ok
-                        car.getTaxaAdm() + "," + //ok
+                format(car.getModel()) + "," +
+                        "R$ " + format(car.getLance()) + "," +
+                        "R$ "+ car.getTaxaAdm() + "," + //ok
                         format(car.getBrandEnum().name()) + "," + //ok
                         car.getModelYear() + "," + //ok
                         format(car.getFuel())); //ok
@@ -52,7 +53,7 @@ public class CsvWriter {
         writer.newLine();
     }
 
-        public void writeFipeResponseCarOnCsv(FipeResponse car) throws IOException {
+        private void writeFipeResponseCarOnCsv(FipeResponse car) throws IOException {
         //Processa UMA UNIDADE de carro vinda da API
         if (car == null) return;
         writer.write(
@@ -66,10 +67,6 @@ public class CsvWriter {
                         format(car.getReferenceMonth()) + "," +
                         format(car.getFuelAcronym())
         );
-        writer.newLine();
-    }
-
-    public void blankLine() throws IOException {
         writer.newLine();
     }
 

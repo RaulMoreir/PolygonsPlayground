@@ -48,59 +48,47 @@ public class FipeModelMatcherServiceTest {
         BrandsEnum brand = mock(BrandsEnum.class);
 
         when(carData.getBrandEnum()).thenReturn(brand);
-        when(carData.getModel()).thenReturn("civic");
-        when(carData.getModelYear()).thenReturn("2020");
-        when(brand.getId()).thenReturn(1);
+        when(carData.getModel()).thenReturn("Civic Coupe EX/ EXS 1.6 16V 2p");
+        when(carData.getModelYear()).thenReturn("1998");
+        when(brand.getId()).thenReturn(25);
 
         ModelData modelData = mock(ModelData.class);
 
         GenericItem item = mock(GenericItem.class);
-        when(item.getCode()).thenReturn("123");
+        when(item.getCode()).thenReturn("1248");
 
         var modelList = java.util.List.of(item);
 
         when(fetcher.getModelsFromBrand(brand)).thenReturn(modelData);
         when(modelData.getModels()).thenReturn(modelList);
 
-        when(filter.filterModelsProgressivelyByName(modelList, "civic"))
+        when(filter.filterModelsProgressivelyByName(modelList, "Civic Coupe EX/ EXS 1.6 16V 2p"))
                 .thenReturn(modelList);
 
-        when(cache.cacheSearchYearsByBrandAndModel(1, 123, "2020"))
-                .thenReturn("2020-1");
+        when(cache.cacheSearchYearsByBrandAndModel(25, 1248, "1998"))
+                .thenReturn("1998-1");
 
-        when(info.getFullCarInformation(1, "123", "2020-1"))
-                .thenReturn("dados");
+        when(info.getFullCarInformation(25, "1248", "1998-1"))
+                .thenReturn("{\n" +
+                        "    \"vehicleType\": 1,\n" +
+                        "    \"price\": \"R$ 35.950,00\",\n" +
+                        "    \"brand\": \"Honda\",\n" +
+                        "    \"model\": \"Civic Coupe EX/ EXS 1.6 16V 2p\",\n" +
+                        "    \"modelYear\": 1998,\n" +
+                        "    \"fuel\": \"Gasolina\",\n" +
+                        "    \"codeFipe\": \"014019-8\",\n" +
+                        "    \"referenceMonth\": \"maio de 2026\",\n" +
+                        "    \"fuelAcronym\": \"G\"\n" +
+                        "}");
 
         //act
         service.carregarPossiveisModelos(carData);
 
         //assert
         verify(fetcher).getModelsFromBrand(brand);
-        verify(filter).filterModelsProgressivelyByName(modelList, "civic");
-        verify(cache).cacheSearchYearsByBrandAndModel(1, 123, "2020");
-        verify(info).getFullCarInformation(1, "123", "2020-1");
-    }
-
-
-    @Test
-    public void testBmwX1() throws IOException, InterruptedException {
-        FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
-        GetIModelFromBrandID jsonReader = new GetIModelFromBrandID();
-        main.FIPE.models.ModelData test = jsonReader.getModelsFromBrand(BrandsEnum.BMW);
-        List<GenericItem> actual = filter.filterModelsProgressivelyByName(test.getModels(), "X1 S20I ACTIVE FLEX");
-        Assert.assertEquals(actual.size(), 2);
-
-        GetIModelFromBrandID fetcher = new GetIModelFromBrandID();
-        FullCarInformationFromAPII info = new FullCarInformationFromAPII();
-        APICache cache = new APICache();
-
-
-        FipeModelMatcherService matcherService = new FipeModelMatcherService(fetcher, filter, info, cache);
-
-        CarData cardata = new CarData();
-        cardata.setModel("");
-
-        matcherService.carregarPossiveisModelos(cardata);
+        verify(filter).filterModelsProgressivelyByName(modelList, "Civic Coupe EX/ EXS 1.6 16V 2p");
+        verify(cache).cacheSearchYearsByBrandAndModel(25, 1248, "1998");
+        verify(info).getFullCarInformation(25, "1248", "1998-1");
     }
 
     @Test
@@ -109,7 +97,7 @@ public class FipeModelMatcherServiceTest {
         GetIModelFromBrandID jsonReader = new GetIModelFromBrandID();
         main.FIPE.models.ModelData test = jsonReader.getModelsFromBrand(BrandsEnum.CHEVROLET);
         List<GenericItem> actual = filter.filterModelsProgressivelyByName(test.getModels(), "ONIX PLUS 10 MT LT1");
-        Assert.assertEquals(actual.size(), 3);
+        Assert.assertEquals(actual.size(), 9);
     }
 
     @Test

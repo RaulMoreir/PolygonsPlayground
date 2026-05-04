@@ -125,6 +125,12 @@ public class AuctionScraperService {
             }
 
             carsFromAuctionSite.add(car);
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
 
         /* SetTaxa

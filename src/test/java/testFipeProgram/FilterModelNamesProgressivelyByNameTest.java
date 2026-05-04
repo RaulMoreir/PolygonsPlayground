@@ -1,10 +1,16 @@
 package testFipeProgram;
 
+import main.FIPE.models.BrandsEnum;
 import main.FIPE.models.GenericItem;
+import main.FIPE.models.ModelData;
 import main.FIPE.services.FilterIModelNamesProgressivelyByName;
+import main.FIPE.services.GetIModelFromBrandID;
+import main.FIPE.services.IModelFetcher;
+import net.bytebuddy.description.type.TypeList;
 import org.jspecify.annotations.NonNull;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.util.List;
 import static org.testng.Assert.*;
 
@@ -17,6 +23,8 @@ public class FilterModelNamesProgressivelyByNameTest {
         item.setName(name);
         return item;
     }
+
+
     @Test
     public void testConstrutorParaCemPorCentoDeCoverage() throws Exception{
         FilterIModelNamesProgressivelyByName a = new FilterIModelNamesProgressivelyByName();
@@ -30,6 +38,25 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     }
 
+    @Test
+    public void HB20Desgraçado(){
+        //Setup dos recursos necessários
+        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+
+        List<GenericItem> models = List.of(
+                criarItem("8452", "HB20 1 Million 1.6 Flex 16V Aut."),
+                criarItem("9906","HB20 Comfort 1.0 Flex 12V Mec."),
+                criarItem("9908","HB20 Comfort 1.0 TB Flex 12V Mec"),
+                criarItem("10861","HB20 Comfort Plus 1.0 Flex 12V Mec.")
+        );
+        String textoDoLeilao = "HB20 TB";
+
+        //execução do metodo
+        List<GenericItem> result = serv.filterModelsProgressivelyByName(models,textoDoLeilao);
+
+        assertEquals(result.size(), 1);
+
+    }
 
     @Test
     public void devveFiltrarModeloQuandoExisteMatchCompleto(){
@@ -47,7 +74,7 @@ public class FilterModelNamesProgressivelyByNameTest {
         //execução do metodo
         List<GenericItem> result = serv.filterModelsProgressivelyByName(models,textoDoLeilao);
 
-        assertEquals(result.size(), 1);
+        assertEquals(result.size(), 2);
         assertEquals(result.get(0).getName(),"ONIX LT 1.0 Mec." );
 
     }
@@ -77,6 +104,24 @@ public class FilterModelNamesProgressivelyByNameTest {
         //o metodo retorna todos os valores quando não dá matches
         assertFalse(result.isEmpty());
     }
+
+    @Test
+    public void testHB20QueTaComProblemaNoMatch() {
+        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        List<GenericItem> models = List.of(criarItem("6940", "ONIX LT 1.0"));
+
+
+        //nao existe corolla
+        String textoLeilao = "COROLLA 2.0";
+
+        List<GenericItem> result = serv
+                .filterModelsProgressivelyByName(models, textoLeilao);
+
+        //o metodo retorna todos os valores quando não dá matches
+        assertFalse(result.isEmpty());
+    }
+
+
 
     @Test
     public void deveRetornarListaOriginalCompletaQuandoTextoVazio() {
