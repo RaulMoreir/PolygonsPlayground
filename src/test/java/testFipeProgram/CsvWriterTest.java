@@ -9,6 +9,7 @@ import org.mockito.Mock;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,6 +56,7 @@ public class CsvWriterTest {
         FipeResponse response = mock(FipeResponse.class);
 
         when(cardata.getModel()).thenReturn("Sonic Ltz");
+        when(cardata.getTaxaAdm()).thenReturn("1000");
         when(cardata.getLance()).thenReturn("1200");
         when(cardata.getBrandEnum()).thenReturn(BrandsEnum.CHEVROLET);
         when(cardata.getModelYear()).thenReturn("2015");
@@ -75,16 +77,75 @@ public class CsvWriterTest {
         CsvWriter writer = new CsvWriter(System.currentTimeMillis()*1000 +"Report.csv");
         CarMatchReport carMatchReport = new CarMatchReport(cardata,fipeResponseList);
         writer.writeCarReport(carMatchReport);
-
+        writer.close();
         //assert
 
     }
 
     @Test
-    public void testWriteFipeResponseCarOnCsv() {
+    public void testNullValueToFormatMethod() throws IOException {
+        //arrange
+        CarData cardata = mock(CarData.class);
+        FipeResponse response = mock(FipeResponse.class);
+
+        when(cardata.getModel()).thenReturn("Sonic Ltz");
+        when(cardata.getTaxaAdm()).thenReturn("1000");
+        when(cardata.getLance()).thenReturn("1200");
+        when(cardata.getBrandEnum()).thenReturn(BrandsEnum.CHEVROLET);
+        when(cardata.getModelYear()).thenReturn("2015");
+        when(cardata.getFuel()).thenReturn("G");
+
+        when(response.getVehicleType()).thenReturn("1");
+        when(response.getPrice()).thenReturn(null);
+        when(response.getBrand()).thenReturn("Chevrolet");
+        when(response.getModel()).thenReturn("Sonic Ltz");
+        when(response.getModelYear()).thenReturn("2015");
+        when(response.getFuel()).thenReturn("G");
+        when(response.getCodeFipe()).thenReturn("12332-0");
+        when(response.getReferenceMonth()).thenReturn("abril");
+        when(response.getFuelAcronym()).thenReturn("G");
+        List<FipeResponse> fipeResponseList = new ArrayList<>();
+        fipeResponseList.add(response);
+        //act
+        CsvWriter writer = new CsvWriter(System.currentTimeMillis()*1000 +"Report.csv");
+        CarMatchReport carMatchReport = new CarMatchReport(cardata,fipeResponseList);
+        writer.writeCarReport(carMatchReport);
+        writer.close();
+        //assert
+
     }
 
     @Test
-    public void testClose() {
+    public void testNullParameters() throws IOException {
+        CarData carData = null;
+
+
+        FipeResponse response = null;
+        List<FipeResponse> fipeResponseList = new ArrayList<>();
+        fipeResponseList.add(response);
+
+        CsvWriter writer = new CsvWriter(System.currentTimeMillis()*1000 +"Report.csv");
+        CarMatchReport carMatchReport = new CarMatchReport(carData,fipeResponseList);
+        writer.writeCarReport(carMatchReport);
+        writer.close();
+
     }
+
+    @Test
+    public void testNullParameterOnCarData() throws IOException {
+        CarData carData = null;
+        //when(carData.getBrandEnum()).thenReturn(BrandsEnum.CHEVROLET);
+
+
+        FipeResponse response = null;
+        List<FipeResponse> fipeResponseList = new ArrayList<>();
+        fipeResponseList.add(response);
+
+        CsvWriter writer = new CsvWriter(System.currentTimeMillis()*1000 +"Report.csv");
+        CarMatchReport carMatchReport = new CarMatchReport(carData,fipeResponseList);
+        writer.writeCarReport(carMatchReport);
+        writer.close();
+
+    }
+
 }

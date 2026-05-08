@@ -3,6 +3,7 @@ package main.FIPE.services;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.BrandsEnum;
 import main.FIPE.models.ModelData;
+import main.FIPE.services.interfaces.IModelFetcher;
 
 import java.io.IOException;
 import java.nio.file.Files;

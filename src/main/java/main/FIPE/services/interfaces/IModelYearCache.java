@@ -1,4 +1,4 @@
-package main.FIPE.services;
+package main.FIPE.services.interfaces;
 
 import java.io.IOException;
 

@@ -1,9 +1,7 @@
 package main.FIPE.services;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import main.FIPE.models.GenericItem;
+import main.FIPE.services.interfaces.IModelGetFullInfo;
 
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
@@ -14,8 +12,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.List;
 
 public class FullCarInformationFromAPII implements IModelGetFullInfo {
 

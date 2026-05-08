@@ -1,16 +1,10 @@
 package testFipeProgram;
 
-import main.FIPE.models.BrandsEnum;
 import main.FIPE.models.GenericItem;
-import main.FIPE.models.ModelData;
 import main.FIPE.services.FilterIModelNamesProgressivelyByName;
-import main.FIPE.services.GetIModelFromBrandID;
-import main.FIPE.services.IModelFetcher;
-import net.bytebuddy.description.type.TypeList;
 import org.jspecify.annotations.NonNull;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
 import java.util.List;
 import static org.testng.Assert.*;
 

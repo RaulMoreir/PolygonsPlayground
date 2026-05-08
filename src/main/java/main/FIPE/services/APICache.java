@@ -1,8 +1,8 @@
-package main.FIPE.cache;
+package main.FIPE.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.GenericItem;
-import main.FIPE.services.IModelYearCache;
+import main.FIPE.services.interfaces.IModelYearCache;
 
 import java.io.FileReader;
 import java.io.FileWriter;

@@ -18,6 +18,18 @@ public class FullCarInformationFromAPITest {
     }
 
     @Test
+    public void testGetFullCarInformationC3() throws IOException, InterruptedException {
+        int BrandCode = 13;
+        String modelCode = "6776";
+        String carYear = "2015-5";
+
+        String cars = new FullCarInformationFromAPII().getFullCarInformation(BrandCode, modelCode,carYear);
+
+        System.out.println(cars);
+        assertNotNull(cars);
+    }
+
+    @Test
     public void testGetFullCarInformation() throws IOException, InterruptedException {
         //"Uno Mille WAY ECONOMY 1.0 F.Flex 4p";
         int BrandCode = 21;
@@ -56,5 +68,8 @@ public class FullCarInformationFromAPITest {
 
         assertNull(cars);
     }
+
+    @Test
+    public void test2(){}
 
 }

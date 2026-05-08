@@ -17,13 +17,13 @@ public class CsvWriter {
         writer = new BufferedWriter(new FileWriter(path));
 //        writeHeader();
     }
-
+/*
     private void writeHeader() throws IOException{
         // Faz o cabeçalho
         writer.write("vehicleType,price,brand,model,modelYear,fuel,codeFipe,referenceMonth,fuelAcronym");
         writer.newLine();
     }
-
+*/
     public void writeCarReport(CarMatchReport report) throws IOException {
         // recebe POJO CarMatchReport que contém Cardata e FipeResponse
         // 1 linha de carro leiloado , N linhas da Fipe, uma linha em branco entre
@@ -41,7 +41,9 @@ public class CsvWriter {
 
     private void writeAuctionCarOnCsv(CarData car) throws IOException {
         //Processa UMA UNIDADE de carro vinda do leilão para csv
-        if (car == null) return;
+        if (car == null){
+            return;
+        };
         writer.write(
                 format(car.getModel()) + "," +
                         "R$ " + format(car.getLance()) + "," +

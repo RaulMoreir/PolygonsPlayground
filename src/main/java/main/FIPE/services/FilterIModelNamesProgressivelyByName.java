@@ -1,8 +1,8 @@
 package main.FIPE.services;
 
 import main.FIPE.models.GenericItem;
+import main.FIPE.services.interfaces.IModelFilter;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class FilterIModelNamesProgressivelyByName implements IModelFilter {

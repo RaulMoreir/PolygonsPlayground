@@ -1,14 +1,15 @@
-package main.FIPE.services;
+package main.FIPE.Apps;
 
-import main.FIPE.cache.APICache;
+import main.FIPE.services.APICache;
 import main.FIPE.models.CarData;
 import main.FIPE.models.CarMatchReport;
 import main.FIPE.models.FipeResponse;
+import main.FIPE.services.*;
 
 import java.io.IOException;
 import java.util.*;
 
-public class NewFIPE {
+public class AuctionScrapperApp {
 
     private final AuctionScraperService scrapper = new AuctionScraperService();
     private final GetIModelFromBrandID fetcher = new GetIModelFromBrandID();
@@ -18,7 +19,7 @@ public class NewFIPE {
 
     private final FipeModelMatcherService matcher = new FipeModelMatcherService(fetcher, filter, info, cache);
 
-    public void run2() throws IOException{
+    public void run() throws IOException{
         List<CarData> carsExtracted = scrapper.scrapeAuctionCars();
         CsvWriter csv = new CsvWriter(System.currentTimeMillis()+"Report.csv");
 

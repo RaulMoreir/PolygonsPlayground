@@ -5,6 +5,10 @@ import main.FIPE.models.CarData;
 import main.FIPE.models.FipeResponse;
 import main.FIPE.models.GenericItem;
 import main.FIPE.models.ModelData;
+import main.FIPE.services.interfaces.IModelFetcher;
+import main.FIPE.services.interfaces.IModelFilter;
+import main.FIPE.services.interfaces.IModelGetFullInfo;
+import main.FIPE.services.interfaces.IModelYearCache;
 
 import java.io.IOException;
 import java.util.ArrayList;
