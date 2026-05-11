@@ -3,7 +3,9 @@ package testFipeProgram;
 import main.FIPE.services.APICache;
 import main.FIPE.services.interfaces.IModelYearCache;
 import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -13,7 +15,10 @@ import static org.mockito.Mockito.when;
 
 public class ApiCacheTests {
     private final APICache cache = new APICache();
-
+    @BeforeMethod
+    public void setup() {
+        MockitoAnnotations.openMocks(this);
+    }
     @Test
     public void testValidValueStoredInCache() throws IOException, InterruptedException {
 

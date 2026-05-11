@@ -49,11 +49,7 @@ import java.util.Scanner;
 
         private boolean isInvalidBrand(String marca){
             BrandsEnum brand = BrandsEnum.fromString(marca.toUpperCase());
-            if( brand == BrandsEnum.UNDEFINED){
-                return true;
-            }else{
-                return false;
-            }
+            return brand == BrandsEnum.UNDEFINED;
 
         }
 
