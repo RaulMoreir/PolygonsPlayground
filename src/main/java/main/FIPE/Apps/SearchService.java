@@ -24,10 +24,8 @@ public class SearchService {
         carData.setBrandEnum(BrandsEnum.fromString(marca.toUpperCase()));
         carData.setModel(modelo);
         carData.setModelYear(ano);
-        //List<CarData> carsExtracted = new ArrayList<>();
-        //carsExtracted.add(carData);
 
-        CsvWriter csv = new CsvWriter(System.currentTimeMillis()+"Report.csv");
+        CsvWriter csv = new CsvWriter("Pesquisa_"+ marca + "_" + modelo + "_" + ano +"_Report.csv");
 
         try {
             // montagem e escrita do writer

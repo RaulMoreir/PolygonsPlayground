@@ -69,7 +69,4 @@ public class FullCarInformationFromAPITest {
         assertNull(cars);
     }
 
-    @Test
-    public void test2(){}
-
 }

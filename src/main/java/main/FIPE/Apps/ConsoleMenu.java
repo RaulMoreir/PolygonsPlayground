@@ -1,5 +1,7 @@
 package main.FIPE.Apps;
 
+import main.FIPE.models.BrandsEnum;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -45,18 +47,52 @@ import java.util.Scanner;
             }
         }
 
+        private boolean isInvalidBrand(String marca){
+            BrandsEnum brand = BrandsEnum.fromString(marca.toUpperCase());
+            if( brand == BrandsEnum.UNDEFINED){
+                return true;
+            }else{
+                return false;
+            }
+
+        }
+
         private void executarPesquisa() {
-            System.out.print("Digite a marca do carro: ");
-            String marca = scanner.nextLine();
+            String marca; String modelo; String ano;
+
+            // MARCA
+            while (true) {
+                System.out.print("Digite a marca do carro: ");
+                marca = scanner.nextLine();
+
+                if (isInvalidBrand(marca)) {
+                    System.out.println("Parâmetro inválido, marca não existe.");
+                    continue;
+                }
+                break;
+            }
+
+            // MODELO
             System.out.print("Digite o modelo do carro: ");
-            String modelo = scanner.nextLine();
-            System.out.print("Digite o ano do carro: ");
-            String ano = scanner.nextLine();
+            modelo = scanner.nextLine();
+
+            // ANO
+            while (true) {
+                System.out.print("Digite o ano do carro: ");
+                ano = scanner.nextLine();
+
+                if (!ano.isBlank() && !ano.matches("\\d{4}")) {
+                    System.out.println("Parâmetro inválido, digite exatamente 4 números ou deixe vazio.");
+                    continue;
+                }
+                break;
+            }
+
             try {
-                SearchService.SearchCar( marca, modelo, ano);
+                SearchService.SearchCar(marca, modelo, ano);
             } catch (IOException e) {
                 System.out.println("Erro ao procurar veículo: " + e.getMessage());
-                scanner.close();
             }
-        }
+    }
+
     }
