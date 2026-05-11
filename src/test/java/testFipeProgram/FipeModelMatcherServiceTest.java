@@ -148,7 +148,7 @@ public class FipeModelMatcherServiceTest {
 
     @Test
     public void testOnix() throws IOException {
-        FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName filter = new FilterIModelByName();
         GetIModelFromBrandID jsonReader = new GetIModelFromBrandID();
         main.FIPE.models.ModelData test = jsonReader.getModelsFromBrand(BrandsEnum.CHEVROLET);
         List<GenericItem> actual = filter.filterModelsProgressivelyByName(test.getModels(), "ONIX PLUS 10 MT LT1");
@@ -157,7 +157,7 @@ public class FipeModelMatcherServiceTest {
 
     @Test
     public void testOnix2() throws IOException {
-        FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName filter = new FilterIModelByName();
         GetIModelFromBrandID jsonReader = new GetIModelFromBrandID();
         main.FIPE.models.ModelData test = jsonReader.getModelsFromBrand(BrandsEnum.CHEVROLET);
         List<GenericItem> actual = filter.filterModelsProgressivelyByName(test.getModels(), "ONIX 10 MT LT2");
@@ -166,7 +166,7 @@ public class FipeModelMatcherServiceTest {
 
     @Test
     public void testCC3() throws IOException {
-        FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName filter = new FilterIModelByName();
         GetIModelFromBrandID jsonReader = new GetIModelFromBrandID();
         main.FIPE.models.ModelData test = jsonReader.getModelsFromBrand(BrandsEnum.CITROEN);
         List<GenericItem> actual = filter.filterModelsProgressivelyByName(test.getModels(), "C3 1.6 Aut.");
@@ -175,7 +175,7 @@ public class FipeModelMatcherServiceTest {
 
     @Test
     public void testbruh() throws IOException {
-        FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName filter = new FilterIModelByName();
         GetIModelFromBrandID jsonReader = new GetIModelFromBrandID();
         main.FIPE.models.ModelData test = jsonReader.getModelsFromBrand(BrandsEnum.FIAT);
         List<GenericItem> actual = filter.filterModelsProgressivelyByName(test.getModels(),"ARGO DRIVE 1.0 6V Flex");

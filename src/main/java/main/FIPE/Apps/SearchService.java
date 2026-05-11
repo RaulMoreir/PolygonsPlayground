@@ -1,17 +1,17 @@
 package main.FIPE.Apps;
 
+import main.FIPE.models.BrandsEnum;
 import main.FIPE.models.CarData;
 import main.FIPE.models.CarMatchReport;
 import main.FIPE.models.FipeResponse;
 import main.FIPE.services.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class SearchService {
     private final GetIModelFromBrandID fetcher = new GetIModelFromBrandID();
-    private final FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
+    private final FilterIModelByName filter = new FilterIModelByName();
     private final FullCarInformationFromAPII info = new FullCarInformationFromAPII();
     private final APICache cache = new APICache();
 
@@ -21,6 +21,7 @@ public class SearchService {
 
         CarData carData = new CarData();
         carData.setBrand(marca);
+        carData.setBrandEnum(BrandsEnum.fromString(marca.toUpperCase()));
         carData.setModel(modelo);
         carData.setModelYear(ano);
         //List<CarData> carsExtracted = new ArrayList<>();

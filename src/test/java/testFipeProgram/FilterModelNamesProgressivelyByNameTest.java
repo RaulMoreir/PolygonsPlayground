@@ -1,7 +1,7 @@
 package testFipeProgram;
 
 import main.FIPE.models.GenericItem;
-import main.FIPE.services.FilterIModelNamesProgressivelyByName;
+import main.FIPE.services.FilterIModelByName;
 import org.jspecify.annotations.NonNull;
 import org.testng.annotations.Test;
 
@@ -21,7 +21,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void testConstrutorParaCemPorCentoDeCoverage() throws Exception{
-        FilterIModelNamesProgressivelyByName a = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName a = new FilterIModelByName();
 
         List<GenericItem> models = List.of();
         String textoLeilao = "ONIX";
@@ -35,7 +35,7 @@ public class FilterModelNamesProgressivelyByNameTest {
     @Test
     public void HB20Desgraçado(){
         //Setup dos recursos necessários
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
 
         List<GenericItem> models = List.of(
                 criarItem("8452", "HB20 1 Million 1.6 Flex 16V Aut."),
@@ -55,7 +55,7 @@ public class FilterModelNamesProgressivelyByNameTest {
     @Test
     public void devveFiltrarModeloQuandoExisteMatchCompleto(){
         //Setup dos recursos necessários
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
 
         List<GenericItem> models = List.of(
                 criarItem("6940", "ONIX LT 1.0 Mec."),
@@ -87,7 +87,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void deveRetornarListaCompletaQuandoNenhumMatch() {
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
         List<GenericItem> models = List.of(criarItem("6940", "ONIX LT 1.0"));
         //nao existe corolla
         String textoLeilao = "COROLLA 2.0";
@@ -101,7 +101,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void testHB20QueTaComProblemaNoMatch() {
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
         List<GenericItem> models = List.of(criarItem("6940", "ONIX LT 1.0"));
 
 
@@ -119,7 +119,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void deveRetornarListaOriginalCompletaQuandoTextoVazio() {
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
         List<GenericItem> models = List.of(
                 criarItem("6940", "ONIX LT 1.0"),
                 criarItem("6950", "PRISMA LT")
@@ -133,7 +133,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void deveRetornarListaOriginalCompletaQuandoNulo() {
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
         List<GenericItem> models = List.of(
                 criarItem("6940", "ONIX LT 1.0"),
                 criarItem("6950", "PRISMA LT")
@@ -148,7 +148,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void deveRetornarListaVaziaQuandoModelsVazia() {
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
         List<GenericItem> models = List.of();
         String textoLeilao = "ONIX";
 
@@ -160,7 +160,7 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     @Test
     public void deveFiltrarMesmoComLetrasMinusculas() {
-        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
+        FilterIModelByName serv = new FilterIModelByName();
         List<GenericItem> models = List.of(criarItem("6940", "onix lt 1.0"));
         String textoLeilao = "ONIX LT1";
 

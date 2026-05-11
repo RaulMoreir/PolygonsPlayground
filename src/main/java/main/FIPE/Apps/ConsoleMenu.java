@@ -54,7 +54,6 @@ import java.util.Scanner;
             String ano = scanner.nextLine();
             try {
                 SearchService.SearchCar( marca, modelo, ano);
-                scanner.close();
             } catch (IOException e) {
                 System.out.println("Erro ao procurar veículo: " + e.getMessage());
                 scanner.close();

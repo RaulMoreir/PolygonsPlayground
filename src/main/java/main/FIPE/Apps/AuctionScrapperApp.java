@@ -13,7 +13,7 @@ public class AuctionScrapperApp {
 
     private final AuctionScraperService scrapper = new AuctionScraperService();
     private final GetIModelFromBrandID fetcher = new GetIModelFromBrandID();
-    private final FilterIModelNamesProgressivelyByName filter = new FilterIModelNamesProgressivelyByName();
+    private final FilterIModelByName filter = new FilterIModelByName();
     private final FullCarInformationFromAPII info = new FullCarInformationFromAPII();
     private final APICache cache = new APICache();
 

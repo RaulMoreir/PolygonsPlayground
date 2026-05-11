@@ -5,7 +5,7 @@ import main.FIPE.services.interfaces.IModelFilter;
 
 import java.util.List;
 
-public class FilterIModelNamesProgressivelyByName implements IModelFilter {
+public class FilterIModelByName implements IModelFilter {
 
 
     public List<GenericItem> filterModelsProgressivelyByName(List<GenericItem> modelsFromAPI, String textFromAuctionSite) {
