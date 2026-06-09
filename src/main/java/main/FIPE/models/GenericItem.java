@@ -1,5 +1,8 @@
 package main.FIPE.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class GenericItem {
 
     private String code;

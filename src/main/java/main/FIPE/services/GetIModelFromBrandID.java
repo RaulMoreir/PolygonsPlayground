@@ -15,7 +15,7 @@ public class GetIModelFromBrandID implements IModelFetcher {
 
     private final ObjectMapper mapper = new ObjectMapper();
 
-    public ModelData getModelsFromBrand(BrandsEnum brandsEnum) throws IOException {
+    public ModelData getModelsFromBrandFromJsonDb(BrandsEnum brandsEnum) throws IOException {
         if (brandsEnum == null || brandsEnum == BrandsEnum.UNDEFINED) {
             return null;
         }
@@ -26,5 +26,15 @@ public class GetIModelFromBrandID implements IModelFetcher {
             return null;
         }
         return mapper.readValue(jsonBrandFilePath.toFile(), ModelData.class);
+    }
+    public ModelData getModelsFromBrandFromSqliteDb(BrandsEnum brandsEnum) throws IOException{
+        //fazer listagem dos veículos da marca especificada
+        if (brandsEnum == null || brandsEnum == BrandsEnum.UNDEFINED) {
+            return null;
+        }
+        String sql = "SELECT * FROM models WHERE brands_fipe_code = " + brandsEnum.getId();
+
+
+        return null;
     }
 }

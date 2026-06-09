@@ -17,7 +17,7 @@ public class SearchService {
 
     private final FipeModelMatcherService matcher = new FipeModelMatcherService(fetcher, filter, info, cache);
 
-    public void SearchCar(String marca,String modelo, String ano) throws IOException {
+    public void SearchCar(String marca, String modelo, String ano) throws IOException {
 
         CarData carData = new CarData();
         carData.setBrand(marca);

@@ -30,6 +30,9 @@ import java.util.Scanner;
                 }
             }
         }
+        private void escolherQualBancoDeDados(){
+
+        }
 
         private void mostrarMenu() {
             System.out.println("\n=== MENU ===");
@@ -41,7 +44,7 @@ import java.util.Scanner;
 
         private void executarScrape() {
             try {
-                auctionScrapperRun.run();
+                auctionScrapperRun.runJsonDatabase();
             } catch (IOException e) {
                 System.out.println("Erro ao executar scrape: " + e.getMessage());
             }

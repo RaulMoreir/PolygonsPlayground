@@ -31,9 +31,9 @@ public class FipeModelMatcherService {
     }
 
 
-    public List<FipeResponse> carregarPossiveisModelos(CarData carData) throws IOException, InterruptedException {
+    public List<FipeResponse>  carregarPossiveisModelos(CarData carData) throws IOException, InterruptedException {
         // A string vem dos jsons 10.json etc etc
-        ModelData modelData = iModelFetcher.getModelsFromBrand(carData.getBrandEnum());
+        ModelData modelData = iModelFetcher.getModelsFromBrandFromJsonDb(carData.getBrandEnum());
 
         List<GenericItem> filteredOptionsByModelName =
                 this.iModelFilter.filterModelsProgressivelyByName(

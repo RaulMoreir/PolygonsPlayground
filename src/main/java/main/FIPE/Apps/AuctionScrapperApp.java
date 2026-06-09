@@ -19,10 +19,9 @@ public class AuctionScrapperApp {
 
     private final FipeModelMatcherService matcher = new FipeModelMatcherService(fetcher, filter, info, cache);
 
-    public void run() throws IOException{
+    public void runJsonDatabase() throws IOException{
         List<CarData> carsExtracted = scrapper.scrapeAuctionCars();
         CsvWriter csv = new CsvWriter(System.currentTimeMillis()+"Report.csv");
-
         // montagem e escrita do writer
         try{
             //para cada UNIDADE CarData contido em carsExtracted..
@@ -44,6 +43,13 @@ public class AuctionScrapperApp {
         }finally {
             csv.close();
         }
+
+    }
+
+    public void runSqliteDatabase() throws IOException {
+        List<CarData> carsExtracted = scrapper.scrapeAuctionCars();
+        CsvWriter csv = new CsvWriter(System.currentTimeMillis()+"Report.csv");
+
 
     }
 
