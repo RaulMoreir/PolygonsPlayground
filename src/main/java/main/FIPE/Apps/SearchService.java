@@ -1,9 +1,6 @@
 package main.FIPE.Apps;
 
-import main.FIPE.models.BrandsEnum;
-import main.FIPE.models.CarData;
-import main.FIPE.models.CarMatchReport;
-import main.FIPE.models.FipeResponse;
+import main.FIPE.models.*;
 import main.FIPE.services.*;
 import main.FIPE.services.JsonServices.*;
 import main.FIPE.services.SqlServices.SqlModelFetcher;
@@ -21,20 +18,25 @@ public class SearchService {
 
     private final FipeModelMatcherService matcher ;
 
-    public SearchService(boolean jsonCache) {
+    public SearchService(SearchModeEnum mode) {
 
         IModelFetcher fetcher;
         IModelGetFullInfo info;
         IModelYearCache yearSearch;
 
-        if (jsonCache) {
-            fetcher = new JsonModelFetcher();
-            info = new FullCarInformationFromAPII();
-            yearSearch = new YearSearch();
-        } else {
-            fetcher = new SqlModelFetcher();
-            info = new SqlModelFullInfo();
-            yearSearch = new SqlModelYear();
+        switch (mode) {
+            case JSON -> {
+                fetcher = new JsonModelFetcher();
+                info = new FullCarInformationFromAPII();
+                yearSearch = new YearSearch();
+
+            }
+            case SQLITE_DATABASE -> {
+                fetcher = new SqlModelFetcher();
+                info = new SqlModelFullInfo();
+                yearSearch = new SqlModelYear();
+            }
+            default -> throw new IllegalArgumentException("Modo inválido: " + mode);
         }
 
         FilterIModelByName filter = new FilterIModelByName();

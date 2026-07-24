@@ -1,6 +1,7 @@
 package main.FIPE.Apps;
 
 import main.FIPE.models.BrandsEnum;
+import main.FIPE.models.SearchModeEnum;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -9,9 +10,11 @@ import java.util.Scanner;
 
         private final Scanner scanner = new Scanner(System.in);
         private final AuctionScrapperApp auctionScrapperRun = new AuctionScrapperApp();
-        private final SearchService SearchService = new SearchService(false);
+        private SearchService SearchService;
 
         public void iniciar() {
+            SearchModeEnum mode = configurarBusca();
+            SearchService = new SearchService(mode);
             boolean executando = true;
 
             while (executando) {
@@ -30,8 +33,24 @@ import java.util.Scanner;
                 }
             }
         }
-        private void escolherQualBancoDeDados(){
 
+        private SearchModeEnum configurarBusca() {
+            while (true) {
+                System.out.println("Escolha a fonte de dados:");
+                System.out.println("1 - JSON Cache");
+                System.out.println("2 - Banco de dados");
+
+                String opcao = scanner.nextLine();
+
+                switch (opcao) {
+                    case "1":
+                        return SearchModeEnum.JSON;
+                    case "2":
+                        return SearchModeEnum.SQLITE_DATABASE;
+                    default:
+                        System.out.println("Opção inválida, selecione outra.");
+                }
+            }
         }
 
         private void mostrarMenu() {

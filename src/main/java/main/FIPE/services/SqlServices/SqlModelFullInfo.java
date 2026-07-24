@@ -23,15 +23,36 @@ public class SqlModelFullInfo implements IModelGetFullInfo {
     @Override
 public String getFullCarInformation(int BrandCode, String ModelCode, String carYear) throws IOException, InterruptedException {
         List<FipeResponseSQLFormated> fullCarInfoList = searchInDatabase(ModelCode, carYear);
+        ObjectMapper mapper = new ObjectMapper();
 
         if (!fullCarInfoList.isEmpty()) {
-            return fullCarInfoList.get(0).toString();
+            return mapper.writeValueAsString(fullCarInfoList.get(0));
         }
 
         FipeResponseSQLFormated fullCarInfo = searchInApi(BrandCode, ModelCode, carYear);
         insertCarDetails(fullCarInfo);
 
-        return fullCarInfo.toString();
+        FipeResponse response = convertFromSqlFormat(fullCarInfo);
+        return mapper.writeValueAsString(response);
+    }
+
+    private FipeResponse convertFromSqlFormat(FipeResponseSQLFormated source) {
+        if (source == null) {
+            return null;
+        }
+
+        FipeResponse target = new FipeResponse();
+        target.setVehicleType(String.valueOf(source.getVehicleType()));
+        target.setPrice(source.getPrice());
+        target.setBrand(source.getBrand());
+        target.setModel(source.getModel());
+        target.setModelYear(String.valueOf(source.getModelYear()));
+        target.setFuel(source.getFuel());
+        target.setCodeFipe(source.getCodeFipe());
+        target.setReferenceMonth(source.getReferenceMonth());
+        target.setFuelAcronym(source.getFuelAcronym());
+
+        return target;
     }
 
     private List<FipeResponseSQLFormated> searchInDatabase (String ModelCode, String carYear){
