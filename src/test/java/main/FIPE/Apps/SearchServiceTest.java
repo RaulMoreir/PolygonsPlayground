@@ -13,7 +13,7 @@ public class SearchServiceTest {
     public void testSearchCar(String marca, String modelo, String ano) throws IOException {
         boolean verify = true;
 
-        SearchService searchService = new SearchService();
+        SearchService searchService = new SearchService(true);
         searchService.SearchCar(marca,modelo,ano);
         Path path = Paths.get("Pesquisa_"+ marca + "_" + modelo + "_" + ano +"_Report.csv");
 
@@ -22,6 +22,25 @@ public class SearchServiceTest {
         }else {
             Assert.assertFalse(verify);
         }
+    }
+
+    public void testSearchCarDB(String marca, String modelo, String ano) throws IOException {
+        boolean verify = true;
+
+        SearchService searchService = new SearchService(false);
+        searchService.SearchCar(marca,modelo,ano);
+        Path path = Paths.get("Pesquisa_"+ marca + "_" + modelo + "_" + ano +"_Report.csv");
+
+        if(Files.exists(path)){
+            Assert.assertTrue(verify);
+        }else {
+            Assert.assertFalse(verify);
+        }
+    }
+
+    @Test
+    public void testNormalParametersDB() throws IOException {
+        testSearchCarDB("chev","sonic","2014");
     }
 
     @Test

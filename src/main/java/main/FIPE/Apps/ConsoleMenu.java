@@ -9,7 +9,7 @@ import java.util.Scanner;
 
         private final Scanner scanner = new Scanner(System.in);
         private final AuctionScrapperApp auctionScrapperRun = new AuctionScrapperApp();
-        private final SearchService SearchService = new SearchService();
+        private final SearchService SearchService = new SearchService(false);
 
         public void iniciar() {
             boolean executando = true;

@@ -1,4 +1,4 @@
-package main.FIPE.services;
+package main.FIPE.services.JsonServices;
 
 import main.FIPE.models.GenericItem;
 import main.FIPE.services.interfaces.IModelFilter;

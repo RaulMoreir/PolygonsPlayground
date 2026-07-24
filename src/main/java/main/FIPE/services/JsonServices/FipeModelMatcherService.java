@@ -1,4 +1,4 @@
-package main.FIPE.services;
+package main.FIPE.services.JsonServices;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.CarData;
@@ -33,7 +33,7 @@ public class FipeModelMatcherService {
 
     public List<FipeResponse>  carregarPossiveisModelos(CarData carData) throws IOException, InterruptedException {
         // A string vem dos jsons 10.json etc etc
-        ModelData modelData = iModelFetcher.getModelsFromBrandFromJsonDb(carData.getBrandEnum());
+        ModelData modelData = iModelFetcher.getModelsFromBrand(carData.getBrandEnum());
 
         List<GenericItem> filteredOptionsByModelName =
                 this.iModelFilter.filterModelsProgressivelyByName(

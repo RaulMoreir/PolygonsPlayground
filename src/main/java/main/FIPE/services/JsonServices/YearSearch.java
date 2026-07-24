@@ -1,4 +1,4 @@
-package main.FIPE.services;
+package main.FIPE.services.JsonServices;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.GenericItem;
@@ -17,7 +17,7 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
-public class APICache implements IModelYearCache {
+public class YearSearch implements IModelYearCache {
 
     private static final ObjectMapper mapper = new ObjectMapper();
 

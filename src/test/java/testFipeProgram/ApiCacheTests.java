@@ -1,6 +1,6 @@
 package testFipeProgram;
 
-import main.FIPE.services.APICache;
+import main.FIPE.services.JsonServices.YearSearch;
 import main.FIPE.services.interfaces.IModelYearCache;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -14,7 +14,7 @@ import java.io.IOException;
 import static org.mockito.Mockito.when;
 
 public class ApiCacheTests {
-    private final APICache cache = new APICache();
+    private final YearSearch cache = new YearSearch();
     @BeforeMethod
     public void setup() {
         MockitoAnnotations.openMocks(this);

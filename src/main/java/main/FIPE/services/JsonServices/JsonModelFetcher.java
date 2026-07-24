@@ -1,4 +1,4 @@
-package main.FIPE.services;
+package main.FIPE.services.JsonServices;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.BrandsEnum;
@@ -10,12 +10,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class GetIModelFromBrandID implements IModelFetcher {
-    //coleta os modelos dos "{codigodomodelo}.json e retorna-os
+public class JsonModelFetcher implements IModelFetcher {
+    //coleta os modelos dos "{codigodomodelo}.json e retorna-os Package JsonModels
 
     private final ObjectMapper mapper = new ObjectMapper();
 
-    public ModelData getModelsFromBrandFromJsonDb(BrandsEnum brandsEnum) throws IOException {
+    public ModelData getModelsFromBrand(BrandsEnum brandsEnum) throws IOException {
         if (brandsEnum == null || brandsEnum == BrandsEnum.UNDEFINED) {
             return null;
         }
@@ -27,14 +27,5 @@ public class GetIModelFromBrandID implements IModelFetcher {
         }
         return mapper.readValue(jsonBrandFilePath.toFile(), ModelData.class);
     }
-    public ModelData getModelsFromBrandFromSqliteDb(BrandsEnum brandsEnum) throws IOException{
-        //fazer listagem dos veículos da marca especificada
-        if (brandsEnum == null || brandsEnum == BrandsEnum.UNDEFINED) {
-            return null;
-        }
-        String sql = "SELECT * FROM models WHERE brands_fipe_code = " + brandsEnum.getId();
 
-
-        return null;
-    }
 }

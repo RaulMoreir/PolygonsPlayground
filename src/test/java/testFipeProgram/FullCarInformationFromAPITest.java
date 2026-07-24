@@ -1,6 +1,6 @@
 package testFipeProgram;
 
-import main.FIPE.services.FullCarInformationFromAPII;
+import main.FIPE.services.JsonServices.FullCarInformationFromAPII;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

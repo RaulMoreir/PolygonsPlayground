@@ -5,17 +5,42 @@ import main.FIPE.models.CarData;
 import main.FIPE.models.CarMatchReport;
 import main.FIPE.models.FipeResponse;
 import main.FIPE.services.*;
+import main.FIPE.services.JsonServices.*;
+import main.FIPE.services.SqlServices.SqlModelFetcher;
+import main.FIPE.services.SqlServices.SqlModelFullInfo;
+import main.FIPE.services.SqlServices.SqlModelYear;
+import main.FIPE.services.interfaces.IModelFetcher;
+import main.FIPE.services.interfaces.IModelGetFullInfo;
+import main.FIPE.services.interfaces.IModelYearCache;
 
 import java.io.IOException;
 import java.util.List;
 
 public class SearchService {
-    private final GetIModelFromBrandID fetcher = new GetIModelFromBrandID();
-    private final FilterIModelByName filter = new FilterIModelByName();
-    private final FullCarInformationFromAPII info = new FullCarInformationFromAPII();
-    private final APICache cache = new APICache();
 
-    private final FipeModelMatcherService matcher = new FipeModelMatcherService(fetcher, filter, info, cache);
+
+    private final FipeModelMatcherService matcher ;
+
+    public SearchService(boolean jsonCache) {
+
+        IModelFetcher fetcher;
+        IModelGetFullInfo info;
+        IModelYearCache yearSearch;
+
+        if (jsonCache) {
+            fetcher = new JsonModelFetcher();
+            info = new FullCarInformationFromAPII();
+            yearSearch = new YearSearch();
+        } else {
+            fetcher = new SqlModelFetcher();
+            info = new SqlModelFullInfo();
+            yearSearch = new SqlModelYear();
+        }
+
+        FilterIModelByName filter = new FilterIModelByName();
+
+        matcher = new FipeModelMatcherService(fetcher, filter, info, yearSearch);
+    }
 
     public void SearchCar(String marca, String modelo, String ano) throws IOException {
 
