@@ -24,20 +24,22 @@ public class SqlModelYear implements IModelYearCache {
         GenericItem yearFromApi;
         String years = searchYearsInDatabase(modelCode, ano);
 
-       if (!years.isEmpty()) {
+       if (years != null && years.contains(ano)) {
             return years;
             // "2014-x"
         }else{
             yearFromApi = searchYearsInApi(brandCode, modelCode, ano);
-            saveYears(brandCode, modelCode, yearFromApi.getCode(), yearFromApi.getName());
+            if (yearFromApi != null) {
+                saveYears(brandCode, modelCode, yearFromApi.getCode(), yearFromApi.getName());
+                return yearFromApi.getCode();
+            }
         }
 
-        return years;
+        return null;
     }
 
     private String searchYearsInDatabase(int modelCode, String ano) {
         String sql = "select year_code from model_years where model_code = ? and year_code LIKE ?";
-        String yearCode = "";
 
         try (Connection connection = ConnectionFactory.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -46,10 +48,8 @@ public class SqlModelYear implements IModelYearCache {
             statement.setString(2, "%"+ano.substring(4)+"%");
 
             try (ResultSet resultSet = statement.executeQuery()) {
-                while (resultSet.next()) {
-
-                    yearCode = resultSet.getString("year_code");
-
+                if (resultSet.next()) {
+                    return resultSet.getString("year_code");
                 }
             }
 
@@ -57,7 +57,7 @@ public class SqlModelYear implements IModelYearCache {
             throw new RuntimeException(e);
         }
 
-        return yearCode;
+        return null;
     }
 
     private GenericItem searchYearsInApi(int brandCode, int modelCode, String ano)

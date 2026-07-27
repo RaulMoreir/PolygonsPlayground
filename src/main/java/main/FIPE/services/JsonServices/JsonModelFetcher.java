@@ -19,7 +19,7 @@ public class JsonModelFetcher implements IModelFetcher {
         if (brandsEnum == null || brandsEnum == BrandsEnum.UNDEFINED) {
             return null;
         }
-        Path packageModel = Paths.get("src/main/resources/JsonModels/");
+        Path packageModel = Paths.get("src/main/resources/cache/JsonModels/");
         String fileName = brandsEnum.getId() + ".json";
         Path jsonBrandFilePath = packageModel.resolve(fileName);
         if (!Files.exists(jsonBrandFilePath)) {

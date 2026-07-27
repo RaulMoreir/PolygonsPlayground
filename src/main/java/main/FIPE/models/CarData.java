@@ -2,9 +2,6 @@ package main.FIPE.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CarData {
 
@@ -21,7 +18,7 @@ public class CarData {
     private String lance;
     private String taxaAdm;
     private BrandsEnum brandEnum;
-    private List<Object> possibleModels = new ArrayList<>();
+
     public CarData() {
     }
 
@@ -87,18 +84,6 @@ public class CarData {
 
     public void setBrandEnum(BrandsEnum brandEnum) {
         this.brandEnum = brandEnum;
-    }
-
-    public List<Object> getPossibleModels() {
-        return possibleModels;
-    }
-
-    public void setPossibleModels(List<Object> possibleModels) {
-        this.possibleModels = possibleModels;
-    }
-
-    public void addPossibleModel(Object possibleModel) {
-        this.possibleModels.add(possibleModel);
     }
 
     public String getCodeFipe() {
