@@ -1,4 +1,4 @@
-package main.FIPE.services.SqlServices;
+package main.FIPE.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.CarData;
@@ -14,16 +14,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SQLModelMatcherService {
+public class FipeModelMatcherService {
     private final IModelFetcher iModelFetcher;
     private final IModelFilter iModelFilter;
     private final IModelGetFullInfo modelInfo;
     private final IModelYearCache iModelYearCache;
 
-    public SQLModelMatcherService(IModelFetcher iModelFetcher,
-                                  IModelFilter iModelFilter,
-                                  IModelGetFullInfo modelInfo,
-                                  IModelYearCache iModelYearCache) {
+    public FipeModelMatcherService(IModelFetcher iModelFetcher,
+                                   IModelFilter iModelFilter,
+                                   IModelGetFullInfo modelInfo,
+                                   IModelYearCache iModelYearCache) {
         this.iModelFetcher = iModelFetcher;
         this.iModelFilter = iModelFilter;
         this.modelInfo = modelInfo;
@@ -31,7 +31,7 @@ public class SQLModelMatcherService {
     }
 
 
-    public List<FipeResponse> carregarPossiveisModelos(CarData carData) throws IOException, InterruptedException {
+    public List<FipeResponse>  carregarPossiveisModelos(CarData carData) throws IOException, InterruptedException {
         // A string vem dos jsons 10.json etc etc
         ModelData modelData = iModelFetcher.getModelsFromBrand(carData.getBrandEnum());
 

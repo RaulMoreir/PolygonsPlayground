@@ -7,15 +7,14 @@ import main.FIPE.services.interfaces.IModelYearCache;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+
+import static main.FIPE.services.ExternalFipeApiConsumer.apiCallGetYearsByBrandAndModel;
 
 public class YearSearch implements IModelYearCache {
 
@@ -53,17 +52,5 @@ public class YearSearch implements IModelYearCache {
 
     }
 
-    private static HttpResponse<String> apiCallGetYearsByBrandAndModel(int brandCode, int modelCode) throws IOException, InterruptedException {
-        Thread.sleep(1000);
-        String url ="https://fipe.parallelum.com.br/api/v2/cars/brands/" + brandCode
-                + "/models/" + modelCode + "/years";
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(url))
-                .GET()
-                .build();
-        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-        return response;
-    }
 
 }

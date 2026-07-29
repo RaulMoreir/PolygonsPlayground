@@ -2,15 +2,11 @@ package main.FIPE.services.SqlServices;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.FIPE.models.FipeResponse;
-import main.FIPE.models.FipeResponseSQLFormated;
-import main.FIPE.models.GenericItem;
+import main.FIPE.services.ExternalFipeApiConsumer;
 import main.FIPE.services.database.ConnectionFactory;
 import main.FIPE.services.interfaces.IModelGetFullInfo;
 
 import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -20,45 +16,43 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SqlModelFullInfo implements IModelGetFullInfo {
+
+    ObjectMapper mapper = new ObjectMapper();
+
     @Override
-public String getFullCarInformation(int BrandCode, String ModelCode, String carYear) throws IOException, InterruptedException {
-        List<FipeResponseSQLFormated> fullCarInfoList = searchInDatabase(ModelCode, carYear);
-        ObjectMapper mapper = new ObjectMapper();
+    public String getFullCarInformation(int BrandCode, String ModelCode, String carYear) throws IOException, InterruptedException {
+        List<FipeResponse> fullCarInfoList = searchInDatabase(ModelCode, carYear);
 
         if (!fullCarInfoList.isEmpty()) {
             return mapper.writeValueAsString(fullCarInfoList.get(0));
         }
 
-        FipeResponseSQLFormated fullCarInfo = searchInApi(BrandCode, ModelCode, carYear);
-        insertCarDetails(fullCarInfo);
-
-        FipeResponse response = convertFromSqlFormat(fullCarInfo);
-        return mapper.writeValueAsString(response);
-    }
-
-    private FipeResponse convertFromSqlFormat(FipeResponseSQLFormated source) {
-        if (source == null) {
+        HttpResponse<String> fullCarInfo = ExternalFipeApiConsumer.ApiCallToGetFullInfo(BrandCode, ModelCode, carYear);
+        if (fullCarInfo.statusCode() != 200) {
             return null;
         }
-
-        FipeResponse target = new FipeResponse();
-        target.setVehicleType(String.valueOf(source.getVehicleType()));
-        target.setPrice(source.getPrice());
-        target.setBrand(source.getBrand());
-        target.setModel(source.getModel());
-        target.setModelYear(String.valueOf(source.getModelYear()));
-        target.setFuel(source.getFuel());
-        target.setCodeFipe(source.getCodeFipe());
-        target.setReferenceMonth(source.getReferenceMonth());
-        target.setFuelAcronym(source.getFuelAcronym());
-
-        return target;
+        insertCarDetails(mapper.readValue(fullCarInfo.body(), FipeResponse.class));
+        return mapper.writeValueAsString(fullCarInfo.body());
     }
 
-    private List<FipeResponseSQLFormated> searchInDatabase (String ModelCode, String carYear){
-        String sql = "select * from car_details where model_code = ? and model_year = ?";
+
+    private List<FipeResponse> searchInDatabase (String ModelCode, String carYear){
+        String sql =
+        "SELECT " +
+        "c.*, " +
+        "b.name AS brand, " +
+        "m.name AS model " +
+        "FROM car_details c " +
+        "INNER JOIN brands b " +
+        "ON c.brand_code = b.brand_code " +
+        "INNER JOIN models m " +
+        "ON c.brand_code = m.brand_code " +
+        "AND c.model_code = m.model_code " +
+        "WHERE c.model_code = ? " +
+        "AND c.model_year = ?";
+
         carYear = carYear.substring(4);
-        List<FipeResponseSQLFormated> carslist = new ArrayList<>();
+        List<FipeResponse> carslist = new ArrayList<>();
 
         try (Connection connection = ConnectionFactory.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -68,24 +62,24 @@ public String getFullCarInformation(int BrandCode, String ModelCode, String carY
 
             try (ResultSet resultSet = statement.executeQuery()) {
                 while (resultSet.next()) {
-                    FipeResponseSQLFormated item = new FipeResponseSQLFormated();
+                    FipeResponse item = new FipeResponse();
 
 
-                    item.setVehicleType(resultSet.getInt("vehicle_type"));
+                    item.setVehicleType(resultSet.getString("vehicle_type"));//tem q fazer o sql retornar
                     item.setPrice(resultSet.getString("price"));
                     item.setBrand(resultSet.getString("brand"));
 
                     item.setModel (resultSet.getString("model"));
-                    item.setModelYear(resultSet.getInt("model_year"));
+                    item.setModelYear(resultSet.getString("model_year"));
                     item.setFuel(resultSet.getString("fuel"));
 
                     item.setCodeFipe(resultSet.getString("code_fipe"));
                     item.setReferenceMonth(resultSet.getString("reference_month"));
                     item.setFuelAcronym(resultSet.getString("fuel_acronym"));
 
-                    item.setBrandCodeFK(resultSet.getInt("brand_code"));
-                    item.setModelCodeFK(resultSet.getInt("model_code"));
-                    item.setModelYearCodeFK(resultSet.getString("year_code"));
+//                    item.setBrandCodeFK(resultSet.getInt("brand_code"));
+//                    item.setModelCodeFK(resultSet.getInt("model_code"));
+//                    item.setModelYearCodeFK(resultSet.getString("year_code"));
 
 
                     carslist.add(item);
@@ -98,83 +92,36 @@ public String getFullCarInformation(int BrandCode, String ModelCode, String carY
 
     }
 
-
-    private FipeResponseSQLFormated searchInApi (int brandCode, String modelCode, String ano) throws IOException, InterruptedException {
-        HttpClient client = HttpClient.newHttpClient();
-
-        String url = "https://fipe.parallelum.com.br/api/v2/cars/brands/" + brandCode
-                + "/models/" + modelCode
-                + "/years/" + ano;
-
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(url))
-                .GET()
-                .build();
-
-        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-
-        if (response.statusCode() != 200) {
-            throw new RuntimeException("Erro na API: " + response.statusCode());
-        }
-
-        ObjectMapper mapper = new ObjectMapper();
-        FipeResponse apiResponse = mapper.readValue(response.body(), FipeResponse.class);
-
-        FipeResponseSQLFormated car = new FipeResponseSQLFormated();
-
-        car.setVehicleType(Integer.parseInt(apiResponse.getVehicleType()));
-        car.setPrice(apiResponse.getPrice());
-        car.setBrand(apiResponse.getBrand());
-
-        car.setModel(apiResponse.getModel());
-        car.setModelYear(Integer.parseInt(apiResponse.getModelYear()));
-        car.setFuel(apiResponse.getFuel());
-
-        car.setCodeFipe(apiResponse.getCodeFipe());
-        car.setReferenceMonth(apiResponse.getReferenceMonth());
-        car.setFuelAcronym(apiResponse.getFuelAcronym());
-
-        car.setBrandCodeFK(brandCode);
-        car.setModelCodeFK(Integer.parseInt(modelCode));
-        car.setModelYearCodeFK(ano);
-
-        return car;
-    }
-
-    public static void insertCarDetails(FipeResponseSQLFormated car){
+    public static void insertCarDetails(FipeResponse car){
         String sql = "INSERT OR IGNORE INTO car_details (" +
                 "vehicle_type," +
-                "price, " +
-                "brand, " +
-                "model, " +
-                "model_year, " +
-                "fuel, " +
-                "code_fipe, " +
-                "reference_month, " +
-                "fuel_acronym, " +
-                "brand_code, " +
-                "model_code, " +
-                "year_code) " +
-                "VALUES (?,?,?," + "?,?,?," +  "?,?,?," + "?,?,?)";
+                "price," +
+                "model_year," +
+                "fuel," +
+                "code_fipe," +
+                "reference_month," +
+                "fuel_acronym," +
+                "brand_code," +
+                "model_code," +
+                "year_code)" +
+                "VALUES (?,?,(SELECT modell_id from blar where name = 'name'),?,?,?,?,?,?,?)";
 
         try (Connection conn = ConnectionFactory.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)){
 
-            stmt.setInt(1, car.getVehicleType());
+            stmt.setString(1, car.getVehicleType());
             stmt.setString(2, car.getPrice());
-            stmt.setString(3, car.getBrand());
 
-            stmt.setString(4, car.getModel());
-            stmt.setInt(5, car.getModelYear());
-            stmt.setString(6, car.getFuel());
+            stmt.setString(3, car.getModelYear());
+            stmt.setString(4, car.getFuel());
 
-            stmt.setString(7, car.getCodeFipe());
-            stmt.setString(8, car.getReferenceMonth());
-            stmt.setString(9, car.getFuelAcronym());
+            stmt.setString(5, car.getCodeFipe());
+            stmt.setString(6, car.getReferenceMonth());
+            stmt.setString(7, car.getFuelAcronym());
 
-            stmt.setInt(10, car.getBrandCodeFK());
-            stmt.setInt(11, car.getModelCodeFK());
-            stmt.setString(12, car.getModelYearCodeFK());
+//            stmt.setInt(8, car.getBrandCodeFK());
+//            stmt.setInt(9, car.getModelCodeFK());
+//            stmt.setString(10, car.getModelYearCodeFK());
 
 
             stmt.executeUpdate();

@@ -1,7 +1,7 @@
 package testFipeProgram;
 
 import main.FIPE.models.GenericItem;
-import main.FIPE.services.JsonServices.FilterIModelByName;
+import main.FIPE.services.FilterIModelByName;
 import org.jspecify.annotations.NonNull;
 import org.testng.annotations.Test;
 

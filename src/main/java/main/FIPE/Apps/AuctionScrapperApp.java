@@ -5,9 +5,9 @@ import main.FIPE.models.CarData;
 import main.FIPE.models.CarMatchReport;
 import main.FIPE.models.FipeResponse;
 import main.FIPE.services.*;
-import main.FIPE.services.JsonServices.FilterIModelByName;
-import main.FIPE.services.JsonServices.FipeModelMatcherService;
-import main.FIPE.services.JsonServices.FullCarInformationFromAPII;
+import main.FIPE.services.FilterIModelByName;
+import main.FIPE.services.FipeModelMatcherService;
+import main.FIPE.services.JsonServices.FullCarInformationFromAPI;
 import main.FIPE.services.JsonServices.JsonModelFetcher;
 
 import java.io.IOException;
@@ -18,7 +18,7 @@ public class AuctionScrapperApp {
     private final AuctionScraperService scrapper = new AuctionScraperService();
     private final JsonModelFetcher fetcher = new JsonModelFetcher();
     private final FilterIModelByName filter = new FilterIModelByName();
-    private final FullCarInformationFromAPII info = new FullCarInformationFromAPII();
+    private final FullCarInformationFromAPI info = new FullCarInformationFromAPI();
     private final YearSearch cache = new YearSearch();
 
     private final FipeModelMatcherService matcher = new FipeModelMatcherService(fetcher, filter, info, cache);

@@ -27,7 +27,7 @@ public class SearchService {
         switch (mode) {
             case JSON -> {
                 fetcher = new JsonModelFetcher();
-                info = new FullCarInformationFromAPII();
+                info = new FullCarInformationFromAPI();
                 yearSearch = new YearSearch();
 
             }

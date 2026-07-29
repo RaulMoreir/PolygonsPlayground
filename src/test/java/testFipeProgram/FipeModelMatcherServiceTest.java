@@ -5,8 +5,8 @@ import main.FIPE.models.CarData;
 import main.FIPE.models.GenericItem;
 import main.FIPE.models.ModelData;
 
-import main.FIPE.services.JsonServices.FilterIModelByName;
-import main.FIPE.services.JsonServices.FipeModelMatcherService;
+import main.FIPE.services.FilterIModelByName;
+import main.FIPE.services.FipeModelMatcherService;
 import main.FIPE.services.JsonServices.JsonModelFetcher;
 import main.FIPE.services.interfaces.IModelFetcher;
 import main.FIPE.services.interfaces.IModelFilter;

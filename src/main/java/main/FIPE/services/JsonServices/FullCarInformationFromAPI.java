@@ -4,16 +4,15 @@ import main.FIPE.services.interfaces.IModelGetFullInfo;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 
-public class FullCarInformationFromAPII implements IModelGetFullInfo {
+import static main.FIPE.services.ExternalFipeApiConsumer.ApiCallToGetFullInfo;
+
+public class FullCarInformationFromAPI implements IModelGetFullInfo {
 
     public String getFullCarInformation(int brandCode, String modelCode, String carYear) throws IOException, InterruptedException {
         if (carYear == null || carYear.isEmpty()){
@@ -44,21 +43,6 @@ public class FullCarInformationFromAPII implements IModelGetFullInfo {
             item = response.body();
         }
         return item;
-    }
-
-    private static HttpResponse<String> ApiCallToGetFullInfo(int brandCode, String modelCode, String carYear)
-            throws InterruptedException, IOException {
-        Thread.sleep(1000);
-        String url ="https://fipe.parallelum.com.br/api/v2/cars/brands/" + brandCode
-                + "/models/" + modelCode + "/years/" + carYear.trim();
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(url))
-                .GET()
-                .build();
-        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-
-        return response;
     }
 
     public String checkWhichMonth (){
