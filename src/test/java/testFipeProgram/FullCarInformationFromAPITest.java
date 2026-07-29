@@ -1,6 +1,6 @@
 package testFipeProgram;
 
-import main.FIPE.services.JsonServices.FullCarInformationFromAPII;
+import main.FIPE.services.JsonServices.FullCarInformationFromAPI;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class FullCarInformationFromAPITest {
 
     @Test
     public void testDateMethod(){
-        FullCarInformationFromAPII api = new FullCarInformationFromAPII();
+        FullCarInformationFromAPI api = new FullCarInformationFromAPI();
 
         assertEquals(api.checkWhichMonth(), "05");
 
@@ -23,7 +23,7 @@ public class FullCarInformationFromAPITest {
         String modelCode = "6776";
         String carYear = "2015-5";
 
-        String cars = new FullCarInformationFromAPII().getFullCarInformation(BrandCode, modelCode,carYear);
+        String cars = new FullCarInformationFromAPI().getFullCarInformation(BrandCode, modelCode,carYear);
 
         System.out.println(cars);
         assertNotNull(cars);
@@ -36,7 +36,7 @@ public class FullCarInformationFromAPITest {
         String modelCode = "4766";
         String carYear = "2010-5";
 
-        String cars = new FullCarInformationFromAPII().getFullCarInformation(BrandCode, modelCode,carYear);
+        String cars = new FullCarInformationFromAPI().getFullCarInformation(BrandCode, modelCode,carYear);
 
         assertNotNull(cars);
     }
@@ -44,7 +44,7 @@ public class FullCarInformationFromAPITest {
     @Test
     public void testGetFullCarInformationReturnsNull() throws IOException, InterruptedException {
         //"Uno Mille WAY ECONOMY 1.0 F.Flex 4p";
-        FullCarInformationFromAPII serv = new FullCarInformationFromAPII();
+        FullCarInformationFromAPI serv = new FullCarInformationFromAPI();
 
         int BrandCode = 21;
         String modelCode = "4766";
@@ -58,7 +58,7 @@ public class FullCarInformationFromAPITest {
     @Test
     public void testGetFullCarInformationWithNoParameters() throws IOException, InterruptedException {
         //"Uno Mille WAY ECONOMY 1.0 F.Flex 4p";
-        FullCarInformationFromAPII serv = new FullCarInformationFromAPII();
+        FullCarInformationFromAPI serv = new FullCarInformationFromAPI();
 
         int BrandCode = 21;
         String modelCode = "4766";
