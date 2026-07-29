@@ -55,7 +55,7 @@ public class SqlModelYear implements IModelYearCache {
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
             statement.setInt(1, modelCode);
-            statement.setString(2, "%"+ano.substring(4)+"%");
+            statement.setString(2, "%"+ano.substring(0, 4)+"%");
 
             try (ResultSet resultSet = statement.executeQuery()) {
                 if (resultSet.next()) {

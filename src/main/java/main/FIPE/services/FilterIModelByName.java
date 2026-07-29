@@ -3,6 +3,7 @@ package main.FIPE.services;
 import main.FIPE.models.GenericItem;
 import main.FIPE.services.interfaces.IModelFilter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class FilterIModelByName implements IModelFilter {
@@ -14,7 +15,7 @@ public class FilterIModelByName implements IModelFilter {
         if (textFromAuctionSite == null || textFromAuctionSite.trim().isEmpty()) {
             return modelsFromAPI;  // devolve lista sem alterações
         }
-
+        int originalSize = modelsFromAPI.size();
         String[] splitedAuctionString = textFromAuctionSite.split("\\s+");
         for (String words : splitedAuctionString) {
             String searchCriteria = normalize(words);
@@ -24,6 +25,10 @@ public class FilterIModelByName implements IModelFilter {
             if (!filtered.isEmpty()) {
                 modelsFromAPI = filtered;
             }
+
+        }
+        if (originalSize == modelsFromAPI.size()) {
+            return new ArrayList<>();
         }
         return modelsFromAPI;
     }
