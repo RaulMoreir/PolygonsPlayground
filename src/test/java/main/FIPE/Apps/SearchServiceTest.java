@@ -1,5 +1,7 @@
 package main.FIPE.Apps;
 
+import main.FIPE.models.BrandsEnum;
+import main.FIPE.models.SearchModeEnum;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,8 +14,9 @@ public class SearchServiceTest {
 
     public void testSearchCar(String marca, String modelo, String ano) throws IOException {
         boolean verify = true;
+        SearchModeEnum mode = SearchModeEnum.SQLITE_DATABASE;
 
-        SearchService searchService = new SearchService(true);
+        SearchService searchService = new SearchService(mode);
         searchService.SearchCar(marca,modelo,ano);
         Path path = Paths.get("Pesquisa_"+ marca + "_" + modelo + "_" + ano +"_Report.csv");
 
@@ -25,9 +28,10 @@ public class SearchServiceTest {
     }
 
     public void testSearchCarDB(String marca, String modelo, String ano) throws IOException {
+        SearchModeEnum mode = SearchModeEnum.JSON;
         boolean verify = true;
 
-        SearchService searchService = new SearchService(false);
+        SearchService searchService = new SearchService(mode);
         searchService.SearchCar(marca,modelo,ano);
         Path path = Paths.get("Pesquisa_"+ marca + "_" + modelo + "_" + ano +"_Report.csv");
 
@@ -53,10 +57,11 @@ public class SearchServiceTest {
         testSearchCar("caoa","qq","2020");
     }
 
-    @Test
-    public void testBlankAno() throws IOException {
-        testSearchCar("chev","sonic","");
-    }
+//    @Test
+//    public void testBlankAno() throws IOException {
+//        cenário impssível poois é obrigatório possuir um ano
+//        testSearchCar("chev","sonic","");
+//    }
 
     /*
     @Test

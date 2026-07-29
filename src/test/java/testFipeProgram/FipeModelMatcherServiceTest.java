@@ -1,9 +1,6 @@
 package testFipeProgram;
 
-import main.FIPE.models.BrandsEnum;
-import main.FIPE.models.CarData;
-import main.FIPE.models.GenericItem;
-import main.FIPE.models.ModelData;
+import main.FIPE.models.*;
 
 import main.FIPE.services.FilterIModelByName;
 import main.FIPE.services.FipeModelMatcherService;
@@ -74,18 +71,20 @@ public class FipeModelMatcherServiceTest {
         when(cache.cacheSearchYearsByBrandAndModel(25, 1248, "1998"))
                 .thenReturn("1998-1");
 
+        FipeResponse car = new FipeResponse();
+
+        car.setVehicleType("1");
+        car.setPrice("R$ 35.950,00");
+        car.setBrand("Honda");
+        car.setModel("Civic Coupe EX/ EXS 1.6 16V 2p");
+        car.setModelYear("1998");
+        car.setFuel("Gasolina");
+        car.setCodeFipe("014019-8");
+        car.setReferenceMonth("maio de 2026");
+        car.setFuelAcronym("G");
+
         when(info.getFullCarInformation(25, "1248", "1998-1"))
-                .thenReturn("{\n" +
-                        "    \"vehicleType\": 1,\n" +
-                        "    \"price\": \"R$ 35.950,00\",\n" +
-                        "    \"brand\": \"Honda\",\n" +
-                        "    \"model\": \"Civic Coupe EX/ EXS 1.6 16V 2p\",\n" +
-                        "    \"modelYear\": 1998,\n" +
-                        "    \"fuel\": \"Gasolina\",\n" +
-                        "    \"codeFipe\": \"014019-8\",\n" +
-                        "    \"referenceMonth\": \"maio de 2026\",\n" +
-                        "    \"fuelAcronym\": \"G\"\n" +
-                        "}");
+                .thenReturn(car);
 
         //act
         service.carregarPossiveisModelos(carData);
@@ -126,18 +125,19 @@ public class FipeModelMatcherServiceTest {
 
         cache.cacheSearchYearsByBrandAndModel(21, 7965, "2020");
 
+        FipeResponse car = new FipeResponse();
+
+        car.setVehicleType("1");
+        car.setPrice("R$ 35.950,00");
+        car.setBrand("Honda");
+        car.setModel("Civic Coupe EX/ EXS 1.6 16V 2p");
+        car.setModelYear("1998");
+        car.setFuel("Gasolina");
+        car.setCodeFipe("014019-8");
+        car.setReferenceMonth("maio de 2026");
+        car.setFuelAcronym("G");
         when(info.getFullCarInformation(21, "7965", "2020-1"))
-                .thenReturn("{\n" +
-                        "    \"vehicleType\": 1,\n" +
-                        "    \"price\": \"R$ 35.950,00\",\n" +
-                        "    \"brand\": \"Honda\",\n" +
-                        "    \"model\": \"Civic Coupe EX/ EXS 1.6 16V 2p\",\n" +
-                        "    \"modelYear\": 1998,\n" +
-                        "    \"fuel\": \"Gasolina\",\n" +
-                        "    \"codeFipe\": \"014019-8\",\n" +
-                        "    \"referenceMonth\": \"maio de 2026\",\n" +
-                        "    \"fuelAcronym\": \"G\"\n" +
-                        "}");
+                .thenReturn(car);
 
         //act
         service.carregarPossiveisModelos(carData);

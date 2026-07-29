@@ -36,7 +36,7 @@ public class SqlModelFetcher implements IModelFetcher {
 
                 GenericItem item = new GenericItem();
 
-                item.setCode(resultSet.getString("fipe_code"));
+                item.setCode(resultSet.getString("model_code"));
                 item.setName(resultSet.getString("name"));
                 models.add(item);
             }

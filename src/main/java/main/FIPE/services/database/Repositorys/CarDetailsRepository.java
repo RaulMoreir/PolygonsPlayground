@@ -1,7 +1,6 @@
 package main.FIPE.services.database.Repositorys;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import main.FIPE.models.FipeResponseSQLFormated;
+import main.FIPE.models.FipeResponse;
 import main.FIPE.services.database.ConnectionFactory;
 import main.FIPE.services.database.DatabaseSetup;
 import java.io.IOException;
@@ -11,12 +10,11 @@ import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.List;
 import java.util.stream.Stream;
 
 public class CarDetailsRepository {
 
-    public static void insertCarDetails(FipeResponseSQLFormated car){
+    public static void insertCarDetails(FipeResponse car){
         String sql = "INSERT OR IGNORE INTO car_details (" +
                 "vehicle_type," +
                 "price, " +
@@ -36,21 +34,21 @@ public class CarDetailsRepository {
              PreparedStatement stmt = conn.prepareStatement(sql)){
 
 
-            stmt.setInt(1, car.getVehicleType());
+//            stmt.setInt(1, car.getVehicleType());
             stmt.setString(2, car.getPrice());
             stmt.setString(3, car.getBrand());
 
             stmt.setString(4, car.getModel());
-            stmt.setInt(5, car.getModelYear());
+//            stmt.setInt(5, car.getModelYear());
             stmt.setString(6, car.getFuel());
 
             stmt.setString(7, car.getCodeFipe());
             stmt.setString(8, car.getReferenceMonth());
             stmt.setString(9, car.getFuelAcronym());
 
-            stmt.setInt(10, car.getBrandCodeFK());
-            stmt.setInt(11, car.getModelCodeFK());
-            stmt.setString(12, car.getModelYearCodeFK());
+//            stmt.setInt(10, car.getBrandCodeFK());
+//            stmt.setInt(11, car.getModelCodeFK());
+//            stmt.setString(12, car.getModelYearCodeFK());
 
 
             stmt.executeUpdate();
@@ -72,13 +70,13 @@ public class CarDetailsRepository {
                             .replace(".json", "");
                     String[] partes = nomeArquivo.split("_");
 
-                    FipeResponseSQLFormated response = mapper.readValue(Files.readString(arquivo),
-                            FipeResponseSQLFormated.class);
+                    FipeResponse response = mapper.readValue(Files.readString(arquivo),
+                            FipeResponse.class);
 
 
-                        response.setBrandCodeFK(Integer.parseInt(partes[0]));
-                        response.setModelCodeFK(Integer.parseInt(partes[1]));
-                        response.setModelYearCodeFK(partes[2]);
+                        //response.setBrandCodeFK(Integer.parseInt(partes[0]));
+                        //response.setModelCodeFK(Integer.parseInt(partes[1]));
+                        //response.setModelYearCodeFK(partes[2]);
 
                         CarDetailsRepository.insertCarDetails(response);
 

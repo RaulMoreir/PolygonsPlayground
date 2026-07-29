@@ -59,21 +59,18 @@ public class FipeModelMatcherService {
                 continue;
             }
 
-            String possibleCarsFromApi = modelInfo.getFullCarInformation(
+            FipeResponse possibleCarsFromApi = modelInfo.getFullCarInformation(
                     carData.getBrandEnum().getId(),
                     modelCode,
                     modelYearsFromCache
             );
+            //String possibleCarsFromApiString = possibleCarsFromApi.;
             System.out.println(possibleCarsFromApi);
 
-            if (possibleCarsFromApi == null || possibleCarsFromApi.trim().equals("null")) continue;
+            if (possibleCarsFromApi == null) continue;
 
-            try {
-                FipeResponse car = mapper.readValue(possibleCarsFromApi, FipeResponse.class);
-                carros.add(car);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            //FipeResponse car = mapper.readValue(possibleCarsFromApi, FipeResponse.class);
+            carros.add(possibleCarsFromApi);
         }
         return carros;
     }

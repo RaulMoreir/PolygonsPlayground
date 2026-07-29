@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
     //Unica responsa é abrir conexão
-    private static final String URL = "jdbc:sqlite:carDatabase.db";
+    private static final String URL = "jdbc:sqlite:carDatabase2.db";
 
     public static Connection getConnection() throws SQLException {
         try{

@@ -20,19 +20,21 @@ public class SqlModelFullInfo implements IModelGetFullInfo {
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public String getFullCarInformation(int BrandCode, String ModelCode, String carYear) throws IOException, InterruptedException {
+    public FipeResponse getFullCarInformation(int BrandCode, String ModelCode, String carYear) throws IOException, InterruptedException {
         List<FipeResponse> fullCarInfoList = searchInDatabase(ModelCode, carYear);
 
         if (!fullCarInfoList.isEmpty()) {
-            return mapper.writeValueAsString(fullCarInfoList.get(0));
+            return fullCarInfoList.get(0);
         }
 
         HttpResponse<String> fullCarInfo = ExternalFipeApiConsumer.ApiCallToGetFullInfo(BrandCode, ModelCode, carYear);
         if (fullCarInfo.statusCode() != 200) {
             return null;
         }
-        insertCarDetails(mapper.readValue(fullCarInfo.body(), FipeResponse.class));
-        return mapper.writeValueAsString(fullCarInfo.body());
+        FipeResponse car = mapper.readValue(fullCarInfo.body(), FipeResponse.class);
+
+        insertCarDetails(car,BrandCode ,ModelCode ,carYear);
+        return car;
     }
 
 
@@ -92,36 +94,40 @@ public class SqlModelFullInfo implements IModelGetFullInfo {
 
     }
 
-    public static void insertCarDetails(FipeResponse car){
-        String sql = "INSERT OR IGNORE INTO car_details (" +
-                "vehicle_type," +
-                "price," +
-                "model_year," +
-                "fuel," +
-                "code_fipe," +
-                "reference_month," +
-                "fuel_acronym," +
-                "brand_code," +
-                "model_code," +
-                "year_code)" +
-                "VALUES (?,?,(SELECT modell_id from blar where name = 'name'),?,?,?,?,?,?,?)";
+    public static void insertCarDetails(FipeResponse car,int brandCode, String modelCode, String yearCode){
+        String sql = """
+        INSERT OR IGNORE INTO car_details (
+            vehicle_type,
+            price,
+            model_year,
+            fuel,
+            code_fipe,
+            reference_month,
+            fuel_acronym,
+            brand_code,
+            model_code,
+            year_code
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""";
 
         try (Connection conn = ConnectionFactory.getConnection();
+
+
              PreparedStatement stmt = conn.prepareStatement(sql)){
 
-            stmt.setString(1, car.getVehicleType());
+            stmt.setInt(1, Integer.parseInt(car.getVehicleType()));
             stmt.setString(2, car.getPrice());
 
-            stmt.setString(3, car.getModelYear());
+            stmt.setInt(3, Integer.parseInt(car.getModelYear()));
             stmt.setString(4, car.getFuel());
 
             stmt.setString(5, car.getCodeFipe());
             stmt.setString(6, car.getReferenceMonth());
             stmt.setString(7, car.getFuelAcronym());
 
-//            stmt.setInt(8, car.getBrandCodeFK());
-//            stmt.setInt(9, car.getModelCodeFK());
-//            stmt.setString(10, car.getModelYearCodeFK());
+            stmt.setInt(8, brandCode);
+            stmt.setInt(9, Integer.parseInt(modelCode));
+            stmt.setString(10, yearCode);
 
 
             stmt.executeUpdate();
