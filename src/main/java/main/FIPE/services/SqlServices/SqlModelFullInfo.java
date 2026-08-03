@@ -38,7 +38,7 @@ public class SqlModelFullInfo implements IModelGetFullInfo {
     }
 
 
-    private List<FipeResponse> searchInDatabase (String ModelCode, String carYear){
+    public List<FipeResponse> searchInDatabase (String ModelCode, String carYear){
         String sql =
         "SELECT " +
         "c.*, " +
@@ -78,11 +78,6 @@ public class SqlModelFullInfo implements IModelGetFullInfo {
                     item.setCodeFipe(resultSet.getString("code_fipe"));
                     item.setReferenceMonth(resultSet.getString("reference_month"));
                     item.setFuelAcronym(resultSet.getString("fuel_acronym"));
-
-//                    item.setBrandCodeFK(resultSet.getInt("brand_code"));
-//                    item.setModelCodeFK(resultSet.getInt("model_code"));
-//                    item.setModelYearCodeFK(resultSet.getString("year_code"));
-
 
                     carslist.add(item);
                 }

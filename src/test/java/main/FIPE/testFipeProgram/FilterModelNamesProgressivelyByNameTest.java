@@ -1,4 +1,4 @@
-package testFipeProgram;
+package main.FIPE.testFipeProgram;
 
 import main.FIPE.models.GenericItem;
 import main.FIPE.services.FilterIModelByName;
@@ -73,17 +73,6 @@ public class FilterModelNamesProgressivelyByNameTest {
 
     }
 
-//    @Test
-//    public void textFormaterDeveTratarONIXCorretamente() {
-//        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
-//
-//        String original = "ONIX LT1 10 MT";
-//        String formatted = serv.textFormater(original);
-//
-//        assertTrue(formatted.contains("1.0"));
-//        assertTrue(formatted.contains("LT"));
-//        assertTrue(formatted.contains("Mec."));
-//    }
 
     @Test
     public void deveRetornarListaCompletaQuandoNenhumMatch() {
@@ -170,14 +159,5 @@ public class FilterModelNamesProgressivelyByNameTest {
         assertEquals(result.size(), 1);
     }
 
-//    @Test
-//    public void textFormaterJS1DeveHifenizar() {
-//        FilterIModelNamesProgressivelyByName serv = new FilterIModelNamesProgressivelyByName();
-//        String original = "JS1 CITY CARGO";
-//        String formatted = serv.textFormater(original);
-//
-//        assertTrue(formatted.contains("-"));
-//        assertTrue(formatted.contains("JS1"));
-//    }
 
 }

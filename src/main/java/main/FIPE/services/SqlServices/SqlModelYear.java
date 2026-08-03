@@ -70,15 +70,6 @@ public class SqlModelYear implements IModelYearCache {
         return null;
     }
 
-    private GenericItem parseYearsResponse(String json, String ano) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        List<GenericItem> yearsFromApi = Arrays.asList(mapper.readValue(json, GenericItem[].class));
-
-        return yearsFromApi.stream()
-                .filter(item -> item.getName() != null && item.getName().contains(ano))
-                .findFirst()
-                .orElse(null);
-    }
 
     private void saveYears(int brandCode, int modelCode, String yearCode, String yearName) {
         String sql = "insert or ignore into model_years (brand_code, model_code, year_code, name) values (?, ?, ?, ?)";

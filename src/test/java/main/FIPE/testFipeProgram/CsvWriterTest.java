@@ -1,4 +1,4 @@
-package testFipeProgram;
+package main.FIPE.testFipeProgram;
 
 import main.FIPE.models.BrandsEnum;
 import main.FIPE.models.CarData;
