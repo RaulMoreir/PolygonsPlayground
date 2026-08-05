@@ -48,7 +48,7 @@ public class SqlModelYear implements IModelYearCache {
                 .orElse(null);
     }
 
-    private String searchYearsInDatabase(int modelCode, String ano) {
+    public String searchYearsInDatabase(int modelCode, String ano) {
         String sql = "select year_code from model_years where model_code = ? and year_code LIKE ?";
 
         try (Connection connection = ConnectionFactory.getConnection();
